@@ -1,0 +1,39 @@
+# description: configuration ID
+# type: string
+# required: true
+podId: paper
+
+# description: optional description for the pod
+# type: string
+# description: TODO
+
+# description: export scope of the pod.
+# type: string
+# NOTE: When a setting is missing from this config, you will get a UI prompt to select a value for that setting while running the export pod. For this particular exportScope setting, if you would rather not be prompted and always have the same exportScope, simply uncomment the line below.
+exportScope: Note
+
+# description: type of pod
+# type: string
+# required: true
+podType: MarkdownExportV2
+
+# description: How to convert the wikilinks - Links to the gihub.io page.
+# type: boolean
+#wikiLinkToURL: false
+
+# description: export destination. Specify either a file path or 'clipboard' to export to your clipboard
+# type: string
+# required: true
+destination: export
+
+# description: undefined
+# type: boolean
+# convertTagNotesToLinks: false
+
+# description: undefined
+# type: boolean
+# convertUserNotesToLinks: false
+
+# description: undefined
+# type: boolean
+addFrontmatterTitle: false

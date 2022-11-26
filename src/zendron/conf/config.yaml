@@ -1,0 +1,10 @@
+# globals
+POD_PATH: zotero_pod
+DENDRON_LIMB: zendron.import
+LIBRARY_TYPE: group #or 'user' #TODO CONFLICTING CONFIG.  test user config... remove for later use
+# pyzotero
+library_id : 9025336
+library_type : user
+api_key : FoCeuOvWMnNdYmpYuY5JpETw
+collection: Zendron
+item_types: [journalArticle, book, preprint, conferencePaper, report]

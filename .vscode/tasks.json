@@ -1,0 +1,38 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Zendron: resync",
+            "type": "shell",
+            "command": "bash src/zendron/zendron-resync.sh",
+            "problemMatcher": []
+        },
+        {
+            "label": "Zendron: sync",
+            "type": "shell",
+            "command": "bash src/zendron/zendron-sync.sh",
+            "problemMatcher": []
+        },
+        {
+            "label": "Zendron: remove",
+            "type": "shell",
+            "command": "bash src/zendron/zendron-remove.sh",
+            "problemMatcher": []
+        },
+        {
+            "label": "Zendron: init",
+            "type": "shell",
+            "command": "bash src/zendron/zendron-init.sh",
+            "problemMatcher": []
+        },
+        {
+            "label": "Note Conversion: compile paper",
+            "type": "shell",
+            "command": "cd ./notes && bash compile_paper.sh && cd .. ",
+            "problemMatcher": []
+        }
+    ]
+}
+
