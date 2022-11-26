@@ -1,0 +1,5591 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1669502732648,
+      "created": 1669502732648,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "nuyfwd7iokzd7m9oax0cdx5": {
+      "id": "nuyfwd7iokzd7m9oax0cdx5",
+      "title": "Root",
+      "desc": "",
+      "updated": 1662428184246,
+      "created": 1661538521294,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "9185b031f95deeced1275adbefc49c09",
+      "links": [],
+      "anchors": {
+        "parameter_estimation": {
+          "type": "header",
+          "text": "Parameter_Estimation",
+          "value": "parameter_estimation",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "paper-export": {
+          "type": "header",
+          "text": "Paper Export",
+          "value": "paper-export",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "m7o7r4jqe4jdwgsh3ia8sa4",
+        "2fib55e8qqux9scimc7a9gn",
+        "tz8wfy0bidyoi7cew6pxfi4",
+        "k0qo53e6jvew0mcyv49bu0e",
+        "xxezmgby3v2mlneka3t295g",
+        "9gt33emg7725ksj2t7f4p4v"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "9gt33emg7725ksj2t7f4p4v": {
+      "fname": "user",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1669502732177,
+      "created": 1669502732177,
+      "id": "9gt33emg7725ksj2t7f4p4v",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "6ze92iewwcr9pbb9cfy6f8i"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {},
+      "title": "User"
+    },
+    "6ze92iewwcr9pbb9cfy6f8i": {
+      "id": "6ze92iewwcr9pbb9cfy6f8i",
+      "title": "Nagelwhatitbe1974",
+      "desc": "",
+      "updated": 1669501432744,
+      "created": 1669501432744,
+      "custom": {},
+      "fname": "user.nagelwhatitbe1974",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "9b6ca00f1117839d0158cbd44e2d0100",
+      "links": [
+        {
+          "from": {
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 17,
+              "offset": 731
+            },
+            "end": {
+              "line": 11,
+              "column": 61,
+              "offset": 775
+            },
+            "indent": []
+          },
+          "value": "user.nagelwhatitbe1974",
+          "alias": "nagelWhatItBe1974"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "9gt33emg7725ksj2t7f4p4v",
+      "data": {}
+    },
+    "xxezmgby3v2mlneka3t295g": {
+      "id": "xxezmgby3v2mlneka3t295g",
+      "title": "Zendron",
+      "desc": "",
+      "updated": 1669488630636,
+      "created": 1669323977999,
+      "custom": {},
+      "fname": "zendron",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "1836965b1f7ad6de8a3e7a0f7b732152",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron",
+            "id": "xxezmgby3v2mlneka3t295g",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron",
+          "alias": "Known Issues",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 71,
+              "offset": 555
+            },
+            "end": {
+              "line": 16,
+              "column": 108,
+              "offset": 592
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron",
+            "anchorHeader": "known-issues"
+          }
+        }
+      ],
+      "anchors": {
+        "basics": {
+          "type": "header",
+          "text": "Basics",
+          "value": "basics",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "zotero-bibtex-setup": {
+          "type": "header",
+          "text": "Zotero BibTex Setup",
+          "value": "zotero-bibtex-setup",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "command-palette": {
+          "type": "header",
+          "text": "Command Palette",
+          "value": "command-palette",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "import-structure": {
+          "type": "header",
+          "text": "Import Structure",
+          "value": "import-structure",
+          "line": 39,
+          "column": 0,
+          "depth": 3
+        },
+        "import": {
+          "type": "header",
+          "text": "Import",
+          "value": "import",
+          "line": 43,
+          "column": 0,
+          "depth": 4
+        },
+        "local": {
+          "type": "header",
+          "text": "Local",
+          "value": "local",
+          "line": 45,
+          "column": 0,
+          "depth": 4
+        },
+        "using-with-dendron": {
+          "type": "header",
+          "text": "Using With Dendron",
+          "value": "using-with-dendron",
+          "line": 50,
+          "column": 0,
+          "depth": 3
+        },
+        "known-issues": {
+          "type": "header",
+          "text": "Known Issues",
+          "value": "known-issues",
+          "line": 55,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "niid19z8g3ccte9jwg9z3ts",
+        "c3pvdrzuy9hbukmd586lrvv",
+        "f3is89cwurzqcn2hq28ckqq"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {}
+    },
+    "f3is89cwurzqcn2hq28ckqq": {
+      "fname": "zendron.import",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1669502732178,
+      "created": 1669502732178,
+      "id": "f3is89cwurzqcn2hq28ckqq",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "lgs9kqn3iirui3exbo0y782",
+        "kibhfaaf1248y3gvjpmp9hp",
+        "pgyh45pugbkao278nym0t0j",
+        "6u1xktarsxruj4ymnbay9iv",
+        "unbl112uvn2y2idvrytf1s3",
+        "rgqsknpqcx55nvgkqekztfk"
+      ],
+      "parent": "xxezmgby3v2mlneka3t295g",
+      "data": {},
+      "title": "Import"
+    },
+    "rgqsknpqcx55nvgkqekztfk": {
+      "fname": "zendron.import.title",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1669502732180,
+      "created": 1669502732180,
+      "id": "rgqsknpqcx55nvgkqekztfk",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "u8ds0ev5gfoeqmyo2j4ga7y"
+      ],
+      "parent": "f3is89cwurzqcn2hq28ckqq",
+      "data": {},
+      "title": "Title"
+    },
+    "u8ds0ev5gfoeqmyo2j4ga7y": {
+      "id": "u8ds0ev5gfoeqmyo2j4ga7y",
+      "title": "Pitfalls of Graph Neural Network Evaluation",
+      "desc": "",
+      "updated": 1669501132295,
+      "created": 1669501132295,
+      "custom": {},
+      "fname": "zendron.import.title.pitfalls-of-graph-neural-network-evaluation",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "9e7470a2e65da19ebd334cf56c088a81",
+      "links": [
+        {
+          "from": {
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 10,
+              "offset": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 140,
+              "offset": 152
+            },
+            "indent": []
+          },
+          "value": "zendron.import.title.pitfalls-of-graph-neural-network-evaluation",
+          "alias": "Pitfalls of Graph Neural Network Evaluation"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "rgqsknpqcx55nvgkqekztfk",
+      "data": {}
+    },
+    "unbl112uvn2y2idvrytf1s3": {
+      "id": "unbl112uvn2y2idvrytf1s3",
+      "title": "What Is It like to Be a Bat?",
+      "desc": "",
+      "updated": 1669501708992,
+      "created": 1669501708992,
+      "isDir": false,
+      "custom": {
+        "isDir": false
+      },
+      "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "1f34c957c45829f450be55bb89ac31e1",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.title.what-is-it-like-to-be-a-bat?",
+          "alias": "What Is It Like to Be a Bat?",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 10,
+              "offset": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 110,
+              "offset": 122
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.title.what-is-it-like-to-be-a-bat?",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.authors.thomas-nagel",
+          "alias": "Thomas Nagel",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 12,
+              "offset": 134
+            },
+            "end": {
+              "line": 4,
+              "column": 82,
+              "offset": 204
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.authors.thomas-nagel",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.10",
+          "alias": "10/1974",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 9,
+              "offset": 213
+            },
+            "end": {
+              "line": 5,
+              "column": 61,
+              "offset": 265
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.10",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.02.13",
+          "alias": "2022-02-13",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 18,
+              "offset": 283
+            },
+            "end": {
+              "line": 6,
+              "column": 81,
+              "offset": 346
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.02.13",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.02.13.16.11.54",
+          "alias": "2022-02-13-16-11-54",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 15,
+              "offset": 361
+            },
+            "end": {
+              "line": 7,
+              "column": 96,
+              "offset": 442
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.02.13.16.11.54",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.11.26.20.12.42",
+          "alias": "2022-11-26-20-12-42",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 18,
+              "offset": 460
+            },
+            "end": {
+              "line": 8,
+              "column": 99,
+              "offset": 541
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.11.26.20.12.42",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "user.nagelwhatitbe1974",
+          "alias": "nagelWhatItBe1974",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 17,
+              "offset": 731
+            },
+            "end": {
+              "line": 11,
+              "column": 61,
+              "offset": 775
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "user.nagelwhatitbe1974"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.publication-title.the-philosophical-review",
+          "alias": "The Philosophical Review",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 22,
+              "offset": 849
+            },
+            "end": {
+              "line": 13,
+              "column": 126,
+              "offset": 953
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.publication-title.the-philosophical-review",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.publication-title.the-philosophical-review",
+          "alias": "The Philosophical Review",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 25,
+              "offset": 978
+            },
+            "end": {
+              "line": 14,
+              "column": 129,
+              "offset": 1082
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.publication-title.the-philosophical-review",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.item-type.journalarticle",
+          "alias": "journalArticle",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 14,
+              "offset": 1096
+            },
+            "end": {
+              "line": 15,
+              "column": 90,
+              "offset": 1172
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.item-type.journalarticle",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.consciousness",
+          "alias": "#consciousness",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 9,
+              "offset": 1312
+            },
+            "end": {
+              "line": 17,
+              "column": 23,
+              "offset": 1326
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.consciousness"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.mind-body-problem",
+          "alias": "#mind-body-problem",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 25,
+              "offset": 1328
+            },
+            "end": {
+              "line": 17,
+              "column": 43,
+              "offset": 1346
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.mind-body-problem"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.objective-vs-subjective",
+          "alias": "#objective-vs-subjective",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 45,
+              "offset": 1348
+            },
+            "end": {
+              "line": 17,
+              "column": 69,
+              "offset": 1372
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.objective-vs-subjective"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.physicalism",
+          "alias": "#physicalism",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 71,
+              "offset": 1374
+            },
+            "end": {
+              "line": 17,
+              "column": 83,
+              "offset": 1386
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.physicalism"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.✅",
+          "alias": "#✅",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 85,
+              "offset": 1388
+            },
+            "end": {
+              "line": 17,
+              "column": 87,
+              "offset": 1390
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.✅"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.🦌",
+          "alias": "#🦌",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 89,
+              "offset": 1392
+            },
+            "end": {
+              "line": 17,
+              "column": 92,
+              "offset": 1395
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.🦌"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+            "id": "unbl112uvn2y2idvrytf1s3",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.local.what-is-it-like-to-be-a-bat?",
+          "alias": "Local Note",
+          "position": {
+            "start": {
+              "line": 25,
+              "column": 1,
+              "offset": 1577
+            },
+            "end": {
+              "line": 25,
+              "column": 76,
+              "offset": 1652
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.local.what-is-it-like-to-be-a-bat?",
+            "vaultName": "Zendron"
+          }
+        }
+      ],
+      "anchors": {
+        "metadata": {
+          "type": "header",
+          "text": "Metadata",
+          "value": "metadata",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "abstract": {
+          "type": "header",
+          "text": "Abstract",
+          "value": "abstract",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "local-note": {
+          "type": "header",
+          "text": "Local Note",
+          "value": "local-note",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "8fiufhe0ploe2egvvrullks"
+      ],
+      "parent": "f3is89cwurzqcn2hq28ckqq",
+      "data": {}
+    },
+    "8fiufhe0ploe2egvvrullks": {
+      "id": "8fiufhe0ploe2egvvrullks",
+      "title": "Annotations",
+      "desc": "",
+      "updated": 1669501708993,
+      "created": 1669501708993,
+      "isDir": false,
+      "custom": {
+        "isDir": false
+      },
+      "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "bf49114310ea6324b07eccf3e9fcd4d2",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 14,
+              "offset": 629
+            },
+            "end": {
+              "line": 7,
+              "column": 22,
+              "offset": 637
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.physicalism",
+          "alias": "#physicalism",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 9,
+              "offset": 662
+            },
+            "end": {
+              "line": 9,
+              "column": 21,
+              "offset": 674
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.physicalism"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.thought-experiment",
+          "alias": "#thought-experiment",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 23,
+              "offset": 676
+            },
+            "end": {
+              "line": 9,
+              "column": 42,
+              "offset": 695
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.thought-experiment"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 14,
+              "offset": 884
+            },
+            "end": {
+              "line": 15,
+              "column": 22,
+              "offset": 892
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.physicalism",
+          "alias": "#physicalism",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 9,
+              "offset": 917
+            },
+            "end": {
+              "line": 17,
+              "column": 21,
+              "offset": 929
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.physicalism"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 23,
+              "column": 14,
+              "offset": 1277
+            },
+            "end": {
+              "line": 23,
+              "column": 22,
+              "offset": 1285
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.physicalism",
+          "alias": "#physicalism",
+          "position": {
+            "start": {
+              "line": 25,
+              "column": 9,
+              "offset": 1460
+            },
+            "end": {
+              "line": 25,
+              "column": 21,
+              "offset": 1472
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.physicalism"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 31,
+              "column": 14,
+              "offset": 1679
+            },
+            "end": {
+              "line": 31,
+              "column": 22,
+              "offset": 1687
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.physicalism",
+          "alias": "#physicalism",
+          "position": {
+            "start": {
+              "line": 33,
+              "column": 9,
+              "offset": 1712
+            },
+            "end": {
+              "line": 33,
+              "column": 21,
+              "offset": 1724
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.physicalism"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 39,
+              "column": 14,
+              "offset": 1983
+            },
+            "end": {
+              "line": 39,
+              "column": 22,
+              "offset": 1991
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.complex-systems",
+          "alias": "#complex-systems",
+          "position": {
+            "start": {
+              "line": 41,
+              "column": 9,
+              "offset": 2141
+            },
+            "end": {
+              "line": 41,
+              "column": 25,
+              "offset": 2157
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.complex-systems"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.complexity",
+          "alias": "#complexity",
+          "position": {
+            "start": {
+              "line": 41,
+              "column": 27,
+              "offset": 2159
+            },
+            "end": {
+              "line": 41,
+              "column": 38,
+              "offset": 2170
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.complexity"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.emergence",
+          "alias": "#emergence",
+          "position": {
+            "start": {
+              "line": 41,
+              "column": 40,
+              "offset": 2172
+            },
+            "end": {
+              "line": 41,
+              "column": 50,
+              "offset": 2182
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.emergence"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.epi-phenomena",
+          "alias": "#epi-phenomena",
+          "position": {
+            "start": {
+              "line": 41,
+              "column": 52,
+              "offset": 2184
+            },
+            "end": {
+              "line": 41,
+              "column": 66,
+              "offset": 2198
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.epi-phenomena"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 47,
+              "column": 14,
+              "offset": 2515
+            },
+            "end": {
+              "line": 47,
+              "column": 22,
+              "offset": 2523
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.reductionism",
+          "alias": "#reductionism",
+          "position": {
+            "start": {
+              "line": 49,
+              "column": 9,
+              "offset": 2797
+            },
+            "end": {
+              "line": 49,
+              "column": 22,
+              "offset": 2810
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.reductionism"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.reductionism-unifying-principle",
+          "alias": "#reductionism-unifying-principle",
+          "position": {
+            "start": {
+              "line": 49,
+              "column": 24,
+              "offset": 2812
+            },
+            "end": {
+              "line": 49,
+              "column": 56,
+              "offset": 2844
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.reductionism-unifying-principle"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 55,
+              "column": 14,
+              "offset": 3182
+            },
+            "end": {
+              "line": 55,
+              "column": 22,
+              "offset": 3190
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.objectivity",
+          "alias": "#objectivity",
+          "position": {
+            "start": {
+              "line": 57,
+              "column": 9,
+              "offset": 3660
+            },
+            "end": {
+              "line": 57,
+              "column": 21,
+              "offset": 3672
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.objectivity"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.reductionism",
+          "alias": "#reductionism",
+          "position": {
+            "start": {
+              "line": 57,
+              "column": 23,
+              "offset": 3674
+            },
+            "end": {
+              "line": 57,
+              "column": 36,
+              "offset": 3687
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.reductionism"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 63,
+              "column": 14,
+              "offset": 4785
+            },
+            "end": {
+              "line": 63,
+              "column": 22,
+              "offset": 4793
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.objectivity",
+          "alias": "#objectivity",
+          "position": {
+            "start": {
+              "line": 65,
+              "column": 9,
+              "offset": 4818
+            },
+            "end": {
+              "line": 65,
+              "column": 21,
+              "offset": 4830
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.objectivity"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.reductionism",
+          "alias": "#reductionism",
+          "position": {
+            "start": {
+              "line": 65,
+              "column": 23,
+              "offset": 4832
+            },
+            "end": {
+              "line": 65,
+              "column": 36,
+              "offset": 4845
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.reductionism"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 71,
+              "column": 14,
+              "offset": 4999
+            },
+            "end": {
+              "line": 71,
+              "column": 22,
+              "offset": 5007
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.abolition-of-man",
+          "alias": "#abolition-of-man",
+          "position": {
+            "start": {
+              "line": 73,
+              "column": 9,
+              "offset": 5096
+            },
+            "end": {
+              "line": 73,
+              "column": 26,
+              "offset": 5113
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.abolition-of-man"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 79,
+              "column": 14,
+              "offset": 5311
+            },
+            "end": {
+              "line": 79,
+              "column": 22,
+              "offset": 5319
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.physicalism",
+          "alias": "#physicalism",
+          "position": {
+            "start": {
+              "line": 81,
+              "column": 9,
+              "offset": 5410
+            },
+            "end": {
+              "line": 81,
+              "column": 21,
+              "offset": 5422
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.physicalism"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 87,
+              "column": 14,
+              "offset": 5715
+            },
+            "end": {
+              "line": 87,
+              "column": 22,
+              "offset": 5723
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 94,
+              "column": 14,
+              "offset": 5867
+            },
+            "end": {
+              "line": 94,
+              "column": 22,
+              "offset": 5875
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 101,
+              "column": 14,
+              "offset": 6002
+            },
+            "end": {
+              "line": 101,
+              "column": 22,
+              "offset": 6010
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 108,
+              "column": 14,
+              "offset": 6236
+            },
+            "end": {
+              "line": 108,
+              "column": 22,
+              "offset": 6244
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 115,
+              "column": 14,
+              "offset": 6818
+            },
+            "end": {
+              "line": 115,
+              "column": 22,
+              "offset": 6826
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 122,
+              "column": 14,
+              "offset": 7196
+            },
+            "end": {
+              "line": 122,
+              "column": 22,
+              "offset": 7204
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 129,
+              "column": 14,
+              "offset": 7830
+            },
+            "end": {
+              "line": 129,
+              "column": 22,
+              "offset": 7838
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 136,
+              "column": 14,
+              "offset": 8054
+            },
+            "end": {
+              "line": 136,
+              "column": 22,
+              "offset": 8062
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 143,
+              "column": 14,
+              "offset": 8209
+            },
+            "end": {
+              "line": 143,
+              "column": 22,
+              "offset": 8217
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 150,
+              "column": 14,
+              "offset": 8536
+            },
+            "end": {
+              "line": 150,
+              "column": 22,
+              "offset": 8544
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 157,
+              "column": 14,
+              "offset": 8820
+            },
+            "end": {
+              "line": 157,
+              "column": 22,
+              "offset": 8828
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 164,
+              "column": 14,
+              "offset": 9105
+            },
+            "end": {
+              "line": 164,
+              "column": 22,
+              "offset": 9113
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Unknown",
+          "alias": "@Unknown",
+          "position": {
+            "start": {
+              "line": 171,
+              "column": 14,
+              "offset": 9359
+            },
+            "end": {
+              "line": 171,
+              "column": 22,
+              "offset": 9367
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Unknown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.what-is-it-like-to-be-a-bat?.annotations",
+            "id": "8fiufhe0ploe2egvvrullks",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.local.what-is-it-like-to-be-a-bat?.comments",
+          "alias": "Local Note",
+          "position": {
+            "start": {
+              "line": 175,
+              "column": 3,
+              "offset": 9401
+            },
+            "end": {
+              "line": 175,
+              "column": 87,
+              "offset": 9485
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.local.what-is-it-like-to-be-a-bat?.comments",
+            "vaultName": "Zendron"
+          }
+        }
+      ],
+      "anchors": {
+        "annotations": {
+          "type": "header",
+          "text": "Annotations",
+          "value": "annotations",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "date-added-2022-02-13-2111470000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 21:11:47+00:00",
+          "value": "date-added-2022-02-13-2111470000",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-2108030000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 21:08:03+00:00",
+          "value": "date-added-2022-02-13-2108030000",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-2037250000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 20:37:25+00:00",
+          "value": "date-added-2022-02-13-2037250000",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-2032230000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 20:32:23+00:00",
+          "value": "date-added-2022-02-13-2032230000",
+          "line": 34,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-2018140000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 20:18:14+00:00",
+          "value": "date-added-2022-02-13-2018140000",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-2010000000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 20:10:00+00:00",
+          "value": "date-added-2022-02-13-2010000000",
+          "line": 50,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1955100000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 19:55:10+00:00",
+          "value": "date-added-2022-02-13-1955100000",
+          "line": 58,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1949120000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 19:49:12+00:00",
+          "value": "date-added-2022-02-13-1949120000",
+          "line": 66,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1938320000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 19:38:32+00:00",
+          "value": "date-added-2022-02-13-1938320000",
+          "line": 74,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1852450000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 18:52:45+00:00",
+          "value": "date-added-2022-02-13-1852450000",
+          "line": 82,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-2013010000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 20:13:01+00:00",
+          "value": "date-added-2022-02-13-2013010000",
+          "line": 90,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1933000000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 19:33:00+00:00",
+          "value": "date-added-2022-02-13-1933000000",
+          "line": 97,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1931450000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 19:31:45+00:00",
+          "value": "date-added-2022-02-13-1931450000",
+          "line": 104,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1922430000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 19:22:43+00:00",
+          "value": "date-added-2022-02-13-1922430000",
+          "line": 111,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1919320000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 19:19:32+00:00",
+          "value": "date-added-2022-02-13-1919320000",
+          "line": 118,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1913290000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 19:13:29+00:00",
+          "value": "date-added-2022-02-13-1913290000",
+          "line": 125,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1909450000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 19:09:45+00:00",
+          "value": "date-added-2022-02-13-1909450000",
+          "line": 132,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1900130000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 19:00:13+00:00",
+          "value": "date-added-2022-02-13-1900130000",
+          "line": 139,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1859490000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 18:59:49+00:00",
+          "value": "date-added-2022-02-13-1859490000",
+          "line": 146,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1858270000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 18:58:27+00:00",
+          "value": "date-added-2022-02-13-1858270000",
+          "line": 153,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1855470000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 18:55:47+00:00",
+          "value": "date-added-2022-02-13-1855470000",
+          "line": 160,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1623280000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 16:23:28+00:00",
+          "value": "date-added-2022-02-13-1623280000",
+          "line": 167,
+          "column": 0,
+          "depth": 3
+        },
+        "date-added-2022-02-13-1618470000": {
+          "type": "header",
+          "text": "Date Added: 2022-02-13 16:18:47+00:00",
+          "value": "date-added-2022-02-13-1618470000",
+          "line": 174,
+          "column": 0,
+          "depth": 3
+        },
+        "local-note": {
+          "type": "header",
+          "text": "Local Note",
+          "value": "local-note",
+          "line": 181,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "unbl112uvn2y2idvrytf1s3",
+      "data": {}
+    },
+    "6u1xktarsxruj4ymnbay9iv": {
+      "id": "6u1xktarsxruj4ymnbay9iv",
+      "title": "Variational Graph Auto Encoders",
+      "desc": "",
+      "updated": 1669501708992,
+      "created": 1669501708992,
+      "isDir": false,
+      "custom": {
+        "isDir": false
+      },
+      "fname": "zendron.import.variational-graph-auto-encoders",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "925a375bc043ef71c6038a91e227881b",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders",
+            "id": "6u1xktarsxruj4ymnbay9iv",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.title.variational-graph-auto-encoders",
+          "alias": "Variational Graph Auto-Encoders",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 10,
+              "offset": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 116,
+              "offset": 128
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.title.variational-graph-auto-encoders",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders",
+            "id": "6u1xktarsxruj4ymnbay9iv",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.authors.thomas-n-kipf",
+          "alias": "Thomas N. Kipf",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 12,
+              "offset": 140
+            },
+            "end": {
+              "line": 4,
+              "column": 85,
+              "offset": 213
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.authors.thomas-n-kipf",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders",
+            "id": "6u1xktarsxruj4ymnbay9iv",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.authors.max-welling",
+          "alias": "Max Welling",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 87,
+              "offset": 215
+            },
+            "end": {
+              "line": 4,
+              "column": 155,
+              "offset": 283
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.authors.max-welling",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders",
+            "id": "6u1xktarsxruj4ymnbay9iv",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2016.11.21",
+          "alias": "2016-11-21",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 9,
+              "offset": 292
+            },
+            "end": {
+              "line": 5,
+              "column": 72,
+              "offset": 355
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2016.11.21",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders",
+            "id": "6u1xktarsxruj4ymnbay9iv",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.06.15",
+          "alias": "2022-06-15",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 18,
+              "offset": 373
+            },
+            "end": {
+              "line": 6,
+              "column": 81,
+              "offset": 436
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.06.15",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders",
+            "id": "6u1xktarsxruj4ymnbay9iv",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.06.15.23.11.01",
+          "alias": "2022-06-15-23-11-01",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 15,
+              "offset": 451
+            },
+            "end": {
+              "line": 7,
+              "column": 96,
+              "offset": 532
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.06.15.23.11.01",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders",
+            "id": "6u1xktarsxruj4ymnbay9iv",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.11.26.18.57.01",
+          "alias": "2022-11-26-18-57-01",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 18,
+              "offset": 550
+            },
+            "end": {
+              "line": 8,
+              "column": 99,
+              "offset": 631
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.11.26.18.57.01",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders",
+            "id": "6u1xktarsxruj4ymnbay9iv",
+            "vaultName": "Zendron"
+          },
+          "value": "user.kipfvariationalgraphautoencoders2016",
+          "alias": "kipfVariationalGraphAutoEncoders2016",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 17,
+              "offset": 736
+            },
+            "end": {
+              "line": 11,
+              "column": 99,
+              "offset": 818
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "user.kipfvariationalgraphautoencoders2016"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders",
+            "id": "6u1xktarsxruj4ymnbay9iv",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.item-type.report",
+          "alias": "report",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 14,
+              "offset": 985
+            },
+            "end": {
+              "line": 15,
+              "column": 74,
+              "offset": 1045
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.item-type.report",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders",
+            "id": "6u1xktarsxruj4ymnbay9iv",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.Computer",
+          "alias": "#Computer",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 9,
+              "offset": 1185
+            },
+            "end": {
+              "line": 17,
+              "column": 18,
+              "offset": 1194
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.Computer"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders",
+            "id": "6u1xktarsxruj4ymnbay9iv",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.Statistics",
+          "alias": "#Statistics",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 47,
+              "offset": 1223
+            },
+            "end": {
+              "line": 17,
+              "column": 58,
+              "offset": 1234
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.Statistics"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders",
+            "id": "6u1xktarsxruj4ymnbay9iv",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.🦌📚",
+          "alias": "#🦌📚",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 79,
+              "offset": 1255
+            },
+            "end": {
+              "line": 17,
+              "column": 84,
+              "offset": 1260
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.🦌📚"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders",
+            "id": "6u1xktarsxruj4ymnbay9iv",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.local.variational-graph-auto-encoders",
+          "alias": "Local Note",
+          "position": {
+            "start": {
+              "line": 25,
+              "column": 1,
+              "offset": 2178
+            },
+            "end": {
+              "line": 25,
+              "column": 79,
+              "offset": 2256
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.local.variational-graph-auto-encoders",
+            "vaultName": "Zendron"
+          }
+        }
+      ],
+      "anchors": {
+        "metadata": {
+          "type": "header",
+          "text": "Metadata",
+          "value": "metadata",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "abstract": {
+          "type": "header",
+          "text": "Abstract",
+          "value": "abstract",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "local-note": {
+          "type": "header",
+          "text": "Local Note",
+          "value": "local-note",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "ttehukk8b2x961o8785vele"
+      ],
+      "parent": "f3is89cwurzqcn2hq28ckqq",
+      "data": {}
+    },
+    "ttehukk8b2x961o8785vele": {
+      "id": "ttehukk8b2x961o8785vele",
+      "title": "Annotations",
+      "desc": "",
+      "updated": 1669501708993,
+      "created": 1669501708993,
+      "isDir": false,
+      "custom": {
+        "isDir": false
+      },
+      "fname": "zendron.import.variational-graph-auto-encoders.annotations",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "ceaa5198e5c170320372bf3952128257",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.variational-graph-auto-encoders.annotations",
+            "id": "ttehukk8b2x961o8785vele",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.local.variational-graph-auto-encoders.comments",
+          "alias": "Local Note",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 32
+            },
+            "end": {
+              "line": 4,
+              "column": 90,
+              "offset": 119
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.local.variational-graph-auto-encoders.comments",
+            "vaultName": "Zendron"
+          }
+        }
+      ],
+      "anchors": {
+        "annotations": {
+          "type": "header",
+          "text": "Annotations",
+          "value": "annotations",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "local-note": {
+          "type": "header",
+          "text": "Local Note",
+          "value": "local-note",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "6u1xktarsxruj4ymnbay9iv",
+      "data": {}
+    },
+    "pgyh45pugbkao278nym0t0j": {
+      "id": "pgyh45pugbkao278nym0t0j",
+      "title": "The Abolition of Man",
+      "desc": "",
+      "updated": 1669501708991,
+      "created": 1669501708991,
+      "isDir": false,
+      "custom": {
+        "isDir": false
+      },
+      "fname": "zendron.import.the-abolition-of-man",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "604868a4baf3346ec6b7f58007d6ffc2",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.the-abolition-of-man",
+            "id": "pgyh45pugbkao278nym0t0j",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.title.the-abolition-of-man",
+          "alias": "The abolition of man",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 10,
+              "offset": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 94,
+              "offset": 106
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.title.the-abolition-of-man",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.the-abolition-of-man",
+            "id": "pgyh45pugbkao278nym0t0j",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.authors.clive-staples-lewis",
+          "alias": "Clive Staples Lewis",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 12,
+              "offset": 118
+            },
+            "end": {
+              "line": 4,
+              "column": 96,
+              "offset": 202
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.authors.clive-staples-lewis",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.the-abolition-of-man",
+            "id": "pgyh45pugbkao278nym0t0j",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2001",
+          "alias": "2001",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 9,
+              "offset": 211
+            },
+            "end": {
+              "line": 5,
+              "column": 60,
+              "offset": 262
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2001",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.the-abolition-of-man",
+            "id": "pgyh45pugbkao278nym0t0j",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.10.21.23.03.19",
+          "alias": "2022-10-21-23-03-19",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 15,
+              "offset": 309
+            },
+            "end": {
+              "line": 7,
+              "column": 96,
+              "offset": 390
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.10.21.23.03.19",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.the-abolition-of-man",
+            "id": "pgyh45pugbkao278nym0t0j",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.11.26.18.33.02",
+          "alias": "2022-11-26-18-33-02",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 18,
+              "offset": 408
+            },
+            "end": {
+              "line": 8,
+              "column": 99,
+              "offset": 489
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.11.26.18.33.02",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.the-abolition-of-man",
+            "id": "pgyh45pugbkao278nym0t0j",
+            "vaultName": "Zendron"
+          },
+          "value": "user.lewisabolitionman2001",
+          "alias": "lewisAbolitionMan2001",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 17,
+              "offset": 532
+            },
+            "end": {
+              "line": 11,
+              "column": 69,
+              "offset": 584
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "user.lewisabolitionman2001"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.the-abolition-of-man",
+            "id": "pgyh45pugbkao278nym0t0j",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.item-type.book",
+          "alias": "book",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 14,
+              "offset": 711
+            },
+            "end": {
+              "line": 15,
+              "column": 70,
+              "offset": 767
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.item-type.book",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.the-abolition-of-man",
+            "id": "pgyh45pugbkao278nym0t0j",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.local.the-abolition-of-man",
+          "alias": "Local Note",
+          "position": {
+            "start": {
+              "line": 25,
+              "column": 1,
+              "offset": 1089
+            },
+            "end": {
+              "line": 25,
+              "column": 68,
+              "offset": 1156
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.local.the-abolition-of-man",
+            "vaultName": "Zendron"
+          }
+        }
+      ],
+      "anchors": {
+        "metadata": {
+          "type": "header",
+          "text": "Metadata",
+          "value": "metadata",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "abstract": {
+          "type": "header",
+          "text": "Abstract",
+          "value": "abstract",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "local-note": {
+          "type": "header",
+          "text": "Local Note",
+          "value": "local-note",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "onx15bwsv950bdlhp7ok4f1"
+      ],
+      "parent": "f3is89cwurzqcn2hq28ckqq",
+      "data": {}
+    },
+    "onx15bwsv950bdlhp7ok4f1": {
+      "id": "onx15bwsv950bdlhp7ok4f1",
+      "title": "Annotations",
+      "desc": "",
+      "updated": 1669501708993,
+      "created": 1669501708993,
+      "isDir": false,
+      "custom": {
+        "isDir": false
+      },
+      "fname": "zendron.import.the-abolition-of-man.annotations",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "bc288fd0decfcdbc456dd0766be912c3",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.the-abolition-of-man.annotations",
+            "id": "onx15bwsv950bdlhp7ok4f1",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.local.the-abolition-of-man.comments",
+          "alias": "Local Note",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 32
+            },
+            "end": {
+              "line": 4,
+              "column": 79,
+              "offset": 108
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.local.the-abolition-of-man.comments",
+            "vaultName": "Zendron"
+          }
+        }
+      ],
+      "anchors": {
+        "annotations": {
+          "type": "header",
+          "text": "Annotations",
+          "value": "annotations",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "local-note": {
+          "type": "header",
+          "text": "Local Note",
+          "value": "local-note",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "pgyh45pugbkao278nym0t0j",
+      "data": {}
+    },
+    "kibhfaaf1248y3gvjpmp9hp": {
+      "id": "kibhfaaf1248y3gvjpmp9hp",
+      "title": "Retroformer: Pushing the Limits of End to End Retrosynthesis Transformer",
+      "desc": "",
+      "updated": 1669501708991,
+      "created": 1669501708991,
+      "isDir": false,
+      "custom": {
+        "isDir": false
+      },
+      "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "e48e3f599d75ca8c6c772686079d11ce",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "id": "kibhfaaf1248y3gvjpmp9hp",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.title.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+          "alias": "Retroformer: Pushing the Limits of End-to-end Retrosynthesis Transformer",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 10,
+              "offset": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 198,
+              "offset": 210
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.title.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "id": "kibhfaaf1248y3gvjpmp9hp",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.authors.yue-wan",
+          "alias": "Yue Wan",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 12,
+              "offset": 222
+            },
+            "end": {
+              "line": 4,
+              "column": 72,
+              "offset": 282
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.authors.yue-wan",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "id": "kibhfaaf1248y3gvjpmp9hp",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.authors.chang-yu-hsieh",
+          "alias": "Chang-Yu Hsieh",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 74,
+              "offset": 284
+            },
+            "end": {
+              "line": 4,
+              "column": 148,
+              "offset": 358
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.authors.chang-yu-hsieh",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "id": "kibhfaaf1248y3gvjpmp9hp",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.authors.ben-liao",
+          "alias": "Ben Liao",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 150,
+              "offset": 360
+            },
+            "end": {
+              "line": 4,
+              "column": 212,
+              "offset": 422
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.authors.ben-liao",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "id": "kibhfaaf1248y3gvjpmp9hp",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.authors.shengyu-zhang",
+          "alias": "Shengyu Zhang",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 214,
+              "offset": 424
+            },
+            "end": {
+              "line": 4,
+              "column": 286,
+              "offset": 496
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.authors.shengyu-zhang",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "id": "kibhfaaf1248y3gvjpmp9hp",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.06.28",
+          "alias": "2022-06-28",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 9,
+              "offset": 505
+            },
+            "end": {
+              "line": 5,
+              "column": 72,
+              "offset": 568
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.06.28",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "id": "kibhfaaf1248y3gvjpmp9hp",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.10.19",
+          "alias": "2022-10-19",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 18,
+              "offset": 586
+            },
+            "end": {
+              "line": 6,
+              "column": 81,
+              "offset": 649
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.10.19",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "id": "kibhfaaf1248y3gvjpmp9hp",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.10.19.22.51.03",
+          "alias": "2022-10-19-22-51-03",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 15,
+              "offset": 664
+            },
+            "end": {
+              "line": 7,
+              "column": 96,
+              "offset": 745
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.10.19.22.51.03",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "id": "kibhfaaf1248y3gvjpmp9hp",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.11.26.18.33.02",
+          "alias": "2022-11-26-18-33-02",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 18,
+              "offset": 763
+            },
+            "end": {
+              "line": 8,
+              "column": 99,
+              "offset": 844
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.11.26.18.33.02",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "id": "kibhfaaf1248y3gvjpmp9hp",
+            "vaultName": "Zendron"
+          },
+          "value": "user.wanretroformerpushinglimits2022",
+          "alias": "wanRetroformerPushingLimits2022",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 17,
+              "offset": 992
+            },
+            "end": {
+              "line": 11,
+              "column": 89,
+              "offset": 1064
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "user.wanretroformerpushinglimits2022"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "id": "kibhfaaf1248y3gvjpmp9hp",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.item-type.conferencepaper",
+          "alias": "conferencePaper",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 14,
+              "offset": 1191
+            },
+            "end": {
+              "line": 15,
+              "column": 92,
+              "offset": 1269
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.item-type.conferencepaper",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "id": "kibhfaaf1248y3gvjpmp9hp",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.🦌📚",
+          "alias": "#🦌📚",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 9,
+              "offset": 1409
+            },
+            "end": {
+              "line": 17,
+              "column": 14,
+              "offset": 1414
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.🦌📚"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "id": "kibhfaaf1248y3gvjpmp9hp",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.local.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+          "alias": "Local Note",
+          "position": {
+            "start": {
+              "line": 25,
+              "column": 1,
+              "offset": 2716
+            },
+            "end": {
+              "line": 25,
+              "column": 120,
+              "offset": 2835
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.local.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer",
+            "vaultName": "Zendron"
+          }
+        }
+      ],
+      "anchors": {
+        "metadata": {
+          "type": "header",
+          "text": "Metadata",
+          "value": "metadata",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "abstract": {
+          "type": "header",
+          "text": "Abstract",
+          "value": "abstract",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "local-note": {
+          "type": "header",
+          "text": "Local Note",
+          "value": "local-note",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "9iazh6bvelxzrh7yo22f2al"
+      ],
+      "parent": "f3is89cwurzqcn2hq28ckqq",
+      "data": {}
+    },
+    "9iazh6bvelxzrh7yo22f2al": {
+      "id": "9iazh6bvelxzrh7yo22f2al",
+      "title": "Annotations",
+      "desc": "",
+      "updated": 1669501708993,
+      "created": 1669501708993,
+      "isDir": false,
+      "custom": {
+        "isDir": false
+      },
+      "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer.annotations",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "bfd90a4ca42a9e148e028ea6f0de3169",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer.annotations",
+            "id": "9iazh6bvelxzrh7yo22f2al",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.local.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer.comments",
+          "alias": "Local Note",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 32
+            },
+            "end": {
+              "line": 4,
+              "column": 131,
+              "offset": 160
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.local.retroformer:-pushing-the-limits-of-end-to-end-retrosynthesis-transformer.comments",
+            "vaultName": "Zendron"
+          }
+        }
+      ],
+      "anchors": {
+        "annotations": {
+          "type": "header",
+          "text": "Annotations",
+          "value": "annotations",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "local-note": {
+          "type": "header",
+          "text": "Local Note",
+          "value": "local-note",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "kibhfaaf1248y3gvjpmp9hp",
+      "data": {}
+    },
+    "lgs9kqn3iirui3exbo0y782": {
+      "id": "lgs9kqn3iirui3exbo0y782",
+      "title": "Pitfalls of Graph Neural Network Evaluation",
+      "desc": "",
+      "updated": 1669501708990,
+      "created": 1669501708990,
+      "isDir": false,
+      "custom": {
+        "isDir": false
+      },
+      "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "ff483b9f0f4866e7e676bd25608101df",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.title.pitfalls-of-graph-neural-network-evaluation",
+          "alias": "Pitfalls of Graph Neural Network Evaluation",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 10,
+              "offset": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 140,
+              "offset": 152
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.title.pitfalls-of-graph-neural-network-evaluation",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.authors.oleksandr-shchur",
+          "alias": "Oleksandr Shchur",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 12,
+              "offset": 164
+            },
+            "end": {
+              "line": 4,
+              "column": 90,
+              "offset": 242
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.authors.oleksandr-shchur",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.authors.maximilian-mumme",
+          "alias": "Maximilian Mumme",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 92,
+              "offset": 244
+            },
+            "end": {
+              "line": 4,
+              "column": 170,
+              "offset": 322
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.authors.maximilian-mumme",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.authors.aleksandar-bojchevski",
+          "alias": "Aleksandar Bojchevski",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 172,
+              "offset": 324
+            },
+            "end": {
+              "line": 4,
+              "column": 260,
+              "offset": 412
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.authors.aleksandar-bojchevski",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.authors.stephan-günnemann",
+          "alias": "Stephan Günnemann",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 262,
+              "offset": 414
+            },
+            "end": {
+              "line": 4,
+              "column": 342,
+              "offset": 494
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.authors.stephan-günnemann",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2019.06.18",
+          "alias": "2019-06-18",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 9,
+              "offset": 503
+            },
+            "end": {
+              "line": 5,
+              "column": 72,
+              "offset": 566
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2019.06.18",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.10.06",
+          "alias": "2022-10-06",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 18,
+              "offset": 584
+            },
+            "end": {
+              "line": 6,
+              "column": 81,
+              "offset": 647
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.10.06",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.10.06.18.47.34",
+          "alias": "2022-10-06-18-47-34",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 15,
+              "offset": 662
+            },
+            "end": {
+              "line": 7,
+              "column": 96,
+              "offset": 743
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.10.06.18.47.34",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.date.2022.11.26.20.12.30",
+          "alias": "2022-11-26-20-12-30",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 18,
+              "offset": 761
+            },
+            "end": {
+              "line": 8,
+              "column": 99,
+              "offset": 842
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.date.2022.11.26.20.12.30",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "user.shchurpitfallsgraphneural2019",
+          "alias": "shchurPitfallsGraphNeural2019",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 17,
+              "offset": 1010
+            },
+            "end": {
+              "line": 11,
+              "column": 85,
+              "offset": 1078
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "user.shchurpitfallsgraphneural2019"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.item-type.preprint",
+          "alias": "preprint",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 14,
+              "offset": 1244
+            },
+            "end": {
+              "line": 15,
+              "column": 78,
+              "offset": 1308
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.item-type.preprint",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.Computer",
+          "alias": "#Computer",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 9,
+              "offset": 1448
+            },
+            "end": {
+              "line": 17,
+              "column": 18,
+              "offset": 1457
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.Computer"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.Computer",
+          "alias": "#Computer",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 47,
+              "offset": 1486
+            },
+            "end": {
+              "line": 17,
+              "column": 56,
+              "offset": 1495
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.Computer"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.Statistics",
+          "alias": "#Statistics",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 100,
+              "offset": 1539
+            },
+            "end": {
+              "line": 17,
+              "column": 111,
+              "offset": 1550
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.Statistics"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.🦌📚",
+          "alias": "#🦌📚",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 132,
+              "offset": 1571
+            },
+            "end": {
+              "line": 17,
+              "column": 137,
+              "offset": 1576
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.🦌📚"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation",
+            "id": "lgs9kqn3iirui3exbo0y782",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.local.pitfalls-of-graph-neural-network-evaluation",
+          "alias": "Local Note",
+          "position": {
+            "start": {
+              "line": 25,
+              "column": 1,
+              "offset": 2789
+            },
+            "end": {
+              "line": 25,
+              "column": 91,
+              "offset": 2879
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.local.pitfalls-of-graph-neural-network-evaluation",
+            "vaultName": "Zendron"
+          }
+        }
+      ],
+      "anchors": {
+        "metadata": {
+          "type": "header",
+          "text": "Metadata",
+          "value": "metadata",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "abstract": {
+          "type": "header",
+          "text": "Abstract",
+          "value": "abstract",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "local-note": {
+          "type": "header",
+          "text": "Local Note",
+          "value": "local-note",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "kr4ql2b9ael86sutgg4b52u"
+      ],
+      "parent": "f3is89cwurzqcn2hq28ckqq",
+      "data": {}
+    },
+    "kr4ql2b9ael86sutgg4b52u": {
+      "id": "kr4ql2b9ael86sutgg4b52u",
+      "title": "Annotations",
+      "desc": "",
+      "updated": 1669501708993,
+      "created": 1669501708993,
+      "isDir": false,
+      "custom": {
+        "isDir": false
+      },
+      "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation.annotations",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "327b65d65fb484041ce7d44322e90f97",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.import.pitfalls-of-graph-neural-network-evaluation.annotations",
+            "id": "kr4ql2b9ael86sutgg4b52u",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.local.pitfalls-of-graph-neural-network-evaluation.comments",
+          "alias": "Local Note",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 32
+            },
+            "end": {
+              "line": 4,
+              "column": 102,
+              "offset": 131
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.local.pitfalls-of-graph-neural-network-evaluation.comments",
+            "vaultName": "Zendron"
+          }
+        }
+      ],
+      "anchors": {
+        "annotations": {
+          "type": "header",
+          "text": "Annotations",
+          "value": "annotations",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "local-note": {
+          "type": "header",
+          "text": "Local Note",
+          "value": "local-note",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "lgs9kqn3iirui3exbo0y782",
+      "data": {}
+    },
+    "c3pvdrzuy9hbukmd586lrvv": {
+      "id": "c3pvdrzuy9hbukmd586lrvv",
+      "title": "Roadmap",
+      "desc": "",
+      "updated": 1669488664985,
+      "created": 1669488663768,
+      "custom": {},
+      "fname": "zendron.roadmap",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "d9afb0f6dd0b283ace9bf37f3b130793",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.roadmap",
+            "id": "c3pvdrzuy9hbukmd586lrvv",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron/resync.py",
+          "alias": "sync",
+          "position": {
+            "start": {
+              "line": 80,
+              "column": 43,
+              "offset": 3477
+            },
+            "end": {
+              "line": 80,
+              "column": 69,
+              "offset": 3503
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron/resync.py"
+          }
+        }
+      ],
+      "anchors": {
+        "zendron-roadmap": {
+          "type": "header",
+          "text": "Zendron Roadmap",
+          "value": "zendron-roadmap",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "issues": {
+          "type": "header",
+          "text": "Issues",
+          "value": "issues",
+          "line": 85,
+          "column": 0,
+          "depth": 2
+        },
+        "itemized-annotation-collection": {
+          "type": "header",
+          "text": "Itemized-Annotation-Collection",
+          "value": "itemized-annotation-collection",
+          "line": 91,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "xxezmgby3v2mlneka3t295g",
+      "data": {}
+    },
+    "niid19z8g3ccte9jwg9z3ts": {
+      "id": "niid19z8g3ccte9jwg9z3ts",
+      "title": "Citation Key",
+      "desc": "",
+      "updated": 1669492757347,
+      "created": 1669491997247,
+      "custom": {},
+      "fname": "zendron.citation-key",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "65916c9aec7cfe8ad6f12d0a21613993",
+      "links": [],
+      "anchors": {
+        "extras": {
+          "type": "header",
+          "text": "Extras",
+          "value": "extras",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "autopindelay": {
+          "type": "header",
+          "text": "AutoPinDelay",
+          "value": "autopindelay",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "steps": {
+          "type": "header",
+          "text": "Steps",
+          "value": "steps",
+          "line": 12,
+          "column": 0,
+          "depth": 4
+        },
+        "citation-counts": {
+          "type": "header",
+          "text": "Citation Counts",
+          "value": "citation-counts",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        },
+        "manual-pin": {
+          "type": "header",
+          "text": "Manual Pin",
+          "value": "manual-pin",
+          "line": 22,
+          "column": 0,
+          "depth": 3
+        },
+        "better-bibtex-automatic-export": {
+          "type": "header",
+          "text": "Better BibTex Automatic Export",
+          "value": "better-bibtex-automatic-export",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "xxezmgby3v2mlneka3t295g",
+      "data": {}
+    },
+    "k0qo53e6jvew0mcyv49bu0e": {
+      "id": "k0qo53e6jvew0mcyv49bu0e",
+      "title": "Publish",
+      "desc": "",
+      "updated": 1661970817297,
+      "created": 1661540036400,
+      "custom": {},
+      "fname": "publish",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "200c046fbcf21757c0e1964e58443998",
+      "links": [],
+      "anchors": {
+        "to-compile-document": {
+          "type": "header",
+          "text": "To Compile Document",
+          "value": "to-compile-document",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "export-markdown-pod": {
+          "type": "header",
+          "text": "Export Markdown Pod",
+          "value": "export-markdown-pod",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "pandoc": {
+          "type": "header",
+          "text": "Pandoc",
+          "value": "pandoc",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "resources": {
+          "type": "header",
+          "text": "Resources",
+          "value": "resources",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "p6evbyfciaotkrkwav3ipra",
+        "mg7066wnd3agqrjxcxmrxkx"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {}
+    },
+    "mg7066wnd3agqrjxcxmrxkx": {
+      "id": "mg7066wnd3agqrjxcxmrxkx",
+      "title": "Word",
+      "desc": "",
+      "updated": 1662568319952,
+      "created": 1661540059329,
+      "custom": {},
+      "fname": "publish.word",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "6cccefb1f2584cdf46f18a1e04b01e6f",
+      "links": [],
+      "anchors": {
+        "merge-tools": {
+          "type": "header",
+          "text": "Merge Tools",
+          "value": "merge-tools",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "linux": {
+          "type": "header",
+          "text": "Linux",
+          "value": "linux",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "macos": {
+          "type": "header",
+          "text": "MacOS",
+          "value": "macos",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        },
+        "windows": {
+          "type": "header",
+          "text": "Windows",
+          "value": "windows",
+          "line": 22,
+          "column": 0,
+          "depth": 3
+        },
+        "issues": {
+          "type": "header",
+          "text": "Issues",
+          "value": "issues",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "k0qo53e6jvew0mcyv49bu0e",
+      "data": {}
+    },
+    "p6evbyfciaotkrkwav3ipra": {
+      "id": "p6evbyfciaotkrkwav3ipra",
+      "title": "Pdf",
+      "desc": "",
+      "updated": 1661893252368,
+      "created": 1661892034192,
+      "custom": {},
+      "fname": "publish.pdf",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "503e30771947aae9238776d02915c55c",
+      "links": [],
+      "anchors": {
+        "merge-tools": {
+          "type": "header",
+          "text": "Merge Tools",
+          "value": "merge-tools",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "linux-and-macos": {
+          "type": "header",
+          "text": "Linux and MacOS",
+          "value": "linux-and-macos",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        },
+        "windows": {
+          "type": "header",
+          "text": "Windows",
+          "value": "windows",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "k0qo53e6jvew0mcyv49bu0e",
+      "data": {}
+    },
+    "tz8wfy0bidyoi7cew6pxfi4": {
+      "id": "tz8wfy0bidyoi7cew6pxfi4",
+      "title": "Outline",
+      "desc": "",
+      "updated": 1669488534203,
+      "created": 1662432714909,
+      "custom": {},
+      "fname": "outline",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "2ae75c56bc52a709fcc59c7a63c54f8c",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {}
+    },
+    "2fib55e8qqux9scimc7a9gn": {
+      "id": "2fib55e8qqux9scimc7a9gn",
+      "title": "Estimator",
+      "desc": "",
+      "updated": 1662430088401,
+      "created": 1662430086035,
+      "custom": {},
+      "fname": "estimator",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "49e12679151a383b0084100fa2f1089f",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {}
+    },
+    "m7o7r4jqe4jdwgsh3ia8sa4": {
+      "id": "m7o7r4jqe4jdwgsh3ia8sa4",
+      "title": "Paper",
+      "desc": "",
+      "updated": 1661970568792,
+      "created": 1661539309897,
+      "custom": {},
+      "fname": "Paper",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "ad7d7450deea89b02cda99d06cdeb1ec",
+      "links": [
+        {
+          "type": "ref",
+          "from": {
+            "fname": "Paper",
+            "id": "m7o7r4jqe4jdwgsh3ia8sa4",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.Abstract",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 13
+            },
+            "end": {
+              "line": 3,
+              "column": 20,
+              "offset": 32
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.Abstract"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "Paper",
+            "id": "m7o7r4jqe4jdwgsh3ia8sa4",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.Introduction",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 1,
+              "offset": 50
+            },
+            "end": {
+              "line": 6,
+              "column": 24,
+              "offset": 73
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.Introduction"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "Paper",
+            "id": "m7o7r4jqe4jdwgsh3ia8sa4",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.Results-and-Discussion",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 1,
+              "offset": 86
+            },
+            "end": {
+              "line": 9,
+              "column": 34,
+              "offset": 119
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.Results-and-Discussion"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "Paper",
+            "id": "m7o7r4jqe4jdwgsh3ia8sa4",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.Conclusion",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 1,
+              "offset": 135
+            },
+            "end": {
+              "line": 12,
+              "column": 22,
+              "offset": 156
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.Conclusion"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "Paper",
+            "id": "m7o7r4jqe4jdwgsh3ia8sa4",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.methods",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 1,
+              "offset": 169
+            },
+            "end": {
+              "line": 15,
+              "column": 27,
+              "offset": 195
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.methods"
+          }
+        }
+      ],
+      "anchors": {
+        "abstract": {
+          "type": "header",
+          "text": "Abstract",
+          "value": "abstract",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "introduction": {
+          "type": "header",
+          "text": "Introduction",
+          "value": "introduction",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "results": {
+          "type": "header",
+          "text": "Results",
+          "value": "results",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "conclusion": {
+          "type": "header",
+          "text": "Conclusion",
+          "value": "conclusion",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "methods": {
+          "type": "header",
+          "text": "Methods",
+          "value": "methods",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "references": {
+          "type": "header",
+          "text": "References",
+          "value": "references",
+          "line": 23,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "5excb1b3qn779tz6628yaab",
+        "lxagjmq97cfful42mr4xkyw",
+        "cwlhau9r4wa0zaud9vj0ajh",
+        "9cczfcz8cxubjf7y7naxdb6",
+        "cblp5aoncbn1av54txaeaoq",
+        "u255wwecd689wiqsm1xcuvo",
+        "46hb04dyz2910h30x0lyoru"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {}
+    },
+    "46hb04dyz2910h30x0lyoru": {
+      "id": "46hb04dyz2910h30x0lyoru",
+      "title": "Title",
+      "desc": "",
+      "updated": 1661627326599,
+      "created": 1661561814159,
+      "custom": {},
+      "fname": "paper.title",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "1186d00d9c98de721f66a0d42b65c633",
+      "links": [],
+      "anchors": {
+        "title-page": {
+          "type": "header",
+          "text": "TITLE PAGE",
+          "value": "title-page",
+          "line": 7,
+          "column": 0,
+          "depth": 6
+        },
+        "": {
+          "type": "header",
+          "text": "",
+          "value": "",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "m7o7r4jqe4jdwgsh3ia8sa4",
+      "data": {}
+    },
+    "u255wwecd689wiqsm1xcuvo": {
+      "id": "u255wwecd689wiqsm1xcuvo",
+      "title": "Supplementary",
+      "desc": "",
+      "updated": 1661615133561,
+      "created": 1661541007429,
+      "custom": {},
+      "fname": "paper.supplementary",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "a47f87cc2851070fecf0dff14ab47b7f",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "m7o7r4jqe4jdwgsh3ia8sa4",
+      "data": {}
+    },
+    "cblp5aoncbn1av54txaeaoq": {
+      "id": "cblp5aoncbn1av54txaeaoq",
+      "title": "Methods",
+      "desc": "",
+      "updated": 1661615122813,
+      "created": 1661539594543,
+      "custom": {},
+      "fname": "paper.methods",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "aeb3124e87f975551be7620aad5afab5",
+      "links": [
+        {
+          "from": {
+            "id": "m7o7r4jqe4jdwgsh3ia8sa4",
+            "fname": "Paper",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 1,
+              "offset": 169
+            },
+            "end": {
+              "line": 15,
+              "column": 27,
+              "offset": 195
+            },
+            "indent": []
+          },
+          "value": "paper.methods"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "m7o7r4jqe4jdwgsh3ia8sa4",
+      "data": {}
+    },
+    "9cczfcz8cxubjf7y7naxdb6": {
+      "id": "9cczfcz8cxubjf7y7naxdb6",
+      "title": "Results-and-Discussion",
+      "desc": "",
+      "updated": 1661615100407,
+      "created": 1661539716123,
+      "custom": {},
+      "fname": "paper.Results-and-Discussion",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "b3d7ba85e98951b6ecd390f5ec608392",
+      "links": [
+        {
+          "type": "ref",
+          "from": {
+            "fname": "paper.Results-and-Discussion",
+            "id": "9cczfcz8cxubjf7y7naxdb6",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.results-and-discussion.1",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 38,
+              "offset": 63
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.results-and-discussion.1"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "paper.Results-and-Discussion",
+            "id": "9cczfcz8cxubjf7y7naxdb6",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.results-and-discussion.2",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 64
+            },
+            "end": {
+              "line": 3,
+              "column": 38,
+              "offset": 101
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.results-and-discussion.2"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "paper.Results-and-Discussion",
+            "id": "9cczfcz8cxubjf7y7naxdb6",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.results-and-discussion.3",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 1,
+              "offset": 102
+            },
+            "end": {
+              "line": 4,
+              "column": 38,
+              "offset": 139
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.results-and-discussion.3"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "paper.Results-and-Discussion",
+            "id": "9cczfcz8cxubjf7y7naxdb6",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.results-and-discussion.4",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 1,
+              "offset": 140
+            },
+            "end": {
+              "line": 5,
+              "column": 38,
+              "offset": 177
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.results-and-discussion.4"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "paper.Results-and-Discussion",
+            "id": "9cczfcz8cxubjf7y7naxdb6",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.results-and-discussion.5",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 1,
+              "offset": 178
+            },
+            "end": {
+              "line": 6,
+              "column": 38,
+              "offset": 215
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.results-and-discussion.5"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "paper.Results-and-Discussion",
+            "id": "9cczfcz8cxubjf7y7naxdb6",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.results-and-discussion.6",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 1,
+              "offset": 216
+            },
+            "end": {
+              "line": 7,
+              "column": 38,
+              "offset": 253
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.results-and-discussion.6"
+          }
+        },
+        {
+          "from": {
+            "id": "m7o7r4jqe4jdwgsh3ia8sa4",
+            "fname": "Paper",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 1,
+              "offset": 86
+            },
+            "end": {
+              "line": 9,
+              "column": 34,
+              "offset": 119
+            },
+            "indent": []
+          },
+          "value": "paper.Results-and-Discussion"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "b970axpbzritz2ljl1axusj",
+        "37tqxekttlmku940blxp6c7",
+        "7xp8n4kqq93y897n9s32ihy",
+        "rr7ckdxgf5l6ehuv82cv04z",
+        "iq2au254hboedsg2urnhlm1",
+        "vz00dg1dgfoav7puepignmd"
+      ],
+      "parent": "m7o7r4jqe4jdwgsh3ia8sa4",
+      "data": {}
+    },
+    "vz00dg1dgfoav7puepignmd": {
+      "id": "vz00dg1dgfoav7puepignmd",
+      "title": "6",
+      "desc": "",
+      "updated": 1661641451085,
+      "created": 1661540008785,
+      "custom": {},
+      "fname": "paper.results-and-discussion.6",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "f25be17e42fd9795358559e030ad99df",
+      "links": [
+        {
+          "from": {
+            "id": "9cczfcz8cxubjf7y7naxdb6",
+            "fname": "paper.Results-and-Discussion",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 1,
+              "offset": 216
+            },
+            "end": {
+              "line": 7,
+              "column": 38,
+              "offset": 253
+            },
+            "indent": []
+          },
+          "value": "paper.results-and-discussion.6"
+        }
+      ],
+      "anchors": {
+        "^tplt26dbimbf": {
+          "type": "block",
+          "value": "tplt26dbimbf",
+          "line": 7,
+          "column": 32
+        }
+      },
+      "children": [],
+      "parent": "9cczfcz8cxubjf7y7naxdb6",
+      "data": {}
+    },
+    "iq2au254hboedsg2urnhlm1": {
+      "id": "iq2au254hboedsg2urnhlm1",
+      "title": "5",
+      "desc": "",
+      "updated": 1662429449400,
+      "created": 1662429405031,
+      "custom": {},
+      "fname": "paper.results-and-discussion.5",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "bd982fe520641e05cb444831a7262c02",
+      "links": [
+        {
+          "from": {
+            "id": "9cczfcz8cxubjf7y7naxdb6",
+            "fname": "paper.Results-and-Discussion",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 1,
+              "offset": 178
+            },
+            "end": {
+              "line": 6,
+              "column": 38,
+              "offset": 215
+            },
+            "indent": []
+          },
+          "value": "paper.results-and-discussion.5"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "9cczfcz8cxubjf7y7naxdb6",
+      "data": {}
+    },
+    "rr7ckdxgf5l6ehuv82cv04z": {
+      "id": "rr7ckdxgf5l6ehuv82cv04z",
+      "title": "4",
+      "desc": "",
+      "updated": 1662429438868,
+      "created": 1662429403492,
+      "custom": {},
+      "fname": "paper.results-and-discussion.4",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "25e267777392c0991aeee958d4fc52dd",
+      "links": [
+        {
+          "from": {
+            "id": "9cczfcz8cxubjf7y7naxdb6",
+            "fname": "paper.Results-and-Discussion",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 1,
+              "offset": 140
+            },
+            "end": {
+              "line": 5,
+              "column": 38,
+              "offset": 177
+            },
+            "indent": []
+          },
+          "value": "paper.results-and-discussion.4"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "9cczfcz8cxubjf7y7naxdb6",
+      "data": {}
+    },
+    "7xp8n4kqq93y897n9s32ihy": {
+      "id": "7xp8n4kqq93y897n9s32ihy",
+      "title": "3",
+      "desc": "",
+      "updated": 1662429434702,
+      "created": 1662429391355,
+      "custom": {},
+      "fname": "paper.results-and-discussion.3",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "2ff0edd4b05e0d1a225290efe8dbab4a",
+      "links": [
+        {
+          "from": {
+            "id": "9cczfcz8cxubjf7y7naxdb6",
+            "fname": "paper.Results-and-Discussion",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 1,
+              "offset": 102
+            },
+            "end": {
+              "line": 4,
+              "column": 38,
+              "offset": 139
+            },
+            "indent": []
+          },
+          "value": "paper.results-and-discussion.3"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "9cczfcz8cxubjf7y7naxdb6",
+      "data": {}
+    },
+    "37tqxekttlmku940blxp6c7": {
+      "id": "37tqxekttlmku940blxp6c7",
+      "title": "2",
+      "desc": "",
+      "updated": 1662429430315,
+      "created": 1662429378965,
+      "custom": {},
+      "fname": "paper.results-and-discussion.2",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "28c34a3f0b4743ec9dd79ad88653af2d",
+      "links": [
+        {
+          "from": {
+            "id": "9cczfcz8cxubjf7y7naxdb6",
+            "fname": "paper.Results-and-Discussion",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 64
+            },
+            "end": {
+              "line": 3,
+              "column": 38,
+              "offset": 101
+            },
+            "indent": []
+          },
+          "value": "paper.results-and-discussion.2"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "9cczfcz8cxubjf7y7naxdb6",
+      "data": {}
+    },
+    "b970axpbzritz2ljl1axusj": {
+      "id": "b970axpbzritz2ljl1axusj",
+      "title": "1",
+      "desc": "",
+      "updated": 1662441490107,
+      "created": 1661539821874,
+      "custom": {},
+      "fname": "paper.results-and-discussion.1",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "61d5b62260c9667abfd6076f8314ecc6",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "paper.results-and-discussion.1",
+            "id": "b970axpbzritz2ljl1axusj",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.Check",
+          "alias": "#Check",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 7,
+              "offset": 7
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.Check"
+          }
+        },
+        {
+          "from": {
+            "id": "9cczfcz8cxubjf7y7naxdb6",
+            "fname": "paper.Results-and-Discussion",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 38,
+              "offset": 63
+            },
+            "indent": []
+          },
+          "value": "paper.results-and-discussion.1"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "9cczfcz8cxubjf7y7naxdb6",
+      "data": {}
+    },
+    "cwlhau9r4wa0zaud9vj0ajh": {
+      "id": "cwlhau9r4wa0zaud9vj0ajh",
+      "title": "Introduction",
+      "desc": "",
+      "updated": 1662441870337,
+      "created": 1661539410751,
+      "output": {
+        "pdf_document": "pandoc_args - --lua-filter=section-refs.lua"
+      },
+      "citeproc": false,
+      "section-refs-bibliography": "bib/bib.bib",
+      "custom": {
+        "output": {
+          "pdf_document": "pandoc_args - --lua-filter=section-refs.lua"
+        },
+        "citeproc": false,
+        "section-refs-bibliography": "bib/bib.bib"
+      },
+      "fname": "paper.Introduction",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "49f3e748125199c68e3a81c80e1fcb2b",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "paper.Introduction",
+            "id": "cwlhau9r4wa0zaud9vj0ajh",
+            "vaultName": "Zendron"
+          },
+          "value": "user.schmiesterPEtabInteroperableSpecification2021",
+          "alias": "@schmiesterPEtabInteroperableSpecification2021",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 65,
+              "offset": 64
+            },
+            "end": {
+              "line": 1,
+              "column": 111,
+              "offset": 110
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.schmiesterPEtabInteroperableSpecification2021"
+          }
+        },
+        {
+          "from": {
+            "id": "m7o7r4jqe4jdwgsh3ia8sa4",
+            "fname": "Paper",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 1,
+              "offset": 50
+            },
+            "end": {
+              "line": 6,
+              "column": 24,
+              "offset": 73
+            },
+            "indent": []
+          },
+          "value": "paper.Introduction"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "m7o7r4jqe4jdwgsh3ia8sa4",
+      "data": {}
+    },
+    "lxagjmq97cfful42mr4xkyw": {
+      "id": "lxagjmq97cfful42mr4xkyw",
+      "title": "Conclusion",
+      "desc": "",
+      "updated": 1661615114664,
+      "created": 1661539559753,
+      "custom": {},
+      "fname": "paper.Conclusion",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "0b213beb81c3479f3fb4f9620c0ffa27",
+      "links": [
+        {
+          "from": {
+            "id": "m7o7r4jqe4jdwgsh3ia8sa4",
+            "fname": "Paper",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 1,
+              "offset": 135
+            },
+            "end": {
+              "line": 12,
+              "column": 22,
+              "offset": 156
+            },
+            "indent": []
+          },
+          "value": "paper.Conclusion"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "m7o7r4jqe4jdwgsh3ia8sa4",
+      "data": {}
+    },
+    "5excb1b3qn779tz6628yaab": {
+      "id": "5excb1b3qn779tz6628yaab",
+      "title": "Abstract",
+      "desc": "",
+      "updated": 1661615056595,
+      "created": 1661539392353,
+      "custom": {},
+      "fname": "paper.Abstract",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "49e4bfb315f33abe9fd60e2dd1b36a1f",
+      "links": [
+        {
+          "from": {
+            "id": "m7o7r4jqe4jdwgsh3ia8sa4",
+            "fname": "Paper",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 13
+            },
+            "end": {
+              "line": 3,
+              "column": 20,
+              "offset": 32
+            },
+            "indent": []
+          },
+          "value": "paper.Abstract"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "m7o7r4jqe4jdwgsh3ia8sa4",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "nuyfwd7iokzd7m9oax0cdx5",
+      "title": "Root",
+      "desc": "",
+      "updated": 1662428184246,
+      "created": 1661538521294,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "9185b031f95deeced1275adbefc49c09",
+      "links": [],
+      "anchors": {
+        "parameter_estimation": {
+          "type": "header",
+          "text": "Parameter_Estimation",
+          "value": "parameter_estimation",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "paper-export": {
+          "type": "header",
+          "text": "Paper Export",
+          "value": "paper-export",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "m7o7r4jqe4jdwgsh3ia8sa4",
+        "2fib55e8qqux9scimc7a9gn",
+        "tz8wfy0bidyoi7cew6pxfi4",
+        "k0qo53e6jvew0mcyv49bu0e",
+        "xxezmgby3v2mlneka3t295g",
+        "9gt33emg7725ksj2t7f4p4v"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "## Parameter_Estimation\n\n## Paper Export\n- [paper.docx](./notes/export/paper.docx)\n- [paper.pdf](./notes/export/paper.pdf)"
+    }
+  ],
+  "noteIndex": {
+    "id": "nuyfwd7iokzd7m9oax0cdx5",
+    "title": "Root",
+    "desc": "",
+    "updated": 1662428184246,
+    "created": 1661538521294,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "Zendron"
+    },
+    "contentHash": "9185b031f95deeced1275adbefc49c09",
+    "links": [],
+    "anchors": {
+      "parameter_estimation": {
+        "type": "header",
+        "text": "Parameter_Estimation",
+        "value": "parameter_estimation",
+        "line": 7,
+        "column": 0,
+        "depth": 2
+      },
+      "paper-export": {
+        "type": "header",
+        "text": "Paper Export",
+        "value": "paper-export",
+        "line": 9,
+        "column": 0,
+        "depth": 2
+      }
+    },
+    "children": [
+      "m7o7r4jqe4jdwgsh3ia8sa4",
+      "2fib55e8qqux9scimc7a9gn",
+      "tz8wfy0bidyoi7cew6pxfi4",
+      "k0qo53e6jvew0mcyv49bu0e",
+      "xxezmgby3v2mlneka3t295g",
+      "9gt33emg7725ksj2t7f4p4v"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "## Parameter_Estimation\n\n## Paper Export\n- [paper.docx](./notes/export/paper.docx)\n- [paper.pdf](./notes/export/paper.pdf)"
+  },
+  "vaults": [
+    {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "Zendron"
+    }
+  ]
+}

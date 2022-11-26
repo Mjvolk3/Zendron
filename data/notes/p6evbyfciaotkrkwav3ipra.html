@@ -1,0 +1,20 @@
+<h1 id="pdf"><a aria-hidden="true" class="anchor-heading icon-link" href="#pdf"></a>Pdf</h1>
+<h2 id="merge-tools"><a aria-hidden="true" class="anchor-heading icon-link" href="#merge-tools"></a>Merge Tools</h2>
+<ul>
+<li>[PDF Merge Tools](<a href="https://sites.astro.caltech.edu/observatories/coo/solicit/mergePDF.html#:~:text=ghostscript%20is%20commonly%2Ftypically%20foun">https://sites.astro.caltech.edu/observatories/coo/solicit/mergePDF.html#:~:text=ghostscript%20is%20commonly%2Ftypically%20foun</a></li>
+</ul>
+<h3 id="linux-and-macos"><a aria-hidden="true" class="anchor-heading icon-link" href="#linux-and-macos"></a>Linux and MacOS</h3>
+<ul>
+<li>Ghostscript (<code>gs</code>) is often natively installed</li>
+<li>
+<pre><code>  gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=combined.pdf -dBATCH pdf1.pdf pdf2.pdf pdf3.pdf ...
+</code></pre>
+</li>
+</ul>
+<h3 id="windows"><a aria-hidden="true" class="anchor-heading icon-link" href="#windows"></a>Windows</h3>
+<ul>
+<li>Have not tested but it looks relatively easy to use.</li>
+<li><a href="https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/">pdftk download</a></li>
+<li><a href="https://www.pdflabs.com/docs/pdftk-cli-examples/">pdftk examples</a></li>
+<li><code>pdftk in1.pdf in2.pdf cat output out1.pdf</code></li>
+</ul>

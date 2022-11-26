@@ -1,0 +1,400 @@
+{
+  "roots": [
+    {
+      "key": "nuyfwd7iokzd7m9oax0cdx5",
+      "title": "Root",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "Zendron",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "2fib55e8qqux9scimc7a9gn",
+          "title": "Estimator",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Zendron",
+          "navExclude": false,
+          "children": []
+        },
+        {
+          "key": "tz8wfy0bidyoi7cew6pxfi4",
+          "title": "Outline",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Zendron",
+          "navExclude": false,
+          "children": []
+        },
+        {
+          "key": "m7o7r4jqe4jdwgsh3ia8sa4",
+          "title": "Paper",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Zendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "5excb1b3qn779tz6628yaab",
+              "title": "Abstract",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Zendron",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "lxagjmq97cfful42mr4xkyw",
+              "title": "Conclusion",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Zendron",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "cwlhau9r4wa0zaud9vj0ajh",
+              "title": "Introduction",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Zendron",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "cblp5aoncbn1av54txaeaoq",
+              "title": "Methods",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Zendron",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "9cczfcz8cxubjf7y7naxdb6",
+              "title": "Results-and-Discussion",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Zendron",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "b970axpbzritz2ljl1axusj",
+                  "title": "1",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Zendron",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "37tqxekttlmku940blxp6c7",
+                  "title": "2",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Zendron",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "7xp8n4kqq93y897n9s32ihy",
+                  "title": "3",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Zendron",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "rr7ckdxgf5l6ehuv82cv04z",
+                  "title": "4",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Zendron",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "iq2au254hboedsg2urnhlm1",
+                  "title": "5",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Zendron",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "vz00dg1dgfoav7puepignmd",
+                  "title": "6",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Zendron",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "u255wwecd689wiqsm1xcuvo",
+              "title": "Supplementary",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Zendron",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "46hb04dyz2910h30x0lyoru",
+              "title": "Title",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Zendron",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "k0qo53e6jvew0mcyv49bu0e",
+          "title": "Publish",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Zendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "p6evbyfciaotkrkwav3ipra",
+              "title": "Pdf",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Zendron",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "mg7066wnd3agqrjxcxmrxkx",
+              "title": "Word",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Zendron",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "9gt33emg7725ksj2t7f4p4v",
+          "title": "User",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Zendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "6ze92iewwcr9pbb9cfy6f8i",
+              "title": "Nagelwhatitbe1974",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Zendron",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "xxezmgby3v2mlneka3t295g",
+          "title": "Zendron",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Zendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "niid19z8g3ccte9jwg9z3ts",
+              "title": "Citation Key",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Zendron",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "f3is89cwurzqcn2hq28ckqq",
+              "title": "Import",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Zendron",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "lgs9kqn3iirui3exbo0y782",
+                  "title": "Pitfalls of Graph Neural Network Evaluation",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Zendron",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "kr4ql2b9ael86sutgg4b52u",
+                      "title": "Annotations",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "Zendron",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "kibhfaaf1248y3gvjpmp9hp",
+                  "title": "Retroformer: Pushing the Limits of End to End Retrosynthesis Transformer",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Zendron",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "9iazh6bvelxzrh7yo22f2al",
+                      "title": "Annotations",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "Zendron",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "pgyh45pugbkao278nym0t0j",
+                  "title": "The Abolition of Man",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Zendron",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "onx15bwsv950bdlhp7ok4f1",
+                      "title": "Annotations",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "Zendron",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "rgqsknpqcx55nvgkqekztfk",
+                  "title": "Title",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Zendron",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "u8ds0ev5gfoeqmyo2j4ga7y",
+                      "title": "Pitfalls of Graph Neural Network Evaluation",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "Zendron",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "6u1xktarsxruj4ymnbay9iv",
+                  "title": "Variational Graph Auto Encoders",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Zendron",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "ttehukk8b2x961o8785vele",
+                      "title": "Annotations",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "Zendron",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "unbl112uvn2y2idvrytf1s3",
+                  "title": "What Is It like to Be a Bat?",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Zendron",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "8fiufhe0ploe2egvvrullks",
+                      "title": "Annotations",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "Zendron",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "c3pvdrzuy9hbukmd586lrvv",
+              "title": "Roadmap",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Zendron",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "nuyfwd7iokzd7m9oax0cdx5": null,
+    "9gt33emg7725ksj2t7f4p4v": "nuyfwd7iokzd7m9oax0cdx5",
+    "6ze92iewwcr9pbb9cfy6f8i": "9gt33emg7725ksj2t7f4p4v",
+    "xxezmgby3v2mlneka3t295g": "nuyfwd7iokzd7m9oax0cdx5",
+    "f3is89cwurzqcn2hq28ckqq": "xxezmgby3v2mlneka3t295g",
+    "rgqsknpqcx55nvgkqekztfk": "f3is89cwurzqcn2hq28ckqq",
+    "u8ds0ev5gfoeqmyo2j4ga7y": "rgqsknpqcx55nvgkqekztfk",
+    "unbl112uvn2y2idvrytf1s3": "f3is89cwurzqcn2hq28ckqq",
+    "8fiufhe0ploe2egvvrullks": "unbl112uvn2y2idvrytf1s3",
+    "6u1xktarsxruj4ymnbay9iv": "f3is89cwurzqcn2hq28ckqq",
+    "ttehukk8b2x961o8785vele": "6u1xktarsxruj4ymnbay9iv",
+    "pgyh45pugbkao278nym0t0j": "f3is89cwurzqcn2hq28ckqq",
+    "onx15bwsv950bdlhp7ok4f1": "pgyh45pugbkao278nym0t0j",
+    "kibhfaaf1248y3gvjpmp9hp": "f3is89cwurzqcn2hq28ckqq",
+    "9iazh6bvelxzrh7yo22f2al": "kibhfaaf1248y3gvjpmp9hp",
+    "lgs9kqn3iirui3exbo0y782": "f3is89cwurzqcn2hq28ckqq",
+    "kr4ql2b9ael86sutgg4b52u": "lgs9kqn3iirui3exbo0y782",
+    "c3pvdrzuy9hbukmd586lrvv": "xxezmgby3v2mlneka3t295g",
+    "niid19z8g3ccte9jwg9z3ts": "xxezmgby3v2mlneka3t295g",
+    "k0qo53e6jvew0mcyv49bu0e": "nuyfwd7iokzd7m9oax0cdx5",
+    "mg7066wnd3agqrjxcxmrxkx": "k0qo53e6jvew0mcyv49bu0e",
+    "p6evbyfciaotkrkwav3ipra": "k0qo53e6jvew0mcyv49bu0e",
+    "tz8wfy0bidyoi7cew6pxfi4": "nuyfwd7iokzd7m9oax0cdx5",
+    "2fib55e8qqux9scimc7a9gn": "nuyfwd7iokzd7m9oax0cdx5",
+    "m7o7r4jqe4jdwgsh3ia8sa4": "nuyfwd7iokzd7m9oax0cdx5",
+    "46hb04dyz2910h30x0lyoru": "m7o7r4jqe4jdwgsh3ia8sa4",
+    "u255wwecd689wiqsm1xcuvo": "m7o7r4jqe4jdwgsh3ia8sa4",
+    "cblp5aoncbn1av54txaeaoq": "m7o7r4jqe4jdwgsh3ia8sa4",
+    "9cczfcz8cxubjf7y7naxdb6": "m7o7r4jqe4jdwgsh3ia8sa4",
+    "vz00dg1dgfoav7puepignmd": "9cczfcz8cxubjf7y7naxdb6",
+    "iq2au254hboedsg2urnhlm1": "9cczfcz8cxubjf7y7naxdb6",
+    "rr7ckdxgf5l6ehuv82cv04z": "9cczfcz8cxubjf7y7naxdb6",
+    "7xp8n4kqq93y897n9s32ihy": "9cczfcz8cxubjf7y7naxdb6",
+    "37tqxekttlmku940blxp6c7": "9cczfcz8cxubjf7y7naxdb6",
+    "b970axpbzritz2ljl1axusj": "9cczfcz8cxubjf7y7naxdb6",
+    "cwlhau9r4wa0zaud9vj0ajh": "m7o7r4jqe4jdwgsh3ia8sa4",
+    "lxagjmq97cfful42mr4xkyw": "m7o7r4jqe4jdwgsh3ia8sa4",
+    "5excb1b3qn779tz6628yaab": "m7o7r4jqe4jdwgsh3ia8sa4"
+  }
+}
