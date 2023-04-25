@@ -19,5 +19,6 @@ def main(cfg):
     else:
         log.info("Already initialized config.yaml")
 
+
 if __name__ == "__main__":
     main()

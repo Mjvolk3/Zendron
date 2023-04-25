@@ -18,7 +18,7 @@ concatenate: false
 
 # description: use the file name as the id
 # type: boolean
-#fnameAsId: false
+fnameAsId: false
 
 # description: If concatenate is set, name of destination path
 # type: string
@@ -34,7 +34,7 @@ concatenate: false
 
 # description: Import note metadata. In case of any conflicts, the conflicting fields are prefixed with _import
 # type: boolean
-# importFrontmatter: true
+importFrontmatter: true
 
 # description: An optional set of variable mappings, with the key being the variable name in the import source and the value being the resulting variable name in Dendron. See https://wiki.dendron.so/notes/f23a6290-2dec-45dc-b616-c218ee53db6b.html for examples.
 # type: object

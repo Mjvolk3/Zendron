@@ -1,0 +1,3 @@
+outputs
+zendron
+zotero_pod

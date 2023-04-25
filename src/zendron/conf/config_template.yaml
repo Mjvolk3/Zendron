@@ -1,8 +1,0 @@
-# globals
-POD_PATH: zotero_pod # default (recommended)
-DENDRON_LIMB: zendron.import default (recommended)
-LIBRARY_TYPE: group #or 'user' (not tested) #default (recommended)
-# pyzotero
-group_id : 1234123 # Replace - https://pyzotero.readthedocs.io/en/latest/
-library_type : group # user
-api_key : xzXvsa2TRlC9llUscLTRM2MK #Replace https://www.zotero.org/settings/keys

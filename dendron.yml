@@ -5,7 +5,7 @@ dev:
 commands:
     lookup:
         note:
-            selectionMode: extract
+            selectionMode: none
             confirmVaultOnCreate: true
             leaveTrace: false
             bubbleUpCreateNew: true
@@ -104,10 +104,6 @@ publishing:
     duplicateNoteBehavior:
         action: useVault
         payload:
-            - notes
-            - Kbase
-            - Mjvolk3
-            - notes
             - notes
     writeStubs: false
     seo:

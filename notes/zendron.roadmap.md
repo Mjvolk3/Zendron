@@ -2,10 +2,16 @@
 id: c3pvdrzuy9hbukmd586lrvv
 title: Roadmap
 desc: ''
-updated: 1669488664985
+updated: 1674699794073
 created: 1669488663768
 ---
+## Zendron Ideas
+
+- We can now add images by getting the local paths to the image annotations out of the cache.
+- We can also create a two way sync for projects by writing the "comments" note to the data in Zotero. This way any new project can read this file and write on it to update it.
+
 ## Zendron Roadmap
+
 - Solid bold lines have been completed.
 - Dashed lines are loose plans.
 - Brainstorming ideas to prevent fatal sync.
@@ -84,12 +90,14 @@ User((User)) -.User_Input.->Make_Path_Change_Func([Make_Path_Change_Func])
   ```
 
 ## Issues
+
 - Annotations are sorted by date modified [[sync|zendron/resync.py]]
   - `['data']['AnnotationSortIndex']` returns a number liked '00000|001873|00467'
   - Looks like the first number is index of item, the middle one changes the most maybe every character or word, and the last number changes medium maybe page wise.
 - If `Dendron: Doctor` is used to `createMissingLinkedNotes` then notes will be created that cannot be easily deleted or overwritten by removing the import branch
 
 ## Itemized-Annotation-Collection
+
 - [ ] Build database with this data.
 ![](/assets/images/delete-itemized-annotation-collection.png)
 - [ ] BetterBibTex export is finnicky... pyzotero has a way to generate bibtex.

@@ -19,12 +19,12 @@ from zendron import sync
 # all_annotations = zot.everything(zot.items(itemType="annotation"))
 # %%
 # TODO implement tag update in vscode
-#zot.add_tags(all_annotations[0], "test-tag")
+# zot.add_tags(all_annotations[0], "test-tag")
 # # adding tags
 # all_annotations[0]['data']['tags']
 # zot.update_item(all_annotations[0])
 # %%
-#all_annotations[0]
+# all_annotations[0]
 # %%
 # TODO update only recently modified
 # modified_dates = [i['data']['dateModified'] for i in all_annotations]

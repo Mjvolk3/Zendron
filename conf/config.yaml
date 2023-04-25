@@ -1,0 +1,10 @@
+# pyzotero
+library_id : 4932032 #9025336 my user
+library_type : group #or 'user' #TODO CONFLICTING CONFIG.  test user config... remove for later use
+api_key : FoCeuOvWMnNdYmpYuY5JpETw
+collection: null # null if not specified.
+item_types: [journalArticle, book, preprint, conferencePaper, report]
+local_image_path: /Users/michaelvolk/Zotero/cache
+dendron_limb: zendron.import
+zotero_comment_title: zendron comment
+pod_path: zotero_pod

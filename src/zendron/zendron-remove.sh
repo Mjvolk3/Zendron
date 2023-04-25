@@ -8,6 +8,7 @@ rm -r notes/zendron.import.*.md
 # removes all user and tags that would have been metioned in notes
 rm -r notes/user.*.md
 rm -r notes/tags.*.md
+rm notes/assets/images/zendron-image-import-*.png
 echo "Removing all Zendron Cache"
 rm zendron_cache/metadata_cache.json
 rm zendron_cache/annotations_cache.json

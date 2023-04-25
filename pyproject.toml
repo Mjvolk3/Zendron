@@ -1,0 +1,33 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=65.5.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zendron"
+version = "1.0.0"
+description = "Import Zotero annotations to Dendron"
+readme = "README.md"
+authors = [{ name = "Michael Volk", email = "michaeljvolk7@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["Zotero", "Dendron"]
+dependencies = [
+    "hydra-core >= 1.2.0",
+    "tqdm >= 4.64.1",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/Mjvolk3/Zendron"
+
+[project.scripts]
+zendron = "zendron.__main__:main"

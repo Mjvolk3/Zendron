@@ -1,0 +1,103 @@
+[
+    {
+        "key": "2R7IFRTY",
+        "version": 21207,
+        "library": {
+            "type": "user",
+            "id": 9025336,
+            "name": "mjvolk3",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/mjvolk3",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/users/9025336/items/2R7IFRTY",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/mjvolk3/items/2R7IFRTY",
+                "type": "text/html"
+            },
+            "up": {
+                "href": "https://api.zotero.org/users/9025336/items/UIVEMQEC",
+                "type": "application/json"
+            }
+        },
+        "meta": {},
+        "data": {
+            "key": "2R7IFRTY",
+            "version": 21207,
+            "parentItem": "UIVEMQEC",
+            "itemType": "annotation",
+            "annotationType": "highlight",
+            "annotationText": "We introduce",
+            "annotationComment": "A comment on the intro",
+            "annotationColor": "#2ea8e5",
+            "annotationPageLabel": "1",
+            "annotationSortIndex": "00000|000394|00261",
+            "annotationPosition": "{\"pageIndex\":0,\"rects\":[[108,521.83,166.654,530.737]]}",
+            "tags": [
+                {
+                    "tag": "regular"
+                }
+            ],
+            "relations": {},
+            "dateAdded": "2023-01-26T05:04:29Z",
+            "dateModified": "2023-01-26T05:33:22Z"
+        }
+    },
+    {
+        "key": "W9T85QP4",
+        "version": 21206,
+        "library": {
+            "type": "user",
+            "id": 9025336,
+            "name": "mjvolk3",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/mjvolk3",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/users/9025336/items/W9T85QP4",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/mjvolk3/items/W9T85QP4",
+                "type": "text/html"
+            },
+            "up": {
+                "href": "https://api.zotero.org/users/9025336/items/UIVEMQEC",
+                "type": "application/json"
+            }
+        },
+        "meta": {},
+        "data": {
+            "key": "W9T85QP4",
+            "version": 21206,
+            "parentItem": "UIVEMQEC",
+            "itemType": "annotation",
+            "annotationType": "image",
+            "annotationComment": "This a great image",
+            "annotationColor": "#ffd400",
+            "annotationPageLabel": "1",
+            "annotationSortIndex": "00000|000211|00259",
+            "annotationPosition": "{\"pageIndex\":0,\"rects\":[[303.4820000000002,326.935,508.55048616305163,532.461]]}",
+            "tags": [
+                {
+                    "tag": "greatness"
+                }
+            ],
+            "relations": {},
+            "dateAdded": "2023-01-25T02:33:19Z",
+            "dateModified": "2023-01-26T05:33:15Z"
+        }
+    }
+]
