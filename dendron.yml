@@ -91,7 +91,7 @@ publishing:
     enableMermaid: true
     enablePrettyRefs: false
     enableKatex: true
-    assetsPrefix: /Parameter_Estimation
+    assetsPrefix: /Zendron
     copyAssets: true
     siteHierarchies:
         - root
