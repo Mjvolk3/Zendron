@@ -15,3 +15,11 @@ push = true
 "README.md" = [
     "Version: {version}"
 ]
+
+[tool.setuptools.package-data]
+zendron = [
+    "conf/__init__.py",
+    "conf/default_template.yaml",
+    "conf/config_template.yaml",
+    "pods/dendron.markdown/config.import.yml"
+]
