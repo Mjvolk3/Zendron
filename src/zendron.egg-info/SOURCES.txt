@@ -2,7 +2,6 @@ LICENSE
 MANIFEST.in
 README.md
 pyproject.toml
-setup.cfg
 conf/__init__.py
 conf/config.yaml
 conf/default.yaml
