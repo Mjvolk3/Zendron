@@ -1,6 +1,6 @@
 # Zendron
 
-Version: 1.0.19
+Version: 1.0.20
 
 ## Introduction
 
