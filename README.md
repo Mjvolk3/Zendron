@@ -24,10 +24,10 @@ library_type : group # [user, group] library
 api_key : FoCauOvWMlNdYmpYuY5JplTw # Zotero API key
 collection: null # Name of Zotero Collection, null for entire library
 item_types: [journalArticle, book, preprint, conferencePaper, report] # List of item types according to [pyzotero](https://pyzotero.readthedocs.io/en/latest/)
-local_image_path: /Users/michaelvolk/Zotero/cache # Local path for importing annotated images
+local_image_path: /Users/<username>/Zotero/cache # Local path for importing annotated images
 dendron_limb: zendron.import # Dendron import limb e.g. zendron.import.paper-title.annotations.md
 zotero_comment_title: zendron comment # fixed for now... needed for eventual 2-way sync.
-pod_path: zotero_pod # Name of dendron pod, removed 
+pod_path: zotero_pod # Name of dendron pod, removed
 ```
 
 ## Basic Usage
