@@ -16,7 +16,7 @@ classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]
-keywords = ["Zotero", "Dendron"]
+keywords = ["Zotero", "Dendron", "Markdown", "Notes", "Annotations", "VSCode"]
 dependencies = [
     "hydra-core >= 1.3.1",
     "tqdm >= 4.64.1",
@@ -28,7 +28,6 @@ dependencies = [
     "markdownify >= 0.11.6"
 ]
 requires-python = ">=3.10"
-include_package_data = true
 
 [project.optional-dependencies]
 dev = ["black", "bumpver", "pip-tools", "pytest"]
@@ -38,3 +37,6 @@ Homepage = "https://github.com/Mjvolk3/Zendron"
 
 [project.scripts]
 zendron = "zendron.zendron:main"
+
+[tool.setuptools]
+include_package_data = true
