@@ -1,3 +1,5 @@
 # Zendron
 
-- Instructions yet to come.
+- version = 1.0.0
+
+## Instructions yet to come.

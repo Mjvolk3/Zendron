@@ -1,7 +1,7 @@
 # pyzotero
 library_id : 4932032 #9025336 my user # Replace - https://pyzotero.readthedocs.io/en/latest/
 library_type : group # or 'user' # Replace - https://pyzotero.readthedocs.io/en/latest/
-api_key : FoCeuOvWMnNdYmpYuY5JpETw # r
+api_key : FoCiuOvWMnNdYmqYuY5JpETw # r
 collection: null # null if not specified.
 item_types: [journalArticle, book, preprint, conferencePaper, report]
 local_image_path: /Users/username/Zotero/cache

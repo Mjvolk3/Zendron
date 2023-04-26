@@ -1,2 +1,5 @@
 # MANIFEST.in
-
+include conf/__init__.py
+include conf/config.yaml
+include conf/default.yaml
+include conf/config_template.yaml

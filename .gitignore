@@ -6,3 +6,4 @@ outputs
 .dendron.port.cli
 .dendron.ws
 package-lock.json
+.next
