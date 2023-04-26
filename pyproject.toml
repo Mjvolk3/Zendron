@@ -38,11 +38,3 @@ Homepage = "https://github.com/Mjvolk3/Zendron"
 
 [project.scripts]
 zendron = "zendron.__main__:main"
-
-[tool.setuptools.package-data]
-zendron = [
-    "conf/__init__.py",
-    "conf/default_template.yaml",
-    "conf/config_template.yaml",
-    "pods/custom/dendron.markdown/config.import.yml"
-]

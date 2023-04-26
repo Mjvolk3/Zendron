@@ -1,7 +1,5 @@
 # MANIFEST.in
-include LICENSE
-include README.md
-include conf/__init__.py
-include conf/default_template.yaml
-include conf/config_template.yaml
-include pods/custom/dendron.markdown/config.import.yml
+include src/conf/__init__.py
+include src/conf/default_template.yaml
+include src/conf/config_template.yaml
+include src/pods/custom/dendron.markdown/config.import.yml
