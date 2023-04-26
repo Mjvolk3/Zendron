@@ -13,7 +13,9 @@ def get_doi(zot):
     return doi
 
 
-@hydra.main(version_base=None, config_path="conf", config_name="config")
+@hydra.main(
+    version_base=None, config_path=osp.join(os.getcwd(), "conf"), config_name="config"
+)
 def main(cfg: DictConfig):
     api_key = cfg.api_key
     library_id = cfg.library_id
