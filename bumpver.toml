@@ -10,7 +10,8 @@ push = true
 "pyproject.toml" = [
     'version = "{version}"'
 ]
-"src/zendron/__init__.py" = ["__version__ = \"{version}\""]
+"src/zendron/__init__.py" = ["{version}"]
+"conf/__init__.py" = ["{version}"]
 
 "README.md" = [
     "Version: {version}"
