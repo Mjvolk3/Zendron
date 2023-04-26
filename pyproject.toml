@@ -37,6 +37,3 @@ Homepage = "https://github.com/Mjvolk3/Zendron"
 
 [project.scripts]
 zendron = "zendron.zendron:main"
-
-[tool.setuptools]
-include_package_data = true
