@@ -1,0 +1,22 @@
+[2023-04-26 06:48:59,790][zendron.__main__][INFO] - Sync Starting
+[2023-04-26 06:49:01,179][zendron.items][INFO] - Extracting Data Per entry
+[2023-04-26 06:49:02,134][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Computer Science - Artificial Intelligence. Title Dendron: GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks.
+[2023-04-26 06:49:02,134][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Computer Science - Machine Learning. Title Dendron: GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks.
+[2023-04-26 06:49:04,036][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Computer Science - Machine Learning. Title Dendron: Variational-Graph-Auto-Encoders.
+[2023-04-26 06:49:04,036][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Statistics - Machine Learning. Title Dendron: Variational-Graph-Auto-Encoders.
+[2023-04-26 06:49:11,227][zendron.__main__][INFO] - Sync Complete
+[2023-04-26 06:49:22,497][zendron.__main__][INFO] - Remove Starting
+[2023-04-26 06:49:22,497][zendron.remove][INFO] - Removing all Zendron Note Files
+[2023-04-26 06:49:22,497][zendron.remove][INFO] - Removing: notes/zendron.import.*.md
+[2023-04-26 06:49:22,498][zendron.remove][INFO] - Removing: notes/zendron.import.date.*.md
+[2023-04-26 06:49:22,498][zendron.remove][INFO] - Removing: notes/zendron.import.item-type.*.md
+[2023-04-26 06:49:22,498][zendron.remove][INFO] - Removing: notes/zendron.import.title.*.md
+[2023-04-26 06:49:22,498][zendron.remove][INFO] - Removing: notes/zendron.import.authors.*.md
+[2023-04-26 06:49:22,498][zendron.remove][INFO] - Removing: notes/user.*.md
+[2023-04-26 06:49:22,499][zendron.remove][INFO] - Removing: notes/tags.*.md
+[2023-04-26 06:49:22,499][zendron.remove][INFO] - Removing: notes/assets/images/zendron-image-import-*.png
+[2023-04-26 06:49:22,499][zendron.remove][INFO] - Removing all Zendron Cache
+[2023-04-26 06:49:22,499][zendron.remove][INFO] - Removing: zendron_cache/metadata_cache.json
+[2023-04-26 06:49:22,499][zendron.remove][INFO] - Removing: zendron_cache/annotations_cache.json
+[2023-04-26 06:49:22,499][zendron.remove][INFO] - Creating Missing Linked Notes with Dendron Doctor
+[2023-04-26 06:49:26,596][zendron.remove][INFO] - Note Removal Complete

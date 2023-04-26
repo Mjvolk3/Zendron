@@ -114,7 +114,7 @@ hydra:
     task:
     - remove=true
   job:
-    name: zendron
+    name: __main__
     chdir: null
     override_dirname: remove=true
     id: ???

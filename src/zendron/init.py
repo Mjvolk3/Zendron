@@ -47,7 +47,7 @@ def set_initialized():
 def user_configure() -> None:
     if not is_initialized():
         package_root = osp.dirname(osp.abspath(zendron.__file__))
-        package_root = "/".join(package_root.split("/")[:-2])
+        # package_root = "/".join(package_root.split("/")[:-2])
         # List all the config files and their paths within the package
         config_files = [
             "conf/__init__.py",

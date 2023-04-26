@@ -1,2 +1,2 @@
 [console_scripts]
-zendron = zendron.zendron:main
+zendron = zendron.__main__:main
