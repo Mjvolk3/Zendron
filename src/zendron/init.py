@@ -53,7 +53,7 @@ def user_configure() -> None:
             "conf/__init__.py",
             "conf/default_template.yaml",
             "conf/config_template.yaml",
-            "pods/dendron.markdown/config.import.yml",
+            "pods/dendron.markdown/config.import.yaml",
         ]
 
         # Copy each config file to the user's workspace root directory
