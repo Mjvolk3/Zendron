@@ -16,7 +16,7 @@ log = logging.getLogger(__name__)
     version_base=None, config_path=osp.join(os.getcwd(), "conf"), config_name="config"
 )
 def main(cfg: DictConfig) -> None:
-    init.main()
+    init.main(cfg)
     if cfg.remove:
         from zendron import remove
 
