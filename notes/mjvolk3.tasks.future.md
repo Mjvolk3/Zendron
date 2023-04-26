@@ -2,13 +2,14 @@
 id: c0htn2yzk8rm83uh9ndtgof
 title: Future
 desc: ''
-updated: 1682497759647
+updated: 1682505305264
 created: 1675554129435
 ---
 ## Future
 
 [[Future|mjvolk3.tasks.future]]
 
+- 🔮 Fix importlib resources [[Configuration|issues.configuration]].
 - 🔮 Figure out how to have a different default config for developing and a different one for releasing
 - 🔮 In [[src/zendron/zendron-remove.py]] see what is using `subprocess` for file removal or a combination of `os` and `shutil`. `subprocess` must be used for dendron cli.
 - 🔮 Add sync comments to load for a quick fix to make the package useful.
