@@ -20,6 +20,8 @@ class Cache:
     def __init__(self, zot: zotero.Zotero = None, **kwargs):
         self.zot = zot
         self._cache_dir = "zendron_cache"
+        if not osp.exists(self._cache_dir):
+            os.makedirs(self._cache_dir)
         self._cache_file_path = None
         self._data = None
 

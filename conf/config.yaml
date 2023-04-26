@@ -1,4 +1,6 @@
-# pyzotero
+defaults:
+  - default
+  - _self_
 library_id : 4932032 #9025336 my user
 library_type : group #or 'user' #TODO CONFLICTING CONFIG.  test user config... remove for later use
 api_key : FoCeuOvWMnNdYmpYuY5JpETw

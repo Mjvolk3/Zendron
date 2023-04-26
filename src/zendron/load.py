@@ -26,9 +26,6 @@ from zendron.user_citation_key import UserCitationKey, UserCitationKeyCompiler
 log = logging.getLogger(__name__)
 
 
-@hydra.main(
-    version_base=None, config_path=osp.join(os.getcwd(), "conf"), config_name="config"
-)
 def main(cfg: DictConfig):
     api_key = cfg.api_key
     library_id = cfg.library_id

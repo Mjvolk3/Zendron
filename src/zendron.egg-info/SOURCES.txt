@@ -2,6 +2,10 @@ LICENSE
 MANIFEST.in
 README.md
 pyproject.toml
+conf/__init__.py
+conf/config.yaml
+conf/config_template.yaml
+conf/default.yaml
 src/zendron/__init__.py
 src/zendron/__main__.py
 src/zendron/annotations.py
@@ -10,6 +14,7 @@ src/zendron/cache.py
 src/zendron/cache_deprecated.py
 src/zendron/comments.py
 src/zendron/comments_deprecated.py
+src/zendron/config.py
 src/zendron/date.py
 src/zendron/front.py
 src/zendron/init.py
@@ -21,7 +26,6 @@ src/zendron/remove.py
 src/zendron/scratch.py
 src/zendron/sync.py
 src/zendron/user_citation_key.py
-src/zendron/zendron_remove.py
 src/zendron.egg-info/PKG-INFO
 src/zendron.egg-info/SOURCES.txt
 src/zendron.egg-info/dependency_links.txt
