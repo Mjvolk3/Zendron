@@ -179,7 +179,7 @@ class Metadata:
             extras = self.metadata["data"]["extra"].split("\n")
             citation_key = [i for i in extras if "Citation Key" in i]
             self.citation_key = citation_key[0].split("Citation Key: ")[-1]
-            citation_key_wiki = f"[[{self.citation_key}|user.{citation_key}]]"
+            citation_key_wiki = f"[[{self.citation_key}|user.{self.citation_key}]]"
         except Exception as e:
             # Not sure which error is going to be triggered here
             log.warning(

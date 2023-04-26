@@ -1,2 +1,3 @@
 [console_scripts]
 zendron = zendron.__main__:main
+zendron-remove = zendron.zendron_remove:main

@@ -1,8 +1,10 @@
-# globals
-POD_PATH: zotero_pod # default (recommended)
-DENDRON_LIMB: zendron.import # default (recommended)
-LIBRARY_TYPE: group #or 'user' (not tested) #default (recommended)
 # pyzotero
-group_id : 1234123 # Replace - https://pyzotero.readthedocs.io/en/latest/
-library_type : group # user
-api_key : xzXvsa2TRlC9llUscLTRM2MK #Replace https://www.zotero.org/settings/keys
+library_id : 4932032 #9025336 my user # Replace - https://pyzotero.readthedocs.io/en/latest/
+library_type : group # or 'user' # Replace - https://pyzotero.readthedocs.io/en/latest/
+api_key : FoCeuOvWMnNdYmpYuY5JpETw # r
+collection: null # null if not specified.
+item_types: [journalArticle, book, preprint, conferencePaper, report]
+local_image_path: /Users/username/Zotero/cache
+dendron_limb: zendron.import
+zotero_comment_title: zendron comment
+pod_path: zotero_pod

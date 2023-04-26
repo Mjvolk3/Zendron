@@ -31,3 +31,4 @@ Homepage = "https://github.com/Mjvolk3/Zendron"
 
 [project.scripts]
 zendron = "zendron.__main__:main"
+zendron-remove = "zendron.zendron_remove:main"
