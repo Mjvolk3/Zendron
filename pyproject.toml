@@ -36,4 +36,4 @@ dev = ["black", "bumpver", "pip-tools", "pytest"]
 Homepage = "https://github.com/Mjvolk3/Zendron"
 
 [project.scripts]
-zendron = "zendron.__main__:main"
+zendron = "zendron.zendron:main"

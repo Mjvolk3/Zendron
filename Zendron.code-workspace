@@ -65,6 +65,15 @@
                 "justMyCode": true,
                 "cwd": "${workspaceFolder}"
             },
+            {
+                "name": "Python: Test Folder",
+                "type": "python",
+                "request": "launch",
+                "program": "${file}",
+                "console": "integratedTerminal",
+                "justMyCode": true,
+                "cwd": "${workspaceFolder}/../Zendron-Test"
+            },
         ]
     },
     "tasks": {

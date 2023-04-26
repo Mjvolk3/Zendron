@@ -11,13 +11,20 @@ from zendron import init, load
 
 log = logging.getLogger(__name__)
 
+global USER_CONFIGURE
+USER_CONFIGURE = False
+
+if init.user_configure():
+    USER_CONFIGURE = True
+
 
 @hydra.main(
     version_base=None, config_path=osp.join(os.getcwd(), "conf"), config_name="config"
 )
 def main(cfg: DictConfig) -> None:
-    init.main(cfg)
-    if cfg.remove:
+    if USER_CONFIGURE:
+        return
+    elif cfg.remove:
         from zendron import remove
 
         log.info("Remove Starting")

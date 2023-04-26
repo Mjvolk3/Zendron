@@ -1,7 +1,7 @@
 ---
-id: ln8mwwaymylfrl5alh7aoe8
+id: khlmwtum429xfzoqmm80jvw
 title: kipfVariationalGraphAutoEncoders2016
 desc: ''
-updated: 1682497118849
-created: 1682497118849
+updated: 1682504532722
+created: 1682504532723
 ---

@@ -7,3 +7,5 @@ outputs
 .dendron.ws
 package-lock.json
 .next
+conf/default.yaml
+README.md
