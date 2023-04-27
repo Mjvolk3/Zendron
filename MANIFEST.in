@@ -2,3 +2,4 @@
 include src/zendron/conf/config_template.yaml
 include src/zendron/conf/default_template.yaml
 include src/zendron/pods/dendron.markdown/config.import.yml
+include src/../notes/assets/images/zotero.api-key.md.zotero-api-key.png
