@@ -1,7 +1,7 @@
 # pyproject.toml
 
 [build-system]
-requires      = ["setuptools>=65.5.1", "wheel"]
+requires      = ["setuptools>=67.7.2", "wheel>=0.40.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -38,3 +38,9 @@ Homepage = "https://github.com/Mjvolk3/Zendron"
 
 [project.scripts]
 zendron = "zendron.__main__:main"
+
+[options]
+packages = "find:"
+
+[options.package_data]
+zendron = ["*.yaml", "*.yml"]

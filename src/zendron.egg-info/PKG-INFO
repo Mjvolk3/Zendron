@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: zendron
-Version: 1.0.18
+Version: 1.0.25
 Summary: Import Zotero annotations with Dendron integration
 Author-email: Michael Volk <michaeljvolk7@gmail.com>
 License: MIT License
@@ -36,7 +36,7 @@ License-File: LICENSE
 
 # Zendron
 
-Version: 1.0.18
+Version: 1.0.25
 
 ## Introduction
 
