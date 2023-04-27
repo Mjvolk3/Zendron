@@ -1,6 +1,6 @@
 # Zendron
 
-Version: 1.1.2
+Version: 1.1.3
 [zendron Github](https://github.com/Mjvolk3/Zendron)
 
 ## Introduction
