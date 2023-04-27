@@ -10,3 +10,5 @@ package-lock.json
 conf/default.yaml
 conf/config.yaml
 README.md
+.hydra
+.hydra/*
