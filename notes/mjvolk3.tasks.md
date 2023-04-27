@@ -2,12 +2,16 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: Tasks
 desc: ''
-updated: 1682471902550
+updated: 1682584648223
 created: 1675554123628
 ---
 ## Future
 
 ![[mjvolk3.tasks.future#future]]
+
+## 2023.04.27
+
+- [x] Published mvp.
 
 ## 2023.04.25
 
@@ -17,7 +21,7 @@ created: 1675554123628
 - [x] Test out @mjvolk3 recreation after deletion.
 - [x] Test @kipfVariationalGraphAutoEncoders2016 is recreated since it is referenced in [[Introduction|paper.Introduction]]
 - [x] Check `Zendron-remove` endpoint.
-- [ ] Publish to PyPI.
+- [x] Publish to PyPI.
 
 ## 2023.02.06
 
