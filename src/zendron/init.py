@@ -75,7 +75,7 @@ def user_configure() -> None:
         set_initialized()
         print("Initialization complete.")
         print(
-            "Manually set the STARTER CONFIG in './conf/config.yaml' for quickstart and rerun the zendron. All other configs are optional."
+            "Manually set the STARTER CONFIG in './conf/config.yaml' for quickstart and rerun zendron. All other configs are optional."
         )
         return True
     else:

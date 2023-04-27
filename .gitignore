@@ -8,4 +8,5 @@ outputs
 package-lock.json
 .next
 conf/default.yaml
+conf/config.yaml
 README.md
