@@ -1,6 +1,7 @@
 # Zendron
 
 Version: 1.1.2
+[zendron Github](https://github.com/Mjvolk3/Zendron)
 
 ## Introduction
 
@@ -17,8 +18,17 @@ Version: 1.1.2
 ## Zotero API key
 
 - [Zotero API key](https://www.zotero.org/settings/keys)
-- We recommend setting up you Zotero API key with the following settings to allow for full functionality. This key can then be copy pasted in the configuration file. You should add your key to `.gitignore` to prevent others from accessing your Zotoero database. If the key is lost you can always generate a new one.
+- We recommend setting up you Zotero API key with the following settings to allow for full functionality.
+  - Personal Library
+    - [x] Allow library access.
+    - [x] Allow notes access.
+    - [x] Allow write access.
+  - Default Gropu Permissions
+    - [x] Read/Write
+
 ![](./notes/assets/images/zotero.api-key.md.zotero-api-key.png)
+
+- This key can then be copy pasted in the configuration file. You should add your key to `.gitignore` to prevent others from accessing your Zotoero database. If the key is lost you can always generate a new one.
 
 ## Zotero and File Import Configuration
 
