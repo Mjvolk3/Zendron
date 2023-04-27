@@ -63,3 +63,18 @@
 [2023-04-26 07:18:02,810][zendron.remove][INFO] - Removing: zendron_cache/annotations_cache.json
 [2023-04-26 07:18:02,811][zendron.remove][INFO] - Creating Missing Linked Notes with Dendron Doctor
 [2023-04-26 07:18:07,451][zendron.remove][INFO] - Note Removal Complete
+[2023-04-27 02:27:00,140][zendron.__main__][INFO] - Remove Starting
+[2023-04-27 02:27:00,140][zendron.remove][INFO] - Removing all Zendron Note Files
+[2023-04-27 02:27:00,141][zendron.remove][INFO] - Removing: notes/zendron.import.*.md
+[2023-04-27 02:27:00,141][zendron.remove][INFO] - Removing: notes/zendron.import.date.*.md
+[2023-04-27 02:27:00,141][zendron.remove][INFO] - Removing: notes/zendron.import.item-type.*.md
+[2023-04-27 02:27:00,141][zendron.remove][INFO] - Removing: notes/zendron.import.title.*.md
+[2023-04-27 02:27:00,141][zendron.remove][INFO] - Removing: notes/zendron.import.authors.*.md
+[2023-04-27 02:27:00,141][zendron.remove][INFO] - Removing: notes/user.*.md
+[2023-04-27 02:27:00,143][zendron.remove][INFO] - Removing: notes/tags.*.md
+[2023-04-27 02:27:00,143][zendron.remove][INFO] - Removing: notes/assets/images/zendron-image-import-*.png
+[2023-04-27 02:27:00,143][zendron.remove][INFO] - Removing all Zendron Cache
+[2023-04-27 02:27:00,143][zendron.remove][INFO] - Removing: zendron_cache/metadata_cache.json
+[2023-04-27 02:27:00,143][zendron.remove][INFO] - Removing: zendron_cache/annotations_cache.json
+[2023-04-27 02:27:00,143][zendron.remove][INFO] - Creating Missing Linked Notes with Dendron Doctor
+[2023-04-27 02:27:04,610][zendron.remove][INFO] - Note Removal Complete

@@ -5,6 +5,11 @@ pyproject.toml
 conf/__init__.py
 conf/config.yaml
 conf/default.yaml
+src/../conf/config.yaml
+src/../conf/config_template.yaml
+src/../conf/default.yaml
+src/../conf/default_template.yaml
+src/../pods/dendron.markdown/config.import.yml
 src/zendron/__init__.py
 src/zendron/__main__.py
 src/zendron/annotations.py
@@ -31,6 +36,3 @@ src/zendron.egg-info/dependency_links.txt
 src/zendron.egg-info/entry_points.txt
 src/zendron.egg-info/requires.txt
 src/zendron.egg-info/top_level.txt
-src/zendron/conf/__init__.py
-src/zendron/conf/config_template.yaml
-src/zendron/conf/default_template.yaml
