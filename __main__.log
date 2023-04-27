@@ -100,3 +100,70 @@
 [2023-04-27 02:39:32,197][zendron.remove][INFO] - Removing: zendron_cache/annotations_cache.json
 [2023-04-27 02:39:32,197][zendron.remove][INFO] - Creating Missing Linked Notes with Dendron Doctor
 [2023-04-27 02:39:36,018][zendron.remove][INFO] - Note Removal Complete
+[2023-04-27 02:52:18,346][zendron.__main__][INFO] - Sync Starting
+[2023-04-27 02:52:19,003][zendron.items][INFO] - Extracting Data Per entry
+[2023-04-27 02:52:19,423][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Computer Science - Artificial Intelligence. Title Dendron: GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks.
+[2023-04-27 02:52:19,423][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Computer Science - Machine Learning. Title Dendron: GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks.
+[2023-04-27 02:52:21,090][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Computer Science - Machine Learning. Title Dendron: Variational-Graph-Auto-Encoders.
+[2023-04-27 02:52:21,090][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Statistics - Machine Learning. Title Dendron: Variational-Graph-Auto-Encoders.
+[2023-04-27 02:52:26,342][zendron.__main__][INFO] - Sync Complete
+[2023-04-27 02:52:36,527][zendron.__main__][INFO] - Remove Starting
+[2023-04-27 02:52:36,527][zendron.remove][INFO] - Removing all Zendron Note Files
+[2023-04-27 02:52:36,527][zendron.remove][INFO] - Removing: notes/zendron.import.*.md
+[2023-04-27 02:52:36,528][zendron.remove][INFO] - Removing: notes/zendron.import.date.*.md
+[2023-04-27 02:52:36,528][zendron.remove][INFO] - Removing: notes/zendron.import.item-type.*.md
+[2023-04-27 02:52:36,528][zendron.remove][INFO] - Removing: notes/zendron.import.title.*.md
+[2023-04-27 02:52:36,528][zendron.remove][INFO] - Removing: notes/zendron.import.authors.*.md
+[2023-04-27 02:52:36,528][zendron.remove][INFO] - Removing: notes/user.*.md
+[2023-04-27 02:52:36,529][zendron.remove][INFO] - Removing: notes/tags.*.md
+[2023-04-27 02:52:36,529][zendron.remove][INFO] - Removing: notes/assets/images/zendron-image-import-*.png
+[2023-04-27 02:52:36,529][zendron.remove][INFO] - Removing all Zendron Cache
+[2023-04-27 02:52:36,529][zendron.remove][INFO] - Removing: zendron_cache/metadata_cache.json
+[2023-04-27 02:52:36,529][zendron.remove][INFO] - Removing: zendron_cache/annotations_cache.json
+[2023-04-27 02:52:36,529][zendron.remove][INFO] - Creating Missing Linked Notes with Dendron Doctor
+[2023-04-27 02:52:40,967][zendron.remove][INFO] - Note Removal Complete
+[2023-04-27 02:52:47,116][zendron.__main__][INFO] - Sync Starting
+[2023-04-27 02:53:38,137][zendron.__main__][INFO] - Sync Starting
+[2023-04-27 02:53:39,324][zendron.items][INFO] - Extracting Data Per entry
+[2023-04-27 02:53:39,743][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Computer Science - Artificial Intelligence. Title Dendron: GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks.
+[2023-04-27 02:53:39,743][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Computer Science - Machine Learning. Title Dendron: GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks.
+[2023-04-27 02:53:41,483][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Computer Science - Machine Learning. Title Dendron: Variational-Graph-Auto-Encoders.
+[2023-04-27 02:53:41,483][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Statistics - Machine Learning. Title Dendron: Variational-Graph-Auto-Encoders.
+[2023-04-27 02:53:47,190][zendron.__main__][INFO] - Sync Complete
+[2023-04-27 02:54:15,446][zendron.__main__][INFO] - Remove Starting
+[2023-04-27 02:54:15,446][zendron.remove][INFO] - Removing all Zendron Note Files
+[2023-04-27 02:54:15,447][zendron.remove][INFO] - Removing: notes/zendron.import.*.md
+[2023-04-27 02:54:15,447][zendron.remove][INFO] - Removing: notes/zendron.import.date.*.md
+[2023-04-27 02:54:15,447][zendron.remove][INFO] - Removing: notes/zendron.import.item-type.*.md
+[2023-04-27 02:54:15,448][zendron.remove][INFO] - Removing: notes/zendron.import.title.*.md
+[2023-04-27 02:54:15,448][zendron.remove][INFO] - Removing: notes/zendron.import.authors.*.md
+[2023-04-27 02:54:15,448][zendron.remove][INFO] - Removing: notes/user.*.md
+[2023-04-27 02:54:15,448][zendron.remove][INFO] - Removing: notes/tags.*.md
+[2023-04-27 02:54:15,448][zendron.remove][INFO] - Removing: notes/assets/images/zendron-image-import-*.png
+[2023-04-27 02:54:15,449][zendron.remove][INFO] - Removing all Zendron Cache
+[2023-04-27 02:54:15,449][zendron.remove][INFO] - Removing: zendron_cache/metadata_cache.json
+[2023-04-27 02:54:15,449][zendron.remove][INFO] - Removing: zendron_cache/annotations_cache.json
+[2023-04-27 02:54:15,449][zendron.remove][INFO] - Creating Missing Linked Notes with Dendron Doctor
+[2023-04-27 02:54:19,833][zendron.remove][INFO] - Note Removal Complete
+[2023-04-27 02:54:27,477][zendron.__main__][INFO] - Sync Starting
+[2023-04-27 02:54:28,157][zendron.items][INFO] - Extracting Data Per entry
+[2023-04-27 02:54:28,514][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Computer Science - Artificial Intelligence. Title Dendron: GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks.
+[2023-04-27 02:54:28,515][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Computer Science - Machine Learning. Title Dendron: GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks.
+[2023-04-27 02:54:30,144][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Computer Science - Machine Learning. Title Dendron: Variational-Graph-Auto-Encoders.
+[2023-04-27 02:54:30,145][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero and sync again. Tag: Statistics - Machine Learning. Title Dendron: Variational-Graph-Auto-Encoders.
+[2023-04-27 02:54:34,444][zendron.__main__][INFO] - Sync Complete
+[2023-04-27 03:15:54,057][zendron.__main__][INFO] - Remove Starting
+[2023-04-27 03:15:54,058][zendron.remove][INFO] - Removing all Zendron Note Files
+[2023-04-27 03:15:54,058][zendron.remove][INFO] - Removing: notes/zendron.import.*.md
+[2023-04-27 03:15:54,059][zendron.remove][INFO] - Removing: notes/zendron.import.date.*.md
+[2023-04-27 03:15:54,059][zendron.remove][INFO] - Removing: notes/zendron.import.item-type.*.md
+[2023-04-27 03:15:54,059][zendron.remove][INFO] - Removing: notes/zendron.import.title.*.md
+[2023-04-27 03:15:54,059][zendron.remove][INFO] - Removing: notes/zendron.import.authors.*.md
+[2023-04-27 03:15:54,059][zendron.remove][INFO] - Removing: notes/user.*.md
+[2023-04-27 03:15:54,060][zendron.remove][INFO] - Removing: notes/tags.*.md
+[2023-04-27 03:15:54,060][zendron.remove][INFO] - Removing: notes/assets/images/zendron-image-import-*.png
+[2023-04-27 03:15:54,060][zendron.remove][INFO] - Removing all Zendron Cache
+[2023-04-27 03:15:54,060][zendron.remove][INFO] - Removing: zendron_cache/metadata_cache.json
+[2023-04-27 03:15:54,060][zendron.remove][INFO] - Removing: zendron_cache/annotations_cache.json
+[2023-04-27 03:15:54,060][zendron.remove][INFO] - Creating Missing Linked Notes with Dendron Doctor
+[2023-04-27 03:15:58,690][zendron.remove][INFO] - Note Removal Complete

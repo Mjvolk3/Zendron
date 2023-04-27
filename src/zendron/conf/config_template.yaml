@@ -1,8 +1,8 @@
 defaults:
   - default
   - _self_
-library_id : 4932332 # STARTER CONFIG
-library_type : group # [group, user] # STARTER CONFIG
+library_id : 4932332 # STARTER CONFIG - Can be found in the URL to your library https://www.zotero.org/groups/4932032/zendron
+library_type : group # group or user # STARTER CONFIG
 api_key : FoC1uOvsMnNdYmpYuY5JpETw # STARTER CONFIG
 collection: null # null for entire library
 item_types: [journalArticle, book, preprint, conferencePaper, report]

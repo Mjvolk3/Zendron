@@ -12,7 +12,7 @@ hydra_logging:
 hydra:
   run:
     dir: ''
-  # output_subdir: null
+  output_subdir: null
   # job_logging:
   #   formatters:
   #     simple:
