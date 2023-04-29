@@ -1,7 +1,9 @@
 # Zendron
 
-Version: 1.1.3
 [zendron Github](https://github.com/Mjvolk3/Zendron)
+
+[![PyPI version](https://badge.fury.io/py/zendron.svg)](https://badge.fury.io/py/zendron)
+
 
 ## Introduction
 
@@ -26,7 +28,7 @@ Version: 1.1.3
   - Default Gropu Permissions
     - [x] Read/Write
 
-![](./notes/assets/images/zotero.api-key.md.zotero-api-key.png)
+![](https://github.com/Mjvolk3/Zendron/blob/main/notes/assets/images/zotero.api-key.md.zotero-api-key.png)
 
 - This key can then be copy pasted in the configuration file. You should add your key to `.gitignore` to prevent others from accessing your Zotoero database. If the key is lost you can always generate a new one.
 
@@ -60,7 +62,7 @@ There are only two basic commands that work as of now.
 
 ## Miscellaneous
 
-- The `zendron_cache` is not currenlty in use. We do an entire relaod each time, so for large libraries performance will be poor.
+- The `zendron_cache` is not currenlty in use. We do an entire reload each time, so for large libraries performance will be poor.
   - You an feel free to delete the cache as you please.
 - If there are run that fail, sometimes a `.hydra` with the given configuraiton will be generated in the root dir. This isn't an issue but it contains the API information and should therefore be added to the `.gitignore` as a safeguard. In addition these files can be used to inspect the reason for the faiure.
 - `__main__.log` is generated after running a `zendron`, this can also be deleted as you please. It is also useful for inspecting an failures to import.

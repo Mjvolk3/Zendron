@@ -2,12 +2,20 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: Tasks
 desc: ''
-updated: 1682584648223
+updated: 1682721968974
 created: 1675554123628
 ---
 ## Future
 
 ![[mjvolk3.tasks.future#future]]
+
+## 2023.04.28
+
+- [ ] Where to find the User ID, keys feeds api.
+- [ ] Figure out automatic pinning. Describe how to setup.
+- [ ] Fails when there is no pdf under file.
+- [ ] Tags for notes needs to throw a warning.
+- [ ] Users notes will be deleted
 
 ## 2023.04.27
 

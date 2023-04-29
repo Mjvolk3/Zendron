@@ -2,7 +2,7 @@
 id: niid19z8g3ccte9jwg9z3ts
 title: Citation Key
 desc: ''
-updated: 1674699788915
+updated: 1682635730702
 created: 1669491997247
 ---
 ## Extras
@@ -14,8 +14,8 @@ created: 1669491997247
 
 #### Steps
 
-- (1) ![](/assets/images/zendron.citation-key.md.zotero-config-editor.png)
-- (2) ![](/assets/images/zendron.citation-key.md.zotero-config-editor-accept-risks.png)
+- (1) ![](./assets/images/zendron.citation-key.md.zotero-config-editor.png)
+- (2) ![](./assets/images/zendron.citation-key.md.zotero-config-editor-accept-risks.png)
 - (3) Search for `autoPinDelay` and change the integer value from `0` (default) to `1`.
 ![](/assets/images/zendron.citation-key.md.autoPinDelay-update.png)
 

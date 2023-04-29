@@ -95,7 +95,12 @@ class Annotation:
 
     def format_annotation_tags(self, lines: list, annotation_tags: str):
         cfg_annotations_tags_format = True
+
         if annotation_tags != "":
+            if " " in lines:
+                log.warning(
+                    f"Tags should not contain spaces. Please remove spaces in Zotero annotations and sync again. Tag: {annotation_tags}"
+                )
             if cfg_annotations_tags_format:
                 lines.append(f"- Tags: {annotation_tags}")
         return lines

@@ -12,10 +12,6 @@ push = true
 ]
 "src/zendron/__init__.py" = ["{version}"]
 
-"README.md" = [
-    "Version: {version}"
-]
-
 [tool.setuptools.package-data]
 zendron = [
     "conf/__init__.py",
