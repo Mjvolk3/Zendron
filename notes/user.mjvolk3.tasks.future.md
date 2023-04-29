@@ -7,7 +7,7 @@ created: 1675554129435
 ---
 ## Future
 
-[[Future|mjvolk3.tasks.future]]
+@mjvolk3.tasks.future
 
 - 🔮 Fix importlib resources [[Configuration|issues.configuration]].
 - 🔮 Figure out how to have a different default config for developing and a different one for releasing

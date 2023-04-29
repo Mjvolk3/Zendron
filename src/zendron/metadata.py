@@ -253,7 +253,7 @@ class Metadata:
         for tags in self.metadata["data"]["tags"]:
             if " " in tags["tag"]:
                 log.warning(
-                    f"Tags should not contain spaces. Please remove spaces in Zotero metadta and sync again. Tag: {tags['tag']}. Title Dendron: {self.title_dendron}."
+                    f"Tags should not contain spaces. Please remove spaces in Zotero metadata and sync again. Tag: {tags['tag']}. Title Dendron: {self.title_dendron}."
                 )
         tags = ", ".join([f"#{i['tag']}" for i in self.metadata["data"]["tags"]])
         # TODO Config to convert tags that aren't delimited by '-' to be... On backward sync they can be updated with this. Could be a dangerous operation
