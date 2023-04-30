@@ -20,9 +20,9 @@
 
 - To start you need [Better BibTeX for Zotero](https://retorque.re/zotero-better-bibtex/installation/)
   - This allows pinning of of bibtex keys.v
-- Go to `Zotero > Settings... > Advanced > General > Config Editor`![](https://github.com/Mjvolk3/Zendron/blob/main/notes/assets/images/zendron.citation-key.md.zotero-config-editor.png)
-- Accept the risks ![](https://github.com/Mjvolk3/Zendron/blob/main/notes/assets/images/zendron.citation-key.md.zotero-config-editor-accept-risks.png)
-- In the Search, type `autoPinDelay` and chance the integer value from 0 (default) to 1. ![](https://github.com/Mjvolk3/Zendron/blob/main/notes/assets/images/zendron.citation-key.md.autoPinDelay-update.png)
+- Go to `Zotero > Settings... > Advanced > General > Config Editor`![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/images/zendron.citation-key.md.zotero-config-editor.png)
+- Accept the risks ![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/images/zendron.citation-key.md.zotero-config-editor-accept-risks.png)
+- In the Search, type `autoPinDelay` and chance the integer value from 0 (default) to 1. ![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/images/zendron.citation-key.md.autoPinDelay-update.png)
 
 ## Zotero API key
 
@@ -35,13 +35,13 @@
   - Default Gropu Permissions
     - [x] Read/Write
 
-![](https://github.com/Mjvolk3/Zendron/blob/main/notes/assets/images/zotero.api-key.md.zotero-api-key.png)
+![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/images/zotero.api-key.md.zotero-api-key.png)
 
 - This key can then be copy pasted in the configuration file. You should add your key to `.gitignore` to prevent others from accessing your Zotoero database. If the key is lost you can always generate a new one.
 
 ## Zotero and File Import Configuration
 
-All zendron configuration is handled in [config.yml](https://github.com/Mjvolk3/Zendron/blob/main/conf/config.yaml).
+All zendron configuration is handled in [config.yml](https://github.com/Mjvolk3/Zendron/raw/main/conf/config.yaml).
 
 ```yml
 library_id : 4932032 # Zotero library ID
@@ -73,7 +73,7 @@ There are only two basic commands that work as of now.
 
 - `zendron`
   - This command should only be run in the root directory of the workspace.
-  - This command imports notes according to a defined [config.yml](https://github.com/Mjvolk3/Zendron/blob/main/conf/config.yaml). Once the command is run the first time the user needs to modify their configuration `./conf/config.yaml`. All required configs are marked with a comment `# STARTER CONFIG` upon initialization.
+  - This command imports notes according to a defined [config.yml](https://github.com/Mjvolk3/Zendron/raw/main/conf/config.yaml). Once the command is run the first time the user needs to modify their configuration `./conf/config.yaml`. All required configs are marked with a comment `# STARTER CONFIG` upon initialization.
   - Notes are imported with a `## Time Created` heading. This allows for stable reference from other notes, within the note vault. We autogenerate a `*.comments.md` that should be used for taking any additional notes within Dendron. Additional notes taken within the meta data file (`notes/zendron.import.<paper-title>.md`), or the `*.annotations.md` will be overwritten after running `zendron` for a second time. All files downstream of import excpet `*.comments.md` should be treated as read only. We have plans to explicitly make them read only soon.
   - Upon import, notes and tags are left as stubs. To create these notes run `> Dendron: Doctor` then `createMissingLinkedNotes`. It is best practice to correc tag warnings before doing this.
 - `zendron remove=true`
