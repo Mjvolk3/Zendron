@@ -225,6 +225,7 @@ class Metadata:
         # TODO deal with multiple attachments... like supplementary.
         library_type = self.metadata["library"]["type"]
         if library_type == "user":
+            pdf_attachment = None
             for att_key in self.attachment_keys:
                 try:
                     link = f"https://www.zotero.org/{self.name}/items/{self.key}/attachment/{att_key}/reader"
@@ -235,6 +236,7 @@ class Metadata:
                         "No PDF attachment... Your metadata should probably have attachments."
                     )
         if library_type == "group":
+            pdf_attachment = None
             for att_key in self.attachment_keys:
                 try:
                     # TODO check if this works for groups

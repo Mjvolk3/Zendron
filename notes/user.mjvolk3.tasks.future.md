@@ -1,14 +1,14 @@
 ---
-id: c0htn2yzk8rm83uh9ndtgof
+id: n98hhi6p84yqx767190dycu
 title: Future
 desc: ''
-updated: 1682505305264
+updated: 1682811498489
 created: 1675554129435
 ---
 ## Future
 
-@mjvolk3.tasks.future
-
+- 🔮 If there are multiple collections or sub collections with the same name there needs to be an error or warning thrown.
+- 🔮 If all data created are the same there will be duplicate title headings. This makes individual note refs impossible. For a two way sync it would be best if time created was modified, e.g. incremented by a second.
 - 🔮 Fix importlib resources [[Configuration|issues.configuration]].
 - 🔮 Figure out how to have a different default config for developing and a different one for releasing
 - 🔮 In [[src/zendron/zendron-remove.py]] see what is using `subprocess` for file removal or a combination of `os` and `shutil`. `subprocess` must be used for dendron cli.

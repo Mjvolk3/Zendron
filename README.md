@@ -4,7 +4,6 @@
 
 [![PyPI version](https://badge.fury.io/py/zendron.svg)](https://badge.fury.io/py/zendron)
 
-
 ## Introduction
 
 - This package was developed for porting Zotero annotations and metadata to markdown. These markdown notes are then brought into a [Dendron](https://www.dendron.so/) hierarchy for integration with vault notes. We recommend using the package within [Visual Studio Code](https://code.visualstudio.com/).The end goal is to get a two way sync between notes in Zotero and notes in Dendron, but this has some difficulties and limitations that are taking some time to address. For now only a one way sync from Zotero to Dendron is supported.
@@ -16,6 +15,14 @@
   - `npm install -g @dendronhq/dendron-cli@latest`
 - Install the zendron
   - `python -m pip install zendron`
+
+## Zotero Local Setup
+
+- To start you need [Better BibTeX for Zotero](https://retorque.re/zotero-better-bibtex/installation/)
+  - This allows pinning of of bibtex keys.v
+- Go to `Zotero > Settings... > Advanced > General > Config Editor`![](https://github.com/Mjvolk3/Zendron/blob/main/notes/assets/images/zendron.citation-key.md.zotero-config-editor.png)
+- Accept the risks ![](https://github.com/Mjvolk3/Zendron/blob/main/notes/assets/images/zendron.citation-key.md.zotero-config-editor-accept-risks.png)
+- In the Search, type `autoPinDelay` and chance the integer value from 0 (default) to 1. ![](https://github.com/Mjvolk3/Zendron/blob/main/notes/assets/images/zendron.citation-key.md.autoPinDelay-update.png)
 
 ## Zotero API key
 
@@ -48,22 +55,34 @@ zotero_comment_title: zendron comment # fixed for now... needed for eventual 2-w
 pod_path: zotero_pod # Name of dendron pod, removed after completion of import. We will later add configuration for this to remain. This will allow for non Dendron users to import markdown Zotero notes in a strucutred hierarchy.
 ```
 
+- `library_id` - Integer identifier of library. This is the number that matches the name of a library.
+  - [User ID](https://www.zotero.org/settings/keys).
+  - For group ID visit [Zotero Groups](https://www.zotero.org/groups/), click on your desired group, and copy the id from the URL.
+- `library_type`: `group` for group libraries and `user` for user library.
+- `api_key`: Use the API Key obtained from [Zotero API KEY](README.md#zotero-api-key).
+- `collection`: This can be the name of any collection or subcollection in the specificed library. If there are multiple collections or sub collections with the same name, the import will arbitrarily choose one. To make sure you are importing the desired collection, make sure the name of the collection is unique in the Zotero library.
+- `item_types`: Zotero item types to import according to [pyzotero](https://pyzotero.readthedocs.io/en/latest/) syntax.
+`local_image_path`: Path to annotated images. `/Users/<username>/Zotero/cache` is the default path on MacOS.
+- `dendron_limb`: This is the period deliminated hierarchy prefix to all file imports for Dendron, e.g. `root.zotero.import.<paper_title>.annotations.md`.
+- `zotero comment title` - IGNORE FOR NOW. Eventually needed for 2-way sync.
+- `pod_path` - IGNORE FOR NOW. Eventually needed for markdown only import, without Dendron integration.
+
 ## Basic Usage
 
 There are only two basic commands that work as of now.
 
 - `zendron`
   - This command should only be run in the root directory of the workspace.
-  - This command imports notes according to a defined [config.yml](https://github.com/Mjvolk3/Zendron/blob/main/conf/config.yaml). Once the command is run the first time the user needs to modify their configuration `./conf/config.yaml` according the Zotero library specifications and the Zotero API.
-  - Notes are imported with a `## Time Created` heading. This allows for stable reference from other notes, within the note vault. We autogenerate a `*.comments.md` that should be used for taking any additional notes within Dendron. Additional notes taken within the meta data file (`notes/zendron.import.<paper-title>.md`), or the `*.annotations.md` will be overwritten after running `zendron` for a second time.
+  - This command imports notes according to a defined [config.yml](https://github.com/Mjvolk3/Zendron/blob/main/conf/config.yaml). Once the command is run the first time the user needs to modify their configuration `./conf/config.yaml`. All required configs are marked with a comment `# STARTER CONFIG` upon initialization.
+  - Notes are imported with a `## Time Created` heading. This allows for stable reference from other notes, within the note vault. We autogenerate a `*.comments.md` that should be used for taking any additional notes within Dendron. Additional notes taken within the meta data file (`notes/zendron.import.<paper-title>.md`), or the `*.annotations.md` will be overwritten after running `zendron` for a second time. All files downstream of import excpet `*.comments.md` should be treated as read only. We have plans to explicitly make them read only soon.
+  - Upon import, notes and tags are left as stubs. To create these notes run `> Dendron: Doctor` then `createMissingLinkedNotes`. It is best practice to correc tag warnings before doing this.
 - `zendron remove=true`
-  - This command removes all imported notes and associated links. We run a `createMissingLinkedNotes` following the deletion of Dendron notes to repopulate `tags` and `users` that will be removed on running `zendron-remove`.
+  - This command removes imported notes and associated links. This command works by remove all notes downstream fo `dendron_limb`, excpet for `comments.md`. There is some difficult removing other files created becuase these are separate from the `dendron_limb`. These files include `user.*.md`, which comes from bibtex keys, and `tags.*.md` which come from metadata and annotation tags. For now, we don't remove tags, but we do remove bibex keys (`<user.bibtex_key>.md`).
   - There are more complicated removal's that could be desired so we plan to eventually change this from a `bool` to an `str`.
 
 ## Miscellaneous
 
-- The `zendron_cache` is not currenlty in use. We do an entire reload each time, so for large libraries performance will be poor.
-  - You an feel free to delete the cache as you please.
+- The `zendron_cache` is used for remove of `<user.bibtex_key>.md`. If it is deleted and you run remove, the `<user.bibtex_key>.md` will not be removed. In this case you can run `zendron` again, then run the `zendron remove=true` again.
 - If there are run that fail, sometimes a `.hydra` with the given configuraiton will be generated in the root dir. This isn't an issue but it contains the API information and should therefore be added to the `.gitignore` as a safeguard. In addition these files can be used to inspect the reason for the faiure.
 - `__main__.log` is generated after running a `zendron`, this can also be deleted as you please. It is also useful for inspecting an failures to import.
 

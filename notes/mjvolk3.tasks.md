@@ -1,20 +1,20 @@
 ---
-id: 7urrfe10vb294t7w5mgn9e2
+id: bdjwj0s3mqeuuzxx9lq66ny
 title: Tasks
 desc: ''
-updated: 1682803309990
+updated: 1682812293469
 created: 1675554123628
 ---
 ## Future
 
-![[user.mjvolk3.tasks.future#future]]
+@mjvolk3.tasks.future
 
 ## 2023.04.29
 
-- [ ] Fails when there is no pdf under file.
-- [ ] Users notes will be deleted.
-- [ ] Where to find the User ID, keys feeds api.
-- [ ] Figure out automatic pinning. Describe how to setup.
+- [x] Users notes will be deleted. → Only deleting user notes based on cache. Additional notes further down hierarchy should not be deleted.
+- [x] Fails when there is no pdf under file. → This no longer breaks `zendron`, still hacky [[src/zendron/metadata.py]]
+- [x] Where to find the User ID, keys feeds api.
+- [x] Figure out automatic pinning. Describe how to setup. → Added to [[README.md]].
 
 ## 2023.04.28
 
@@ -43,15 +43,15 @@ created: 1675554123628
 - [x] Clean up [[src/zendron/sync.py]]. Theres is some confusion with `annot`, `annotated_attachment`, and `annotations`, specifically in sync_annotations.
 - [x] Rewrite cache.[[issuses#separate-cache-for-metadata-annotations-and-comments]]
 - [x] Try structuring [[src/zendron/sync.py]] like [[src/zendron/load.py]]. → Doesn't work [[issuses#sync-and-load-must-be-different]]
-- 🔲 Test and probably rewrite sync metadata → moved to @mjvolk3.tasks.future
-- 🔲 Test and probably rewrite sync annotations → moved to @mjvolk3.tasks.future
-- 🔲 Add delete note sync for annotations cache → moved to @mjvolk3.tasks.future
-- 🔲 Add delete meta sync for metadata cache → moved to @mjvolk3.tasks.future
-- 🔲 Add user note to meta sync. → moved to @mjvolk3.tasks.future
-- 🔲 Test sync on metadata update and annotations update. → moved to @mjvolk3.tasks.future
-- 🔲 Cache comments on sync. → moved to @mjvolk3.tasks.future
-- 🔲 Simulate a workflow to make sure comments is working correctly. → moved to @mjvolk3.tasks.future
-- 🔲 Add cli. One primary function, sync, with additional functions, remove (comments flag`). → moved to @mjvolk3.tasks.future
+- 🔲 Test and probably rewrite sync metadata → moved to [[Future|mjvolk3.tasks.future#future]]
+- 🔲 Test and probably rewrite sync annotations → moved to [[Future|mjvolk3.tasks.future#future]]
+- 🔲 Add delete note sync for annotations cache → moved to [[Future|mjvolk3.tasks.future#future]]
+- 🔲 Add delete meta sync for metadata cache → moved to [[Future|mjvolk3.tasks.future#future]]
+- 🔲 Add user note to meta sync. → moved to [[Future|mjvolk3.tasks.future#future]]
+- 🔲 Test sync on metadata update and annotations update. → moved to [[Future|mjvolk3.tasks.future#future]]
+- 🔲 Cache comments on sync. → moved to [[Future|mjvolk3.tasks.future#future]]
+- 🔲 Simulate a workflow to make sure comments is working correctly. → moved to [[Future|mjvolk3.tasks.future#future]]
+- 🔲 Add cli. One primary function, sync, with additional functions, remove (comments flag`). → moved to [[Future|mjvolk3.tasks.future#future]]
 
 ## 2023.02.05
 
