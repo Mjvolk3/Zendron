@@ -50,9 +50,9 @@ def user_configure() -> None:
         # package_root = "/".join(package_root.split("/")[:-2])
         # List all the config files and their paths within the package
         config_files = [
-            "conf/zendron/__init__.py",
-            "conf/zendron/default_template.yaml",
-            "conf/zendron/config_template.yaml",
+            "conf/__init__.py",
+            "conf/default_template.yaml",
+            "conf/config_template.yaml",
             "pods/dendron.markdown/config.import.yml",
         ]
 

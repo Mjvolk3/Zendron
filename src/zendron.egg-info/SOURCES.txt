@@ -30,5 +30,7 @@ src/zendron.egg-info/dependency_links.txt
 src/zendron.egg-info/entry_points.txt
 src/zendron.egg-info/requires.txt
 src/zendron.egg-info/top_level.txt
-src/zendron/conf/zendron/__init__.py
+src/zendron/conf/__init__.py
+src/zendron/conf/config_template.yaml
+src/zendron/conf/default_template.yaml
 src/zendron/pods/dendron.markdown/config.import.yml
