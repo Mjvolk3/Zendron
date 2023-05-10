@@ -19,7 +19,9 @@ if init.user_configure():
 
 
 @hydra.main(
-    version_base=None, config_path=osp.join(os.getcwd(), "conf"), config_name="config"
+    version_base=None,
+    config_path=osp.join(os.getcwd(), "conf", "zendron"),
+    config_name="config",
 )
 def main(cfg: DictConfig) -> None:
     if USER_CONFIGURE:

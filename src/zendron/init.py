@@ -14,7 +14,7 @@ from omegaconf import OmegaConf
 
 def load_default_config():
     workspace_root = os.getcwd()
-    default_config_path = osp.join(workspace_root, "conf", "default.yaml")
+    default_config_path = osp.join(workspace_root, "conf", "zendron", "default.yaml")
     if not osp.exists(default_config_path):
         return False
     return OmegaConf.load(default_config_path)
@@ -32,7 +32,7 @@ def set_initialized():
     default_config = load_default_config()
     default_config.initialized = True
     workspace_root = os.getcwd()
-    default_config_path = osp.join(workspace_root, "conf", "default.yaml")
+    default_config_path = osp.join(workspace_root, "conf", "zendron", "default.yaml")
     OmegaConf.save(default_config, default_config_path)
 
     # Update config.import.yml with desired values

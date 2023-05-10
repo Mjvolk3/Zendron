@@ -2,11 +2,6 @@ LICENSE
 MANIFEST.in
 README.md
 pyproject.toml
-conf/__init__.py
-conf/config.yaml
-conf/default.yaml
-src/../conf/config.yaml
-src/../conf/default.yaml
 src/../notes/assets/images/zotero.api-key.md.zotero-api-key.png
 src/../pods/dendron.markdown/config.import.yml
 src/zendron/__init__.py

@@ -512,3 +512,31 @@
 [2023-04-29 19:11:45,135][zendron.remove][INFO] - Removing: notes/assets/images/zendron-image-import-*.png
 [2023-04-29 19:11:45,135][zendron.remove][INFO] - Removing all Zendron Cache
 [2023-04-29 19:11:45,135][zendron.remove][INFO] - Note Removal Complete
+[2023-05-10 14:04:13,312][zendron.__main__][INFO] - Sync Starting
+[2023-05-10 14:04:14,112][zendron.items][INFO] - Extracting Data Per entry
+[2023-05-10 14:04:14,461][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero metadata and sync again. Tag: Computer Science - Machine Learning. Title Dendron: Variational-Graph-Auto-Encoders.
+[2023-05-10 14:04:14,461][zendron.metadata][WARNING] - Tags should not contain spaces. Please remove spaces in Zotero metadata and sync again. Tag: Statistics - Machine Learning. Title Dendron: Variational-Graph-Auto-Encoders.
+[2023-05-10 14:04:19,045][zendron.__main__][INFO] - Sync Complete
+[2023-05-10 14:04:57,639][zendron.__main__][INFO] - Remove Starting
+[2023-05-10 14:04:57,639][zendron.remove][INFO] - Removing all Zendron Note Files
+[2023-05-10 14:04:57,639][zendron.remove][INFO] - Removing: notes/zendron.import.*.md
+[2023-05-10 14:04:57,639][zendron.remove][INFO] - Removing: notes/zendron.import.*.annotations.md
+[2023-05-10 14:04:57,640][zendron.remove][INFO] - Removing: notes/zendron.import.date.*.md
+[2023-05-10 14:04:57,640][zendron.remove][INFO] - Removing: notes/zendron.import.item-type.*.md
+[2023-05-10 14:04:57,640][zendron.remove][INFO] - Removing: notes/zendron.import.title.*.md
+[2023-05-10 14:04:57,640][zendron.remove][INFO] - Removing: notes/zendron.import.authors.*.md
+[2023-05-10 14:04:57,641][zendron.remove][INFO] - Removing: notes/user.kipfvariationalgraphautoencoders2016.md
+[2023-05-10 14:04:57,641][zendron.remove][INFO] - Removing: notes/assets/images/zendron-image-import-*.png
+[2023-05-10 14:04:57,641][zendron.remove][INFO] - Removing all Zendron Cache
+[2023-05-10 14:04:57,641][zendron.remove][INFO] - Note Removal Complete
+[2023-05-10 14:05:05,093][zendron.__main__][INFO] - Remove Starting
+[2023-05-10 14:05:05,093][zendron.remove][INFO] - Removing all Zendron Note Files
+[2023-05-10 14:05:05,093][zendron.remove][INFO] - Removing: notes/zendron.import.*.md
+[2023-05-10 14:05:05,093][zendron.remove][INFO] - Removing: notes/zendron.import.*.annotations.md
+[2023-05-10 14:05:05,093][zendron.remove][INFO] - Removing: notes/zendron.import.date.*.md
+[2023-05-10 14:05:05,093][zendron.remove][INFO] - Removing: notes/zendron.import.item-type.*.md
+[2023-05-10 14:05:05,094][zendron.remove][INFO] - Removing: notes/zendron.import.title.*.md
+[2023-05-10 14:05:05,094][zendron.remove][INFO] - Removing: notes/zendron.import.authors.*.md
+[2023-05-10 14:05:05,094][zendron.remove][INFO] - Removing: notes/assets/images/zendron-image-import-*.png
+[2023-05-10 14:05:05,094][zendron.remove][INFO] - Removing all Zendron Cache
+[2023-05-10 14:05:05,094][zendron.remove][INFO] - Note Removal Complete
