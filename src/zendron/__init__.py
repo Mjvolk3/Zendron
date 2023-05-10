@@ -8,7 +8,7 @@ except ModuleNotFoundError:
     import tomli as tomllib
 
 # Version of the zendron package
-__version__ = "1.1.8"
+__version__ = "1.1.9"
 
 # Read URL of the Real Python feed from config file
 # _cfg = tomllib.loads(resources.read_text("reader", "config.toml"))
