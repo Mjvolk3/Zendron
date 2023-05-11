@@ -10,6 +10,12 @@
 
 ![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/videos/gif/zendron-test_2.gif)
 
+1. Show how you can structure a paper using note refernces in Dendron.
+2. Install Zendron and import references from the relevant library.
+3. Cite while you write, and view all relevant Zotero metadata, annotations, and comment notes with hover.
+4. Compile paper to `.docx`, `.pdf`, and `.html` with Pandoc.
+5. Find relevant papers via VsCode search.
+
 ## Introduction
 
 - This package was developed for porting Zotero annotations and metadata to markdown. These markdown notes are then brought into a [Dendron](https://www.dendron.so/) hierarchy for integration with vault notes. We recommend using the package within [Visual Studio Code](https://code.visualstudio.com/).The end goal is to get a two way sync between notes in Zotero and notes in Dendron, but this has some difficulties and limitations that are taking some time to address. For now only a one way sync from Zotero to Dendron is supported.
