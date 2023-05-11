@@ -6,7 +6,7 @@
 
 ## Showcase
 
-![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/videos/zendron-test_0.gif)
+![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/videos/gif/zendron-test_0.gif)
 
 ## Introduction
 
