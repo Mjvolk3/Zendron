@@ -1,4 +1,4 @@
-# Zendron
+![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/drawio/logo.drawio.png)
 
 [zendron Github](https://github.com/Mjvolk3/Zendron)
 
@@ -6,7 +6,7 @@
 
 ## Showcase
 
-![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/videos/gif/zendron-test_0.gif)
+![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/videos/gif/zendron-test_1.gif)
 
 ## Introduction
 
