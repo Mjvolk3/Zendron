@@ -4,8 +4,6 @@
 
 [![PyPI version](https://badge.fury.io/py/zendron.svg)](https://badge.fury.io/py/zendron)
 
-<a href="https://badge.fury.io/py/zendron"><img src="https://badge.fury.io/py/zendron.svg" alt="PyPI version" height="18"></a>
-
 ## Showcase
 
 ![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/videos/gif/zendron-test_2.gif)
