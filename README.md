@@ -1,12 +1,14 @@
-![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/drawio/logo.drawio.png)
-
-[zendron Github](https://github.com/Mjvolk3/Zendron)
+<p align="center">
+  <img src="https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/drawio/logo.drawio.png" />
+</p>
 
 [![PyPI version](https://badge.fury.io/py/zendron.svg)](https://badge.fury.io/py/zendron)
 
+[zendron Github](https://github.com/Mjvolk3/Zendron)
+
 ## Showcase
 
-![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/videos/gif/zendron-test_1.gif)
+![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/videos/gif/zendron-test_2.gif)
 
 ## Introduction
 
