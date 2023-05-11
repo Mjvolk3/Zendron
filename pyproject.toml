@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "zendron"
 version = "1.1.11"
-description = "Import Zotero annotations with Dendron integration"
+description = "Import Zotero annotations with Dendron integration. [Zendron GitHub](https://github.com/Mjvolk3/Zendron)."
 readme = "README.md"
 authors = [{ name = "Michael Volk", email = "michaeljvolk7@gmail.com" }]
 license = { file = "LICENSE" }
