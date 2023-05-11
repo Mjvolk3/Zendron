@@ -2,7 +2,7 @@
   <img src="https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/drawio/logo.drawio.png" />
 </p>
 
-![PyPI version](https://badge.fury.io/py/zendron.svg)
+[![PyPI version](https://badge.fury.io/py/zendron.svg)](https://badge.fury.io/py/zendron)
 
 [zendron Github](https://github.com/Mjvolk3/Zendron)
 
