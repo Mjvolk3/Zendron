@@ -4,6 +4,10 @@
 
 [![PyPI version](https://badge.fury.io/py/zendron.svg)](https://badge.fury.io/py/zendron)
 
+## Showcase
+
+![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/videos/zendron-test_0.gif)
+
 ## Introduction
 
 - This package was developed for porting Zotero annotations and metadata to markdown. These markdown notes are then brought into a [Dendron](https://www.dendron.so/) hierarchy for integration with vault notes. We recommend using the package within [Visual Studio Code](https://code.visualstudio.com/).The end goal is to get a two way sync between notes in Zotero and notes in Dendron, but this has some difficulties and limitations that are taking some time to address. For now only a one way sync from Zotero to Dendron is supported.
