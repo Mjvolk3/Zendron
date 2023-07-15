@@ -4,6 +4,8 @@
 
 [![PyPI version](https://badge.fury.io/py/zendron.svg)](https://badge.fury.io/py/zendron)
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/michaelvolk)
+
 ## Showcase
 
 ![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/videos/gif/zendron-test_2.gif)
