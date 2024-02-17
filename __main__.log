@@ -540,3 +540,14 @@
 [2023-05-10 14:05:05,094][zendron.remove][INFO] - Removing: notes/assets/images/zendron-image-import-*.png
 [2023-05-10 14:05:05,094][zendron.remove][INFO] - Removing all Zendron Cache
 [2023-05-10 14:05:05,094][zendron.remove][INFO] - Note Removal Complete
+[2024-02-17 15:37:30,799][zendron.__main__][INFO] - Remove Starting
+[2024-02-17 15:37:30,799][zendron.remove][INFO] - Removing all Zendron Note Files
+[2024-02-17 15:37:30,799][zendron.remove][INFO] - Removing: notes/zendron.import.*.md
+[2024-02-17 15:37:30,799][zendron.remove][INFO] - Removing: notes/zendron.import.*.annotations.md
+[2024-02-17 15:37:30,800][zendron.remove][INFO] - Removing: notes/zendron.import.date.*.md
+[2024-02-17 15:37:30,800][zendron.remove][INFO] - Removing: notes/zendron.import.item-type.*.md
+[2024-02-17 15:37:30,800][zendron.remove][INFO] - Removing: notes/zendron.import.title.*.md
+[2024-02-17 15:37:30,800][zendron.remove][INFO] - Removing: notes/zendron.import.authors.*.md
+[2024-02-17 15:37:30,801][zendron.remove][INFO] - Removing: notes/assets/images/zendron-image-import-*.png
+[2024-02-17 15:37:30,801][zendron.remove][INFO] - Removing all Zendron Cache
+[2024-02-17 15:37:30,801][zendron.remove][INFO] - Note Removal Complete
