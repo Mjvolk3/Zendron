@@ -37,7 +37,8 @@ dev = ["black", "pip-tools", "pytest", "python-semantic-release", "build"]
 Homepage = "https://github.com/Mjvolk3/Zendron"
 
 [project.scripts]
-zendron = "zendron.__main__:main"
+# zendron = "zendron.__main__:main"
+zendron = "zendron.zendron:main"
 
 [tool.setuptools.package-data]
 torchcell = ["py.typed"]

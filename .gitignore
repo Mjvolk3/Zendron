@@ -18,3 +18,4 @@ notes/assets/videos/gif/zendron-test.gif
 dist/*
 *.egg-info
 zendron/__pycache__/*
+*.log
