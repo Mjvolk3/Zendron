@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: zendron
-Version: 1.1.9
-Summary: Import Zotero annotations with Dendron integration
+Version: 1.1.13
+Summary: Import Zotero annotations with Dendron integration. https://github.com/Mjvolk3/Zendron
 Author-email: Michael Volk <michaeljvolk7@gmail.com>
 License: MIT License
         
@@ -34,11 +34,21 @@ Description-Content-Type: text/markdown
 Provides-Extra: dev
 License-File: LICENSE
 
-# Zendron
-
-[zendron Github](https://github.com/Mjvolk3/Zendron)
+<p align="center">
+  <img src="https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/drawio/logo.drawio.png" />
+</p>
 
 [![PyPI version](https://badge.fury.io/py/zendron.svg)](https://badge.fury.io/py/zendron)
+
+## Showcase
+
+![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/videos/gif/zendron-test_2.gif)
+
+1. Show how you can structure a paper using note refernces in Dendron.
+2. Install Zendron and import references from the relevant library.
+3. Cite while you write, and view all relevant Zotero metadata, annotations, and comment notes with hover.
+4. Compile paper to `.docx`, `.pdf`, and `.html` with Pandoc.
+5. Find relevant papers via VsCode search.
 
 ## Introduction
 

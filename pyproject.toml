@@ -1,7 +1,7 @@
 # pyproject.toml
 
 [build-system]
-requires      = ["setuptools>=67.7.2", "wheel>=0.40.0"]
+requires = ["setuptools>=67.7.2", "wheel>=0.40.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -26,7 +26,7 @@ dependencies = [
     "html2text >= 2020.1.16",
     "Markdown >= 3.4.1",
     "markdownify >= 0.11.6",
-    "importlib-metadata >= 6.6.0"
+    "importlib-metadata >= 6.6.0",
 ]
 requires-python = ">=3.10"
 
