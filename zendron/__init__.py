@@ -1,3 +1,3 @@
 # __init__.py
-__version__ = "0.2.0"
+__version__ = "1.1.14"
 URL = "https://github.com/Mjvolk3/Zendron"
