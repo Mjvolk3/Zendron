@@ -1,0 +1,34 @@
+<h1 id="configuration"><a aria-hidden="true" class="anchor-heading icon-link" href="#configuration"></a>Configuration</h1>
+<h2 id="importlib-access-to-package-paths"><a aria-hidden="true" class="anchor-heading icon-link" href="#importlib-access-to-package-paths"></a>Importlib Access to Package Paths</h2>
+<ul>
+<li>ChatGPT: "Can use the <code>importlib.resources</code> module to access the included files:
+Since you are using Python 3.10, you should use the <code>importlib.resources</code> module (instead of the pkg_resources module) to access the files included with your package. Here's an example of how you can access the <code>conf/__init__.py</code> file:"</li>
+</ul>
+<pre class="language-python"><code class="language-python"><span class="token keyword">from</span> importlib<span class="token punctuation">.</span>resources <span class="token keyword">import</span> files
+
+default_template_path <span class="token operator">=</span> files<span class="token punctuation">(</span><span class="token string">'zendron'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>joinpath<span class="token punctuation">(</span><span class="token string">'conf'</span><span class="token punctuation">,</span> <span class="token string">'default_template.yaml'</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="pyprojecttoml-potential-solution"><a aria-hidden="true" class="anchor-heading icon-link" href="#pyprojecttoml-potential-solution"></a>pyproject.toml Potential Solution</h2>
+<pre class="language-toml"><code class="language-toml"><span class="token punctuation">[</span><span class="token table class-name">tool.setuptools.package-data</span><span class="token punctuation">]</span>
+<span class="token key property">zendron</span> <span class="token punctuation">=</span> <span class="token punctuation">[</span>
+    <span class="token string">"conf/__init__.py"</span><span class="token punctuation">,</span>
+    <span class="token string">"conf/default_template.yaml"</span><span class="token punctuation">,</span>
+    <span class="token string">"conf/config_template.yaml"</span><span class="token punctuation">,</span>
+    <span class="token string">"pods/custom/dendron.markdown/config.import.yml"</span>
+<span class="token punctuation">]</span>
+</code></pre>
+<h2 id="setupcfg-potential-solution"><a aria-hidden="true" class="anchor-heading icon-link" href="#setupcfg-potential-solution"></a>setup.cfg Potential Solution</h2>
+<pre class="language-cfg"><code class="language-cfg">[metadata]
+license_file = LICENSE
+
+[sdist]
+formats = gztar
+
+[options]
+include_package_data = True
+</code></pre>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/Zendron/notes/n98hhi6p84yqx767190dycu">future</a></li>
+</ul>

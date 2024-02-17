@@ -1,0 +1,5245 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200703201,
+      "created": 1708200703201,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "nuyfwd7iokzd7m9oax0cdx5": {
+      "id": "nuyfwd7iokzd7m9oax0cdx5",
+      "title": "Root-Zendron",
+      "desc": "",
+      "updated": 1679860129235,
+      "created": 1661538521294,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "130c5ef5fb59033f42b02aa2be0f1927",
+      "links": [],
+      "anchors": {
+        "zendron": {
+          "type": "header",
+          "text": "Zendron",
+          "value": "zendron",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "paper-export": {
+          "type": "header",
+          "text": "Paper Export",
+          "value": "paper-export",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "fm2x5t091y755nimxrpjwez",
+        "dhqqdsj7upk727guws9vgox",
+        "7g2c2qq7d38imc5pqcn3pcv",
+        "p23vy0l4olv9ldoplaadusm",
+        "mfxec2289q62ux02wn7s3ys",
+        "3bgot52d1psalztauw89ii9",
+        "ke6q578idqoxwbgk6ogd4hu",
+        "246wpv22f3s0ljv367bybrs",
+        "axrqsyq1ln9p8l6pgs49q5l",
+        "2l3rlznkipoemsp0arda720",
+        "d1kfxb25bm35h67d0fr57o0",
+        "2ultsx7is5k0ytdugjbow6l"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "2ultsx7is5k0ytdugjbow6l": {
+      "fname": "scratch",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702726,
+      "created": 1708200702726,
+      "id": "2ultsx7is5k0ytdugjbow6l",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "rf2vziejis8f42054sevhvv"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {},
+      "title": "Scratch"
+    },
+    "rf2vziejis8f42054sevhvv": {
+      "fname": "scratch.2024",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702726,
+      "created": 1708200702726,
+      "id": "rf2vziejis8f42054sevhvv",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "stpfo3d9zm32xcniju6mg0s"
+      ],
+      "parent": "2ultsx7is5k0ytdugjbow6l",
+      "data": {},
+      "title": "2024"
+    },
+    "stpfo3d9zm32xcniju6mg0s": {
+      "fname": "scratch.2024.02",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702727,
+      "created": 1708200702727,
+      "id": "stpfo3d9zm32xcniju6mg0s",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "mytk6nu2380vkky0gucghnn"
+      ],
+      "parent": "rf2vziejis8f42054sevhvv",
+      "data": {},
+      "title": "02"
+    },
+    "mytk6nu2380vkky0gucghnn": {
+      "fname": "scratch.2024.02.17",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702727,
+      "created": 1708200702727,
+      "id": "mytk6nu2380vkky0gucghnn",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "hw0qrruirf4ek1bvxe9m5ta"
+      ],
+      "parent": "stpfo3d9zm32xcniju6mg0s",
+      "data": {},
+      "title": "17"
+    },
+    "hw0qrruirf4ek1bvxe9m5ta": {
+      "id": "hw0qrruirf4ek1bvxe9m5ta",
+      "title": "140027",
+      "desc": "",
+      "updated": 1708200028105,
+      "created": 1708200028105,
+      "custom": {},
+      "fname": "scratch.2024.02.17.140027",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "8a166e6b62eb3f69c1e0f5232d0c159d",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "mytk6nu2380vkky0gucghnn",
+      "data": {}
+    },
+    "d1kfxb25bm35h67d0fr57o0": {
+      "fname": "zotero",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702724,
+      "created": 1708200702724,
+      "id": "d1kfxb25bm35h67d0fr57o0",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "tlzqowfg0t06ubu2mdmik2d"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {},
+      "title": "Zotero"
+    },
+    "tlzqowfg0t06ubu2mdmik2d": {
+      "id": "tlzqowfg0t06ubu2mdmik2d",
+      "title": "API Key",
+      "desc": "",
+      "updated": 1682810933284,
+      "created": 1682581427650,
+      "custom": {},
+      "fname": "zotero.api-key",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "a917e5e4f69bbdd73c95747039d9173b",
+      "links": [],
+      "anchors": {
+        "zotero-api-key-instructions": {
+          "type": "header",
+          "text": "Zotero API Key Instructions",
+          "value": "zotero-api-key-instructions",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "d1kfxb25bm35h67d0fr57o0",
+      "data": {}
+    },
+    "2l3rlznkipoemsp0arda720": {
+      "fname": "video",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702724,
+      "created": 1708200702724,
+      "id": "2l3rlznkipoemsp0arda720",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "kot1u7ake6ay29lm3g6gewl"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {},
+      "title": "Video"
+    },
+    "kot1u7ake6ay29lm3g6gewl": {
+      "id": "kot1u7ake6ay29lm3g6gewl",
+      "title": "Ffmpeg",
+      "desc": "",
+      "updated": 1683786534009,
+      "created": 1683782502997,
+      "custom": {},
+      "fname": "video.ffmpeg",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "9edf72d774e61d2f1177503705a8666a",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "2l3rlznkipoemsp0arda720",
+      "data": {}
+    },
+    "axrqsyq1ln9p8l6pgs49q5l": {
+      "fname": "user",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702724,
+      "created": 1708200702724,
+      "id": "axrqsyq1ln9p8l6pgs49q5l",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "q528uauct491igev4nu5ezt",
+        "ntvq1eeaiye7e7bdp3u54wi",
+        "o0ors2eqajshterw8ncjbjv",
+        "9tcx8wlx2rlrhr2eb1r17cy"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {},
+      "title": "User"
+    },
+    "9tcx8wlx2rlrhr2eb1r17cy": {
+      "fname": "user.user",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702727,
+      "created": 1708200702727,
+      "id": "9tcx8wlx2rlrhr2eb1r17cy",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "uzmzprhp18zz683l3ydytjw"
+      ],
+      "parent": "axrqsyq1ln9p8l6pgs49q5l",
+      "data": {},
+      "title": "User"
+    },
+    "uzmzprhp18zz683l3ydytjw": {
+      "fname": "user.user.Mjvolk3",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702727,
+      "created": 1708200702727,
+      "id": "uzmzprhp18zz683l3ydytjw",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "r1hcc7g6zhyrc7auut1p54n"
+      ],
+      "parent": "9tcx8wlx2rlrhr2eb1r17cy",
+      "data": {},
+      "title": "Mjvolk3"
+    },
+    "r1hcc7g6zhyrc7auut1p54n": {
+      "fname": "user.user.Mjvolk3.zendron",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702727,
+      "created": 1708200702727,
+      "id": "r1hcc7g6zhyrc7auut1p54n",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "7urrfe10vb294t7w5mgn9e2"
+      ],
+      "parent": "uzmzprhp18zz683l3ydytjw",
+      "data": {},
+      "title": "zendron"
+    },
+    "7urrfe10vb294t7w5mgn9e2": {
+      "id": "7urrfe10vb294t7w5mgn9e2",
+      "title": "tasks",
+      "desc": "",
+      "updated": 1682803309990,
+      "created": 1675554123628,
+      "custom": {},
+      "fname": "user.user.Mjvolk3.zendron.tasks",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "bfe355ef063239010e7deaf2aa4dc459",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "src/zendron/zendron-remove.py",
+          "alias": "src/zendron/zendron-remove.py",
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 21,
+              "offset": 609
+            },
+            "end": {
+              "line": 27,
+              "column": 54,
+              "offset": 642
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "src/zendron/zendron-remove.py"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "user.mjvolk3",
+          "alias": "@mjvolk3",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 16,
+              "offset": 692
+            },
+            "end": {
+              "line": 29,
+              "column": 24,
+              "offset": 700
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.mjvolk3"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "user.kipfVariationalGraphAutoEncoders2016",
+          "alias": "@kipfVariationalGraphAutoEncoders2016",
+          "position": {
+            "start": {
+              "line": 30,
+              "column": 12,
+              "offset": 739
+            },
+            "end": {
+              "line": 30,
+              "column": 49,
+              "offset": 776
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.kipfVariationalGraphAutoEncoders2016"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.Introduction",
+          "alias": "Introduction",
+          "position": {
+            "start": {
+              "line": 30,
+              "column": 89,
+              "offset": 816
+            },
+            "end": {
+              "line": 30,
+              "column": 124,
+              "offset": 851
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "paper.Introduction"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "src/zendron/sync.py",
+          "alias": "src/zendron/sync.py",
+          "position": {
+            "start": {
+              "line": 36,
+              "column": 16,
+              "offset": 945
+            },
+            "end": {
+              "line": 36,
+              "column": 39,
+              "offset": 968
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "src/zendron/sync.py"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "issuses",
+          "alias": "issuses",
+          "position": {
+            "start": {
+              "line": 37,
+              "column": 21,
+              "offset": 1106
+            },
+            "end": {
+              "line": 37,
+              "column": 85,
+              "offset": 1170
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "issuses",
+            "anchorHeader": "separate-cache-for-metadata-annotations-and-comments"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "src/zendron/sync.py",
+          "alias": "src/zendron/sync.py",
+          "position": {
+            "start": {
+              "line": 38,
+              "column": 23,
+              "offset": 1193
+            },
+            "end": {
+              "line": 38,
+              "column": 46,
+              "offset": 1216
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "src/zendron/sync.py"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "src/zendron/load.py",
+          "alias": "src/zendron/load.py",
+          "position": {
+            "start": {
+              "line": 38,
+              "column": 52,
+              "offset": 1222
+            },
+            "end": {
+              "line": 38,
+              "column": 75,
+              "offset": 1245
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "src/zendron/load.py"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "issuses",
+          "alias": "issuses",
+          "position": {
+            "start": {
+              "line": 38,
+              "column": 92,
+              "offset": 1262
+            },
+            "end": {
+              "line": 38,
+              "column": 135,
+              "offset": 1305
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "issuses",
+            "anchorHeader": "sync-and-load-must-be-different"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 39,
+              "column": 57,
+              "offset": 1362
+            },
+            "end": {
+              "line": 39,
+              "column": 91,
+              "offset": 1396
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 40,
+              "column": 60,
+              "offset": 1456
+            },
+            "end": {
+              "line": 40,
+              "column": 94,
+              "offset": 1490
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 41,
+              "column": 60,
+              "offset": 1550
+            },
+            "end": {
+              "line": 41,
+              "column": 94,
+              "offset": 1584
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 42,
+              "column": 57,
+              "offset": 1641
+            },
+            "end": {
+              "line": 42,
+              "column": 91,
+              "offset": 1675
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 43,
+              "column": 45,
+              "offset": 1720
+            },
+            "end": {
+              "line": 43,
+              "column": 79,
+              "offset": 1754
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 44,
+              "column": 70,
+              "offset": 1824
+            },
+            "end": {
+              "line": 44,
+              "column": 104,
+              "offset": 1858
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 41,
+              "offset": 1899
+            },
+            "end": {
+              "line": 45,
+              "column": 75,
+              "offset": 1933
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 46,
+              "column": 81,
+              "offset": 2014
+            },
+            "end": {
+              "line": 46,
+              "column": 115,
+              "offset": 2048
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 47,
+              "column": 106,
+              "offset": 2154
+            },
+            "end": {
+              "line": 47,
+              "column": 140,
+              "offset": 2188
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "vaultName": "Zendron"
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 11
+            },
+            "end": {
+              "line": 3,
+              "column": 51,
+              "offset": 61
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.user.Mjvolk3.zendron.tasks.future",
+            "anchorHeader": "future"
+          }
+        }
+      ],
+      "anchors": {
+        "20230204": {
+          "type": "header",
+          "text": "2023.02.04",
+          "value": "20230204",
+          "line": 62,
+          "column": 0,
+          "depth": 2
+        },
+        "20230205": {
+          "type": "header",
+          "text": "2023.02.05",
+          "value": "20230205",
+          "line": 55,
+          "column": 0,
+          "depth": 2
+        },
+        "20230206": {
+          "type": "header",
+          "text": "2023.02.06",
+          "value": "20230206",
+          "line": 40,
+          "column": 0,
+          "depth": 2
+        },
+        "20230425": {
+          "type": "header",
+          "text": "2023.04.25",
+          "value": "20230425",
+          "line": 30,
+          "column": 0,
+          "depth": 2
+        },
+        "20230427": {
+          "type": "header",
+          "text": "2023.04.27",
+          "value": "20230427",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        },
+        "20230428": {
+          "type": "header",
+          "text": "2023.04.28",
+          "value": "20230428",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "20230429": {
+          "type": "header",
+          "text": "2023.04.29",
+          "value": "20230429",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "future": {
+          "type": "header",
+          "text": "Future",
+          "value": "future",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "n98hhi6p84yqx767190dycu"
+      ],
+      "parent": "r1hcc7g6zhyrc7auut1p54n",
+      "data": {}
+    },
+    "n98hhi6p84yqx767190dycu": {
+      "id": "n98hhi6p84yqx767190dycu",
+      "title": "future",
+      "desc": "",
+      "updated": 1682811498489,
+      "created": 1675554129435,
+      "custom": {},
+      "fname": "user.user.Mjvolk3.zendron.tasks.future",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "a27ab2566aab00f92b55f99a310475ea",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks.future",
+            "id": "n98hhi6p84yqx767190dycu",
+            "vaultName": "Zendron"
+          },
+          "value": "issues.configuration",
+          "alias": "Configuration",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 30,
+              "offset": 381
+            },
+            "end": {
+              "line": 5,
+              "column": 68,
+              "offset": 419
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "issues.configuration"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.user.Mjvolk3.zendron.tasks.future",
+            "id": "n98hhi6p84yqx767190dycu",
+            "vaultName": "Zendron"
+          },
+          "value": "src/zendron/zendron-remove.py",
+          "alias": "src/zendron/zendron-remove.py",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 9,
+              "offset": 533
+            },
+            "end": {
+              "line": 7,
+              "column": 42,
+              "offset": 566
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "src/zendron/zendron-remove.py"
+          }
+        },
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 11
+            },
+            "end": {
+              "line": 3,
+              "column": 35,
+              "offset": 45
+            },
+            "indent": []
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 39,
+              "column": 57,
+              "offset": 1362
+            },
+            "end": {
+              "line": 39,
+              "column": 91,
+              "offset": 1396
+            },
+            "indent": []
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 40,
+              "column": 60,
+              "offset": 1456
+            },
+            "end": {
+              "line": 40,
+              "column": 94,
+              "offset": 1490
+            },
+            "indent": []
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 41,
+              "column": 60,
+              "offset": 1550
+            },
+            "end": {
+              "line": 41,
+              "column": 94,
+              "offset": 1584
+            },
+            "indent": []
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 42,
+              "column": 57,
+              "offset": 1641
+            },
+            "end": {
+              "line": 42,
+              "column": 91,
+              "offset": 1675
+            },
+            "indent": []
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 43,
+              "column": 45,
+              "offset": 1720
+            },
+            "end": {
+              "line": 43,
+              "column": 79,
+              "offset": 1754
+            },
+            "indent": []
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 44,
+              "column": 70,
+              "offset": 1824
+            },
+            "end": {
+              "line": 44,
+              "column": 104,
+              "offset": 1858
+            },
+            "indent": []
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 41,
+              "offset": 1899
+            },
+            "end": {
+              "line": 45,
+              "column": 75,
+              "offset": 1933
+            },
+            "indent": []
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 46,
+              "column": 81,
+              "offset": 2014
+            },
+            "end": {
+              "line": 46,
+              "column": 115,
+              "offset": 2048
+            },
+            "indent": []
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 47,
+              "column": 106,
+              "offset": 2154
+            },
+            "end": {
+              "line": 47,
+              "column": 140,
+              "offset": 2188
+            },
+            "indent": []
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 11
+            },
+            "end": {
+              "line": 3,
+              "column": 51,
+              "offset": 61
+            },
+            "indent": []
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future"
+        }
+      ],
+      "anchors": {
+        "future": {
+          "type": "header",
+          "text": "Future",
+          "value": "future",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "far-future": {
+          "type": "header",
+          "text": "Far Future",
+          "value": "far-future",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "7urrfe10vb294t7w5mgn9e2",
+      "data": {}
+    },
+    "o0ors2eqajshterw8ncjbjv": {
+      "fname": "user.Mjvolk3",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702725,
+      "created": 1708200702725,
+      "id": "o0ors2eqajshterw8ncjbjv",
+      "desc": "",
+      "links": [
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 36,
+              "column": 16,
+              "offset": 1265
+            },
+            "end": {
+              "line": 36,
+              "column": 24,
+              "offset": 1273
+            },
+            "indent": []
+          },
+          "value": "user.mjvolk3",
+          "alias": "@mjvolk3"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 16,
+              "offset": 692
+            },
+            "end": {
+              "line": 29,
+              "column": 24,
+              "offset": 700
+            },
+            "indent": []
+          },
+          "value": "user.mjvolk3",
+          "alias": "@mjvolk3"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "1dw8hot9vdhml9x9l4wj1t9"
+      ],
+      "parent": "axrqsyq1ln9p8l6pgs49q5l",
+      "data": {},
+      "title": "Mjvolk3"
+    },
+    "1dw8hot9vdhml9x9l4wj1t9": {
+      "fname": "user.Mjvolk3.zendron",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702725,
+      "created": 1708200702725,
+      "id": "1dw8hot9vdhml9x9l4wj1t9",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "bdjwj0s3mqeuuzxx9lq66ny"
+      ],
+      "parent": "o0ors2eqajshterw8ncjbjv",
+      "data": {},
+      "title": "zendron"
+    },
+    "bdjwj0s3mqeuuzxx9lq66ny": {
+      "id": "bdjwj0s3mqeuuzxx9lq66ny",
+      "title": "tasks",
+      "desc": "",
+      "updated": 1708197409877,
+      "created": 1675554123628,
+      "custom": {},
+      "fname": "user.Mjvolk3.zendron.tasks",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "f24ad09b796ca67a73ae9613146e3089",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "user.user.Mjvolk3.zendron.tasks.future",
+          "alias": "@user.Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 11
+            },
+            "end": {
+              "line": 3,
+              "column": 35,
+              "offset": 45
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "src/zendron/metadata.py",
+          "alias": "src/zendron/metadata.py",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 93,
+              "offset": 677
+            },
+            "end": {
+              "line": 15,
+              "column": 120,
+              "offset": 704
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "src/zendron/metadata.py"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "README",
+          "alias": "README",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 71,
+              "offset": 824
+            },
+            "end": {
+              "line": 17,
+              "column": 84,
+              "offset": 837
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "README"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "src/zendron/zendron-remove.py",
+          "alias": "src/zendron/zendron-remove.py",
+          "position": {
+            "start": {
+              "line": 34,
+              "column": 21,
+              "offset": 1182
+            },
+            "end": {
+              "line": 34,
+              "column": 54,
+              "offset": 1215
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "src/zendron/zendron-remove.py"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "user.mjvolk3",
+          "alias": "@mjvolk3",
+          "position": {
+            "start": {
+              "line": 36,
+              "column": 16,
+              "offset": 1265
+            },
+            "end": {
+              "line": 36,
+              "column": 24,
+              "offset": 1273
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.mjvolk3"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "user.kipfVariationalGraphAutoEncoders2016",
+          "alias": "@kipfVariationalGraphAutoEncoders2016",
+          "position": {
+            "start": {
+              "line": 37,
+              "column": 12,
+              "offset": 1312
+            },
+            "end": {
+              "line": 37,
+              "column": 49,
+              "offset": 1349
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.kipfVariationalGraphAutoEncoders2016"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.Introduction",
+          "alias": "Introduction",
+          "position": {
+            "start": {
+              "line": 37,
+              "column": 89,
+              "offset": 1389
+            },
+            "end": {
+              "line": 37,
+              "column": 124,
+              "offset": 1424
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "paper.Introduction"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "src/zendron/sync.py",
+          "alias": "src/zendron/sync.py",
+          "position": {
+            "start": {
+              "line": 43,
+              "column": 16,
+              "offset": 1518
+            },
+            "end": {
+              "line": 43,
+              "column": 39,
+              "offset": 1541
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "src/zendron/sync.py"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "issuses",
+          "alias": "issuses",
+          "position": {
+            "start": {
+              "line": 44,
+              "column": 21,
+              "offset": 1679
+            },
+            "end": {
+              "line": 44,
+              "column": 85,
+              "offset": 1743
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "issuses",
+            "anchorHeader": "separate-cache-for-metadata-annotations-and-comments"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "src/zendron/sync.py",
+          "alias": "src/zendron/sync.py",
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 23,
+              "offset": 1766
+            },
+            "end": {
+              "line": 45,
+              "column": 46,
+              "offset": 1789
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "src/zendron/sync.py"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "src/zendron/load.py",
+          "alias": "src/zendron/load.py",
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 52,
+              "offset": 1795
+            },
+            "end": {
+              "line": 45,
+              "column": 75,
+              "offset": 1818
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "src/zendron/load.py"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "issuses",
+          "alias": "issuses",
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 92,
+              "offset": 1835
+            },
+            "end": {
+              "line": 45,
+              "column": 135,
+              "offset": 1878
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "issuses",
+            "anchorHeader": "sync-and-load-must-be-different"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 46,
+              "column": 57,
+              "offset": 1935
+            },
+            "end": {
+              "line": 46,
+              "column": 86,
+              "offset": 1964
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 47,
+              "column": 60,
+              "offset": 2024
+            },
+            "end": {
+              "line": 47,
+              "column": 89,
+              "offset": 2053
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 48,
+              "column": 60,
+              "offset": 2113
+            },
+            "end": {
+              "line": 48,
+              "column": 89,
+              "offset": 2142
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 49,
+              "column": 57,
+              "offset": 2199
+            },
+            "end": {
+              "line": 49,
+              "column": 86,
+              "offset": 2228
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 50,
+              "column": 45,
+              "offset": 2273
+            },
+            "end": {
+              "line": 50,
+              "column": 74,
+              "offset": 2302
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 51,
+              "column": 70,
+              "offset": 2372
+            },
+            "end": {
+              "line": 51,
+              "column": 99,
+              "offset": 2401
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 52,
+              "column": 41,
+              "offset": 2442
+            },
+            "end": {
+              "line": 52,
+              "column": 70,
+              "offset": 2471
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 53,
+              "column": 81,
+              "offset": 2552
+            },
+            "end": {
+              "line": 53,
+              "column": 110,
+              "offset": 2581
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Mjvolk3.zendron.tasks.future"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "vaultName": "Zendron"
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future",
+          "position": {
+            "start": {
+              "line": 54,
+              "column": 106,
+              "offset": 2687
+            },
+            "end": {
+              "line": 54,
+              "column": 135,
+              "offset": 2716
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.Mjvolk3.zendron.tasks.future"
+          }
+        }
+      ],
+      "anchors": {
+        "20230204": {
+          "type": "header",
+          "text": "2023.02.04",
+          "value": "20230204",
+          "line": 69,
+          "column": 0,
+          "depth": 2
+        },
+        "20230205": {
+          "type": "header",
+          "text": "2023.02.05",
+          "value": "20230205",
+          "line": 62,
+          "column": 0,
+          "depth": 2
+        },
+        "20230206": {
+          "type": "header",
+          "text": "2023.02.06",
+          "value": "20230206",
+          "line": 47,
+          "column": 0,
+          "depth": 2
+        },
+        "20230425": {
+          "type": "header",
+          "text": "2023.04.25",
+          "value": "20230425",
+          "line": 37,
+          "column": 0,
+          "depth": 2
+        },
+        "20230427": {
+          "type": "header",
+          "text": "2023.04.27",
+          "value": "20230427",
+          "line": 33,
+          "column": 0,
+          "depth": 2
+        },
+        "20230428": {
+          "type": "header",
+          "text": "2023.04.28",
+          "value": "20230428",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "20230429": {
+          "type": "header",
+          "text": "2023.04.29",
+          "value": "20230429",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "20240217": {
+          "type": "header",
+          "text": "2024.02.17",
+          "value": "20240217",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "future": {
+          "type": "header",
+          "text": "Future",
+          "value": "future",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "5mzcxt7yjk450eu5pzz086l"
+      ],
+      "parent": "1dw8hot9vdhml9x9l4wj1t9",
+      "data": {}
+    },
+    "5mzcxt7yjk450eu5pzz086l": {
+      "id": "5mzcxt7yjk450eu5pzz086l",
+      "title": "future",
+      "desc": "",
+      "updated": 1682810691708,
+      "created": 1682810691708,
+      "custom": {},
+      "fname": "user.Mjvolk3.zendron.tasks.future",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "3b1145ece34d6d366495a2cca2ae0242",
+      "links": [
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 46,
+              "column": 57,
+              "offset": 1935
+            },
+            "end": {
+              "line": 46,
+              "column": 86,
+              "offset": 1964
+            },
+            "indent": []
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 47,
+              "column": 60,
+              "offset": 2024
+            },
+            "end": {
+              "line": 47,
+              "column": 89,
+              "offset": 2053
+            },
+            "indent": []
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 48,
+              "column": 60,
+              "offset": 2113
+            },
+            "end": {
+              "line": 48,
+              "column": 89,
+              "offset": 2142
+            },
+            "indent": []
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 49,
+              "column": 57,
+              "offset": 2199
+            },
+            "end": {
+              "line": 49,
+              "column": 86,
+              "offset": 2228
+            },
+            "indent": []
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 50,
+              "column": 45,
+              "offset": 2273
+            },
+            "end": {
+              "line": 50,
+              "column": 74,
+              "offset": 2302
+            },
+            "indent": []
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 51,
+              "column": 70,
+              "offset": 2372
+            },
+            "end": {
+              "line": 51,
+              "column": 99,
+              "offset": 2401
+            },
+            "indent": []
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 52,
+              "column": 41,
+              "offset": 2442
+            },
+            "end": {
+              "line": 52,
+              "column": 70,
+              "offset": 2471
+            },
+            "indent": []
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 53,
+              "column": 81,
+              "offset": 2552
+            },
+            "end": {
+              "line": 53,
+              "column": 110,
+              "offset": 2581
+            },
+            "indent": []
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future"
+        },
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 54,
+              "column": 106,
+              "offset": 2687
+            },
+            "end": {
+              "line": 54,
+              "column": 135,
+              "offset": 2716
+            },
+            "indent": []
+          },
+          "value": "user.Mjvolk3.zendron.tasks.future",
+          "alias": "@Mjvolk3.zendron.tasks.future"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "bdjwj0s3mqeuuzxx9lq66ny",
+      "data": {}
+    },
+    "ntvq1eeaiye7e7bdp3u54wi": {
+      "id": "ntvq1eeaiye7e7bdp3u54wi",
+      "title": "Zotero 13026",
+      "desc": "",
+      "updated": 1682810679144,
+      "created": 1682810679144,
+      "isDir": false,
+      "custom": {
+        "isDir": false
+      },
+      "fname": "user.zotero-13026",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "98f2442914e460361329048a085273b6",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.zotero-13026",
+            "id": "ntvq1eeaiye7e7bdp3u54wi",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.empty-journal-article---no-pdf",
+          "alias": "metadata",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 1,
+              "offset": 18
+            },
+            "end": {
+              "line": 5,
+              "column": 77,
+              "offset": 94
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.empty-journal-article---no-pdf",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.zotero-13026",
+            "id": "ntvq1eeaiye7e7bdp3u54wi",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.empty-journal-article---no-pdf.comments",
+          "alias": "comments",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 1,
+              "offset": 197
+            },
+            "end": {
+              "line": 14,
+              "column": 86,
+              "offset": 282
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.empty-journal-article---no-pdf.comments",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.zotero-13026",
+            "id": "ntvq1eeaiye7e7bdp3u54wi",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.empty-journal-article---no-pdf.annotations",
+          "alias": "annotations",
+          "position": {
+            "start": {
+              "line": 23,
+              "column": 1,
+              "offset": 397
+            },
+            "end": {
+              "line": 23,
+              "column": 92,
+              "offset": 488
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.empty-journal-article---no-pdf.annotations",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "user.zotero-13026",
+            "id": "ntvq1eeaiye7e7bdp3u54wi",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.Empty-Journal-Article---No-PDF",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 1,
+              "offset": 95
+            },
+            "end": {
+              "line": 6,
+              "column": 78,
+              "offset": 172
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "to": {
+            "fname": "zendron.import.Empty-Journal-Article---No-PDF",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "user.zotero-13026",
+            "id": "ntvq1eeaiye7e7bdp3u54wi",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.Empty-Journal-Article---No-PDF.comments",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 1,
+              "offset": 283
+            },
+            "end": {
+              "line": 15,
+              "column": 87,
+              "offset": 369
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "to": {
+            "fname": "zendron.import.Empty-Journal-Article---No-PDF.comments",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "user.zotero-13026",
+            "id": "ntvq1eeaiye7e7bdp3u54wi",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.Empty-Journal-Article---No-PDF.annotations",
+          "position": {
+            "start": {
+              "line": 24,
+              "column": 1,
+              "offset": 489
+            },
+            "end": {
+              "line": 24,
+              "column": 93,
+              "offset": 581
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "to": {
+            "fname": "zendron.import.Empty-Journal-Article---No-PDF.annotations",
+            "vaultName": "Zendron"
+          }
+        }
+      ],
+      "anchors": {
+        "metadata": {
+          "type": "header",
+          "text": "Metadata",
+          "value": "metadata",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "comments": {
+          "type": "header",
+          "text": "Comments",
+          "value": "comments",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "annotations": {
+          "type": "header",
+          "text": "Annotations",
+          "value": "annotations",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "axrqsyq1ln9p8l6pgs49q5l",
+      "data": {}
+    },
+    "q528uauct491igev4nu5ezt": {
+      "id": "q528uauct491igev4nu5ezt",
+      "title": "Amaragraphframexsystematicevaluation2022",
+      "desc": "",
+      "updated": 1682810679143,
+      "created": 1682810679143,
+      "isDir": false,
+      "custom": {
+        "isDir": false
+      },
+      "fname": "user.amaragraphframexsystematicevaluation2022",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "b648eb3a3144943410c803578d61e696",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.amaragraphframexsystematicevaluation2022",
+            "id": "q528uauct491igev4nu5ezt",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.graphframex--towards-systematic-evaluation-of-explainability-methods-for-graph-neural-networks",
+          "alias": "metadata",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 1,
+              "offset": 18
+            },
+            "end": {
+              "line": 5,
+              "column": 141,
+              "offset": 158
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.graphframex--towards-systematic-evaluation-of-explainability-methods-for-graph-neural-networks",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.amaragraphframexsystematicevaluation2022",
+            "id": "q528uauct491igev4nu5ezt",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.graphframex--towards-systematic-evaluation-of-explainability-methods-for-graph-neural-networks.comments",
+          "alias": "comments",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 1,
+              "offset": 325
+            },
+            "end": {
+              "line": 14,
+              "column": 150,
+              "offset": 474
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.graphframex--towards-systematic-evaluation-of-explainability-methods-for-graph-neural-networks.comments",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "user.amaragraphframexsystematicevaluation2022",
+            "id": "q528uauct491igev4nu5ezt",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.graphframex--towards-systematic-evaluation-of-explainability-methods-for-graph-neural-networks.annotations",
+          "alias": "annotations",
+          "position": {
+            "start": {
+              "line": 23,
+              "column": 1,
+              "offset": 653
+            },
+            "end": {
+              "line": 23,
+              "column": 156,
+              "offset": 808
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron.import.graphframex--towards-systematic-evaluation-of-explainability-methods-for-graph-neural-networks.annotations",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "user.amaragraphframexsystematicevaluation2022",
+            "id": "q528uauct491igev4nu5ezt",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 1,
+              "offset": 159
+            },
+            "end": {
+              "line": 6,
+              "column": 142,
+              "offset": 300
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "to": {
+            "fname": "zendron.import.GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "user.amaragraphframexsystematicevaluation2022",
+            "id": "q528uauct491igev4nu5ezt",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks.comments",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 1,
+              "offset": 475
+            },
+            "end": {
+              "line": 15,
+              "column": 151,
+              "offset": 625
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "to": {
+            "fname": "zendron.import.GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks.comments",
+            "vaultName": "Zendron"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "user.amaragraphframexsystematicevaluation2022",
+            "id": "q528uauct491igev4nu5ezt",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron.import.GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks.annotations",
+          "position": {
+            "start": {
+              "line": 24,
+              "column": 1,
+              "offset": 809
+            },
+            "end": {
+              "line": 24,
+              "column": 157,
+              "offset": 965
+            },
+            "indent": []
+          },
+          "xvault": true,
+          "to": {
+            "fname": "zendron.import.GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks.annotations",
+            "vaultName": "Zendron"
+          }
+        }
+      ],
+      "anchors": {
+        "metadata": {
+          "type": "header",
+          "text": "Metadata",
+          "value": "metadata",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "comments": {
+          "type": "header",
+          "text": "Comments",
+          "value": "comments",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "annotations": {
+          "type": "header",
+          "text": "Annotations",
+          "value": "annotations",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "axrqsyq1ln9p8l6pgs49q5l",
+      "data": {}
+    },
+    "246wpv22f3s0ljv367bybrs": {
+      "fname": "tags",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702723,
+      "created": 1708200702723,
+      "id": "246wpv22f3s0ljv367bybrs",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "hdrej0g6q3utb8f1nqkzeog"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {},
+      "title": "Tags"
+    },
+    "hdrej0g6q3utb8f1nqkzeog": {
+      "id": "hdrej0g6q3utb8f1nqkzeog",
+      "title": "Check",
+      "desc": "",
+      "updated": 1682583356526,
+      "created": 1682583356526,
+      "custom": {},
+      "fname": "tags.Check",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "97352b30c76b0490c7b9067e7afe908e",
+      "links": [
+        {
+          "from": {
+            "id": "slj15tbj65vipj3pf42y0g5",
+            "fname": "paper.results-and-discussion.1",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 7,
+              "offset": 7
+            },
+            "indent": []
+          },
+          "value": "tags.Check",
+          "alias": "#Check"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "246wpv22f3s0ljv367bybrs",
+      "data": {}
+    },
+    "ke6q578idqoxwbgk6ogd4hu": {
+      "fname": "readme",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702723,
+      "created": 1708200702723,
+      "id": "ke6q578idqoxwbgk6ogd4hu",
+      "desc": "",
+      "links": [
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 71,
+              "offset": 824
+            },
+            "end": {
+              "line": 17,
+              "column": 84,
+              "offset": 837
+            },
+            "indent": []
+          },
+          "value": "README",
+          "alias": "README"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "4e6fmcr59ecvyas9ozrhkou"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {},
+      "title": "Readme"
+    },
+    "4e6fmcr59ecvyas9ozrhkou": {
+      "id": "4e6fmcr59ecvyas9ozrhkou",
+      "title": "Pypi",
+      "desc": "",
+      "updated": 1683787293955,
+      "created": 1683787286669,
+      "custom": {},
+      "fname": "readme.pypi",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "547c983e3e4713318fb6263e46a845cb",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "ke6q578idqoxwbgk6ogd4hu",
+      "data": {}
+    },
+    "3bgot52d1psalztauw89ii9": {
+      "id": "3bgot52d1psalztauw89ii9",
+      "title": "Zendron",
+      "desc": "",
+      "updated": 1674699629068,
+      "created": 1669323977999,
+      "custom": {},
+      "fname": "zendron",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "88c7df2a24c9a3b3897b4541908b9c43",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron",
+            "id": "3bgot52d1psalztauw89ii9",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron",
+          "alias": "Known Issues",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 71,
+              "offset": 556
+            },
+            "end": {
+              "line": 17,
+              "column": 108,
+              "offset": 593
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron",
+            "anchorHeader": "known-issues"
+          }
+        }
+      ],
+      "anchors": {
+        "basics": {
+          "type": "header",
+          "text": "Basics",
+          "value": "basics",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "zotero-bibtex-setup": {
+          "type": "header",
+          "text": "Zotero BibTex Setup",
+          "value": "zotero-bibtex-setup",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "command-palette": {
+          "type": "header",
+          "text": "Command Palette",
+          "value": "command-palette",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "import-structure": {
+          "type": "header",
+          "text": "Import Structure",
+          "value": "import-structure",
+          "line": 40,
+          "column": 0,
+          "depth": 3
+        },
+        "import": {
+          "type": "header",
+          "text": "Import",
+          "value": "import",
+          "line": 45,
+          "column": 0,
+          "depth": 4
+        },
+        "local": {
+          "type": "header",
+          "text": "Local",
+          "value": "local",
+          "line": 49,
+          "column": 0,
+          "depth": 4
+        },
+        "using-with-dendron": {
+          "type": "header",
+          "text": "Using With Dendron",
+          "value": "using-with-dendron",
+          "line": 55,
+          "column": 0,
+          "depth": 3
+        },
+        "known-issues": {
+          "type": "header",
+          "text": "Known Issues",
+          "value": "known-issues",
+          "line": 61,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "szors495pia2r81gf4pn2pd",
+        "qxsmv6iqaxlmjrhe8eypgps",
+        "9voje01mfme5zskfbv14se4",
+        "x4qh5c995b94tc6l9uu2nds"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {}
+    },
+    "x4qh5c995b94tc6l9uu2nds": {
+      "fname": "zendron.import",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702725,
+      "created": 1708200702725,
+      "id": "x4qh5c995b94tc6l9uu2nds",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "1jz6ymjg5ms0p34cohzkddp",
+        "wnr338igibq0zduxnlz74qs",
+        "ndddbjatf8xuimxasit4bp1",
+        "cqklqxx07bbfybqk1k2b2tv"
+      ],
+      "parent": "3bgot52d1psalztauw89ii9",
+      "data": {},
+      "title": "Import"
+    },
+    "cqklqxx07bbfybqk1k2b2tv": {
+      "fname": "zendron.import.what-is-it-like-to-be-a-bat?",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702726,
+      "created": 1708200702726,
+      "id": "cqklqxx07bbfybqk1k2b2tv",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "dhk0s6roq1y4j4703m7is46"
+      ],
+      "parent": "x4qh5c995b94tc6l9uu2nds",
+      "data": {},
+      "title": "What Is It like to Be a Bat?"
+    },
+    "dhk0s6roq1y4j4703m7is46": {
+      "id": "dhk0s6roq1y4j4703m7is46",
+      "title": "Comments",
+      "desc": "",
+      "updated": 1682811253944,
+      "created": 1682811253944,
+      "isDir": false,
+      "comment_key": null,
+      "custom": {
+        "isDir": false,
+        "comment_key": null
+      },
+      "fname": "zendron.import.what-is-it-like-to-be-a-bat?.comments",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "ccf06cd63d8c614f2b748ddd1a3028d8",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "cqklqxx07bbfybqk1k2b2tv",
+      "data": {}
+    },
+    "ndddbjatf8xuimxasit4bp1": {
+      "fname": "zendron.import.variational-graph-auto-encoders",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702726,
+      "created": 1708200702726,
+      "id": "ndddbjatf8xuimxasit4bp1",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "remaetxg8rof9xlqhikqlcx"
+      ],
+      "parent": "x4qh5c995b94tc6l9uu2nds",
+      "data": {},
+      "title": "Variational Graph Auto Encoders"
+    },
+    "remaetxg8rof9xlqhikqlcx": {
+      "id": "remaetxg8rof9xlqhikqlcx",
+      "title": "Comments",
+      "desc": "",
+      "updated": 1683745458594,
+      "created": 1683745458594,
+      "isDir": false,
+      "comment_key": null,
+      "custom": {
+        "isDir": false,
+        "comment_key": null
+      },
+      "fname": "zendron.import.variational-graph-auto-encoders.comments",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "8823ecb2845064bd0fab6c5acc0636ec",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "ndddbjatf8xuimxasit4bp1",
+      "data": {}
+    },
+    "wnr338igibq0zduxnlz74qs": {
+      "fname": "zendron.import.graphframex--towards-systematic-evaluation-of-explainability-methods-for-graph-neural-networks",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702726,
+      "created": 1708200702726,
+      "id": "wnr338igibq0zduxnlz74qs",
+      "desc": "",
+      "links": [
+        {
+          "from": {
+            "id": "q528uauct491igev4nu5ezt",
+            "fname": "user.amaragraphframexsystematicevaluation2022",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 1,
+              "offset": 18
+            },
+            "end": {
+              "line": 5,
+              "column": 141,
+              "offset": 158
+            },
+            "indent": []
+          },
+          "value": "zendron.import.graphframex--towards-systematic-evaluation-of-explainability-methods-for-graph-neural-networks",
+          "alias": "metadata"
+        },
+        {
+          "from": {
+            "id": "q528uauct491igev4nu5ezt",
+            "fname": "user.amaragraphframexsystematicevaluation2022",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 1,
+              "offset": 159
+            },
+            "end": {
+              "line": 6,
+              "column": 142,
+              "offset": 300
+            },
+            "indent": []
+          },
+          "value": "zendron.import.GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "5q6r4siqcfyp2kvfz5ckpjb"
+      ],
+      "parent": "x4qh5c995b94tc6l9uu2nds",
+      "data": {},
+      "title": "Graphframex  towards Systematic Evaluation of Explainability Methods for Graph Neural Networks"
+    },
+    "5q6r4siqcfyp2kvfz5ckpjb": {
+      "id": "5q6r4siqcfyp2kvfz5ckpjb",
+      "title": "Comments",
+      "desc": "",
+      "updated": 1682810679145,
+      "created": 1682810679145,
+      "isDir": false,
+      "comment_key": null,
+      "custom": {
+        "isDir": false,
+        "comment_key": null
+      },
+      "fname": "zendron.import.graphframex--towards-systematic-evaluation-of-explainability-methods-for-graph-neural-networks.comments",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "bb08668942a259410a35e943c03ad972",
+      "links": [
+        {
+          "from": {
+            "id": "q528uauct491igev4nu5ezt",
+            "fname": "user.amaragraphframexsystematicevaluation2022",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 1,
+              "offset": 325
+            },
+            "end": {
+              "line": 14,
+              "column": 150,
+              "offset": 474
+            },
+            "indent": []
+          },
+          "value": "zendron.import.graphframex--towards-systematic-evaluation-of-explainability-methods-for-graph-neural-networks.comments",
+          "alias": "comments"
+        },
+        {
+          "from": {
+            "id": "q528uauct491igev4nu5ezt",
+            "fname": "user.amaragraphframexsystematicevaluation2022",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 1,
+              "offset": 475
+            },
+            "end": {
+              "line": 15,
+              "column": 151,
+              "offset": 625
+            },
+            "indent": []
+          },
+          "value": "zendron.import.GraphFramEx--Towards-Systematic-Evaluation-of-Explainability-Methods-for-Graph-Neural-Networks.comments"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "wnr338igibq0zduxnlz74qs",
+      "data": {}
+    },
+    "1jz6ymjg5ms0p34cohzkddp": {
+      "fname": "zendron.import.empty-journal-article---no-pdf",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1708200702725,
+      "created": 1708200702725,
+      "id": "1jz6ymjg5ms0p34cohzkddp",
+      "desc": "",
+      "links": [
+        {
+          "from": {
+            "id": "ntvq1eeaiye7e7bdp3u54wi",
+            "fname": "user.zotero-13026",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 1,
+              "offset": 18
+            },
+            "end": {
+              "line": 5,
+              "column": 77,
+              "offset": 94
+            },
+            "indent": []
+          },
+          "value": "zendron.import.empty-journal-article---no-pdf",
+          "alias": "metadata"
+        },
+        {
+          "from": {
+            "id": "ntvq1eeaiye7e7bdp3u54wi",
+            "fname": "user.zotero-13026",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 1,
+              "offset": 95
+            },
+            "end": {
+              "line": 6,
+              "column": 78,
+              "offset": 172
+            },
+            "indent": []
+          },
+          "value": "zendron.import.Empty-Journal-Article---No-PDF"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "j99hk7xxsxwmfyxtacp6xrd"
+      ],
+      "parent": "x4qh5c995b94tc6l9uu2nds",
+      "data": {},
+      "title": "Empty Journal Article   No Pdf"
+    },
+    "j99hk7xxsxwmfyxtacp6xrd": {
+      "id": "j99hk7xxsxwmfyxtacp6xrd",
+      "title": "Comments",
+      "desc": "",
+      "updated": 1682810679145,
+      "created": 1682810679145,
+      "isDir": false,
+      "comment_key": null,
+      "custom": {
+        "isDir": false,
+        "comment_key": null
+      },
+      "fname": "zendron.import.empty-journal-article---no-pdf.comments",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "1aa19c17ceb9d9896979712ba8885601",
+      "links": [
+        {
+          "from": {
+            "id": "ntvq1eeaiye7e7bdp3u54wi",
+            "fname": "user.zotero-13026",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 1,
+              "offset": 197
+            },
+            "end": {
+              "line": 14,
+              "column": 86,
+              "offset": 282
+            },
+            "indent": []
+          },
+          "value": "zendron.import.empty-journal-article---no-pdf.comments",
+          "alias": "comments"
+        },
+        {
+          "from": {
+            "id": "ntvq1eeaiye7e7bdp3u54wi",
+            "fname": "user.zotero-13026",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 1,
+              "offset": 283
+            },
+            "end": {
+              "line": 15,
+              "column": 87,
+              "offset": 369
+            },
+            "indent": []
+          },
+          "value": "zendron.import.Empty-Journal-Article---No-PDF.comments"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "1jz6ymjg5ms0p34cohzkddp",
+      "data": {}
+    },
+    "9voje01mfme5zskfbv14se4": {
+      "id": "9voje01mfme5zskfbv14se4",
+      "title": "Roadmap",
+      "desc": "",
+      "updated": 1674699794073,
+      "created": 1669488663768,
+      "custom": {},
+      "fname": "zendron.roadmap",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "114176e06017d79e2f8b08bba8499993",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "zendron.roadmap",
+            "id": "9voje01mfme5zskfbv14se4",
+            "vaultName": "Zendron"
+          },
+          "value": "zendron/resync.py",
+          "alias": "sync",
+          "position": {
+            "start": {
+              "line": 87,
+              "column": 43,
+              "offset": 3769
+            },
+            "end": {
+              "line": 87,
+              "column": 69,
+              "offset": 3795
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "zendron/resync.py"
+          }
+        }
+      ],
+      "anchors": {
+        "zendron-ideas": {
+          "type": "header",
+          "text": "Zendron Ideas",
+          "value": "zendron-ideas",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "zendron-roadmap": {
+          "type": "header",
+          "text": "Zendron Roadmap",
+          "value": "zendron-roadmap",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "issues": {
+          "type": "header",
+          "text": "Issues",
+          "value": "issues",
+          "line": 91,
+          "column": 0,
+          "depth": 2
+        },
+        "itemized-annotation-collection": {
+          "type": "header",
+          "text": "Itemized-Annotation-Collection",
+          "value": "itemized-annotation-collection",
+          "line": 98,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "3bgot52d1psalztauw89ii9",
+      "data": {}
+    },
+    "qxsmv6iqaxlmjrhe8eypgps": {
+      "id": "qxsmv6iqaxlmjrhe8eypgps",
+      "title": "Hydra",
+      "desc": "",
+      "updated": 1674699791902,
+      "created": 1669521152841,
+      "custom": {},
+      "fname": "zendron.hydra",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "9b4801255e2a22957b22db534a953e7c",
+      "links": [],
+      "anchors": {
+        "config-location": {
+          "type": "header",
+          "text": "Config Location",
+          "value": "config-location",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "3bgot52d1psalztauw89ii9",
+      "data": {}
+    },
+    "szors495pia2r81gf4pn2pd": {
+      "id": "szors495pia2r81gf4pn2pd",
+      "title": "Citation Key",
+      "desc": "",
+      "updated": 1682635730702,
+      "created": 1669491997247,
+      "custom": {},
+      "fname": "zendron.citation-key",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "f0d9921ce6cebfa24e999318ae097c54",
+      "links": [],
+      "anchors": {
+        "extras": {
+          "type": "header",
+          "text": "Extras",
+          "value": "extras",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "autopindelay": {
+          "type": "header",
+          "text": "AutoPinDelay",
+          "value": "autopindelay",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "steps": {
+          "type": "header",
+          "text": "Steps",
+          "value": "steps",
+          "line": 14,
+          "column": 0,
+          "depth": 4
+        },
+        "citation-counts": {
+          "type": "header",
+          "text": "Citation Counts",
+          "value": "citation-counts",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        },
+        "manual-pin": {
+          "type": "header",
+          "text": "Manual Pin",
+          "value": "manual-pin",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        },
+        "better-bibtex-automatic-export": {
+          "type": "header",
+          "text": "Better BibTex Automatic Export",
+          "value": "better-bibtex-automatic-export",
+          "line": 32,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "3bgot52d1psalztauw89ii9",
+      "data": {}
+    },
+    "mfxec2289q62ux02wn7s3ys": {
+      "id": "mfxec2289q62ux02wn7s3ys",
+      "title": "Publish",
+      "desc": "",
+      "updated": 1674699777276,
+      "created": 1661540036400,
+      "custom": {},
+      "fname": "publish",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "4630d989033b2ccb4d0c43bb4d5c6291",
+      "links": [],
+      "anchors": {
+        "to-compile-document": {
+          "type": "header",
+          "text": "To Compile Document",
+          "value": "to-compile-document",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "export-markdown-pod": {
+          "type": "header",
+          "text": "Export Markdown Pod",
+          "value": "export-markdown-pod",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "pandoc": {
+          "type": "header",
+          "text": "Pandoc",
+          "value": "pandoc",
+          "line": 19,
+          "column": 0,
+          "depth": 2
+        },
+        "resources": {
+          "type": "header",
+          "text": "Resources",
+          "value": "resources",
+          "line": 35,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "oyr1cahkx5i3mjhr9swxn8z",
+        "8uislw8sav7ndo2yj2nebk1"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {}
+    },
+    "8uislw8sav7ndo2yj2nebk1": {
+      "id": "8uislw8sav7ndo2yj2nebk1",
+      "title": "Word",
+      "desc": "",
+      "updated": 1674699781777,
+      "created": 1661540059329,
+      "custom": {},
+      "fname": "publish.word",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "72cc9896e8fd80500d2c8f392bd1afaa",
+      "links": [],
+      "anchors": {
+        "merge-tools": {
+          "type": "header",
+          "text": "Merge Tools",
+          "value": "merge-tools",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "linux": {
+          "type": "header",
+          "text": "Linux",
+          "value": "linux",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        },
+        "macos": {
+          "type": "header",
+          "text": "MacOS",
+          "value": "macos",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        },
+        "windows": {
+          "type": "header",
+          "text": "Windows",
+          "value": "windows",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "issues": {
+          "type": "header",
+          "text": "Issues",
+          "value": "issues",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "mfxec2289q62ux02wn7s3ys",
+      "data": {}
+    },
+    "oyr1cahkx5i3mjhr9swxn8z": {
+      "id": "oyr1cahkx5i3mjhr9swxn8z",
+      "title": "Pdf",
+      "desc": "",
+      "updated": 1674699779580,
+      "created": 1661892034192,
+      "custom": {},
+      "fname": "publish.pdf",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "96b0d0181cc6a30d763778a51b43e941",
+      "links": [],
+      "anchors": {
+        "merge-tools": {
+          "type": "header",
+          "text": "Merge Tools",
+          "value": "merge-tools",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "linux-and-macos": {
+          "type": "header",
+          "text": "Linux and MacOS",
+          "value": "linux-and-macos",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        },
+        "windows": {
+          "type": "header",
+          "text": "Windows",
+          "value": "windows",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "mfxec2289q62ux02wn7s3ys",
+      "data": {}
+    },
+    "p23vy0l4olv9ldoplaadusm": {
+      "id": "p23vy0l4olv9ldoplaadusm",
+      "title": "Outline",
+      "desc": "",
+      "updated": 1674699713514,
+      "created": 1662432714909,
+      "custom": {},
+      "fname": "outline",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "434a189875b145dcfe7b614d3f4fa03f",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {}
+    },
+    "7g2c2qq7d38imc5pqcn3pcv": {
+      "id": "7g2c2qq7d38imc5pqcn3pcv",
+      "title": "Issuses",
+      "desc": "",
+      "updated": 1675724782122,
+      "created": 1675706716390,
+      "custom": {},
+      "fname": "issuses",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "657fa61109f9d61f70c8ee57b109aecd",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "issuses",
+            "id": "7g2c2qq7d38imc5pqcn3pcv",
+            "vaultName": "Zendron"
+          },
+          "value": "src/zendron/sync.py",
+          "alias": "src/zendron/sync.py",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 9,
+              "offset": 797
+            },
+            "end": {
+              "line": 11,
+              "column": 32,
+              "offset": 820
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "src/zendron/sync.py"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "issuses",
+            "id": "7g2c2qq7d38imc5pqcn3pcv",
+            "vaultName": "Zendron"
+          },
+          "value": "src/zendron/load.py",
+          "alias": "src/zendron/load.py",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 37,
+              "offset": 825
+            },
+            "end": {
+              "line": 11,
+              "column": 60,
+              "offset": 848
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "src/zendron/load.py"
+          }
+        },
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 44,
+              "column": 21,
+              "offset": 1679
+            },
+            "end": {
+              "line": 44,
+              "column": 85,
+              "offset": 1743
+            },
+            "indent": []
+          },
+          "value": "issuses",
+          "alias": "issuses"
+        },
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 92,
+              "offset": 1835
+            },
+            "end": {
+              "line": 45,
+              "column": 135,
+              "offset": 1878
+            },
+            "indent": []
+          },
+          "value": "issuses",
+          "alias": "issuses"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 37,
+              "column": 21,
+              "offset": 1106
+            },
+            "end": {
+              "line": 37,
+              "column": 85,
+              "offset": 1170
+            },
+            "indent": []
+          },
+          "value": "issuses",
+          "alias": "issuses"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 38,
+              "column": 92,
+              "offset": 1262
+            },
+            "end": {
+              "line": 38,
+              "column": 135,
+              "offset": 1305
+            },
+            "indent": []
+          },
+          "value": "issuses",
+          "alias": "issuses"
+        }
+      ],
+      "anchors": {
+        "separate-cache-for-metadata-annotations-and-comments": {
+          "type": "header",
+          "text": "Separate cache for metadata, annotations, and comments",
+          "value": "separate-cache-for-metadata-annotations-and-comments",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "data-objects": {
+          "type": "header",
+          "text": "Data objects",
+          "value": "data-objects",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "sync-and-load-must-be-different": {
+          "type": "header",
+          "text": "Sync and Load must be different",
+          "value": "sync-and-load-must-be-different",
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {}
+    },
+    "dhqqdsj7upk727guws9vgox": {
+      "id": "dhqqdsj7upk727guws9vgox",
+      "title": "Issues",
+      "desc": "",
+      "updated": 1682464418297,
+      "created": 1675740126695,
+      "custom": {},
+      "fname": "issues",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "b48c69eee91a8699430ae90093417596",
+      "links": [],
+      "anchors": {
+        "separate-cache-for-metadata-annotations-and-comments": {
+          "type": "header",
+          "text": "Separate cache for metadata annotations and comments",
+          "value": "separate-cache-for-metadata-annotations-and-comments",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "sync-and-load-must-be-different": {
+          "type": "header",
+          "text": "Sync and load must be different",
+          "value": "sync-and-load-must-be-different",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "pz0vbyamtaj2kfmon7zlk5u"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {}
+    },
+    "pz0vbyamtaj2kfmon7zlk5u": {
+      "id": "pz0vbyamtaj2kfmon7zlk5u",
+      "title": "Configuration",
+      "desc": "",
+      "updated": 1682510006890,
+      "created": 1682505188648,
+      "custom": {},
+      "fname": "issues.configuration",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "0be30ae12b7db5f77868cfef1df60a04",
+      "links": [
+        {
+          "from": {
+            "id": "n98hhi6p84yqx767190dycu",
+            "fname": "user.user.Mjvolk3.zendron.tasks.future",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 30,
+              "offset": 381
+            },
+            "end": {
+              "line": 5,
+              "column": 68,
+              "offset": 419
+            },
+            "indent": []
+          },
+          "value": "issues.configuration",
+          "alias": "Configuration"
+        }
+      ],
+      "anchors": {
+        "importlib-access-to-package-paths": {
+          "type": "header",
+          "text": "Importlib Access to Package Paths",
+          "value": "importlib-access-to-package-paths",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "pyprojecttoml-potential-solution": {
+          "type": "header",
+          "text": "pyproject.toml Potential Solution",
+          "value": "pyprojecttoml-potential-solution",
+          "line": 19,
+          "column": 0,
+          "depth": 2
+        },
+        "setupcfg-potential-solution": {
+          "type": "header",
+          "text": "setup.cfg Potential Solution",
+          "value": "setupcfg-potential-solution",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "dhqqdsj7upk727guws9vgox",
+      "data": {}
+    },
+    "fm2x5t091y755nimxrpjwez": {
+      "id": "fm2x5t091y755nimxrpjwez",
+      "title": "Paper",
+      "desc": "",
+      "updated": 1674699745922,
+      "created": 1661539309897,
+      "custom": {},
+      "fname": "Paper",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "9e4ad460e3e58ed638e7097eb1daf126",
+      "links": [
+        {
+          "type": "ref",
+          "from": {
+            "fname": "Paper",
+            "id": "fm2x5t091y755nimxrpjwez",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.Abstract",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 1,
+              "offset": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 20,
+              "offset": 33
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.Abstract"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "Paper",
+            "id": "fm2x5t091y755nimxrpjwez",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.Introduction",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 1,
+              "offset": 52
+            },
+            "end": {
+              "line": 8,
+              "column": 24,
+              "offset": 75
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.Introduction"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "Paper",
+            "id": "fm2x5t091y755nimxrpjwez",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.Results-and-Discussion",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 1,
+              "offset": 89
+            },
+            "end": {
+              "line": 12,
+              "column": 34,
+              "offset": 122
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.Results-and-Discussion"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "Paper",
+            "id": "fm2x5t091y755nimxrpjwez",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.Conclusion",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 1,
+              "offset": 139
+            },
+            "end": {
+              "line": 16,
+              "column": 22,
+              "offset": 160
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.Conclusion"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "Paper",
+            "id": "fm2x5t091y755nimxrpjwez",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.methods",
+          "position": {
+            "start": {
+              "line": 20,
+              "column": 1,
+              "offset": 174
+            },
+            "end": {
+              "line": 20,
+              "column": 27,
+              "offset": 200
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.methods"
+          }
+        }
+      ],
+      "anchors": {
+        "abstract": {
+          "type": "header",
+          "text": "Abstract",
+          "value": "abstract",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "introduction": {
+          "type": "header",
+          "text": "Introduction",
+          "value": "introduction",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "results": {
+          "type": "header",
+          "text": "Results",
+          "value": "results",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "conclusion": {
+          "type": "header",
+          "text": "Conclusion",
+          "value": "conclusion",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "methods": {
+          "type": "header",
+          "text": "Methods",
+          "value": "methods",
+          "line": 24,
+          "column": 0,
+          "depth": 2
+        },
+        "references": {
+          "type": "header",
+          "text": "References",
+          "value": "references",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "ocrlokjddjijfkav5gx3zwy",
+        "hfcch65tuipbt78eg53djro",
+        "ini2qx8ae60mz5twkeyor46",
+        "er3o1zxreqsz4dw86zsklro",
+        "ay37on7twzi95vi9azskbq3",
+        "390sq76s3o8ep4adxoqhyjx",
+        "l572zp99wpqo4mqnzvtgwn4"
+      ],
+      "parent": "nuyfwd7iokzd7m9oax0cdx5",
+      "data": {}
+    },
+    "l572zp99wpqo4mqnzvtgwn4": {
+      "id": "l572zp99wpqo4mqnzvtgwn4",
+      "title": "Title",
+      "desc": "",
+      "updated": 1674699775004,
+      "created": 1661561814159,
+      "custom": {},
+      "fname": "paper.title",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "b0e65136ff715df4f65ddc1f521167b6",
+      "links": [],
+      "anchors": {
+        "title-page": {
+          "type": "header",
+          "text": "TITLE PAGE",
+          "value": "title-page",
+          "line": 7,
+          "column": 0,
+          "depth": 6
+        },
+        "": {
+          "type": "header",
+          "text": "",
+          "value": "",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fm2x5t091y755nimxrpjwez",
+      "data": {}
+    },
+    "390sq76s3o8ep4adxoqhyjx": {
+      "id": "390sq76s3o8ep4adxoqhyjx",
+      "title": "Supplementary",
+      "desc": "",
+      "updated": 1674699772308,
+      "created": 1661541007429,
+      "custom": {},
+      "fname": "paper.supplementary",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "b7356c8dd30576dfc5fc72058773b520",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "fm2x5t091y755nimxrpjwez",
+      "data": {}
+    },
+    "ay37on7twzi95vi9azskbq3": {
+      "id": "ay37on7twzi95vi9azskbq3",
+      "title": "Methods",
+      "desc": "",
+      "updated": 1674699747938,
+      "created": 1661539594543,
+      "custom": {},
+      "fname": "paper.methods",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "bacecb73142e35bac7a5825877468c34",
+      "links": [
+        {
+          "from": {
+            "id": "fm2x5t091y755nimxrpjwez",
+            "fname": "Paper",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 20,
+              "column": 1,
+              "offset": 174
+            },
+            "end": {
+              "line": 20,
+              "column": 27,
+              "offset": 200
+            },
+            "indent": []
+          },
+          "value": "paper.methods"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "fm2x5t091y755nimxrpjwez",
+      "data": {}
+    },
+    "er3o1zxreqsz4dw86zsklro": {
+      "id": "er3o1zxreqsz4dw86zsklro",
+      "title": "Results-and-Discussion",
+      "desc": "",
+      "updated": 1674699769018,
+      "created": 1661539716123,
+      "custom": {},
+      "fname": "paper.Results-and-Discussion",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "4a29af6f0134bffaad611ca9233a4b23",
+      "links": [
+        {
+          "type": "ref",
+          "from": {
+            "fname": "paper.Results-and-Discussion",
+            "id": "er3o1zxreqsz4dw86zsklro",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.results-and-discussion.1",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 38,
+              "offset": 63
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.results-and-discussion.1"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "paper.Results-and-Discussion",
+            "id": "er3o1zxreqsz4dw86zsklro",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.results-and-discussion.2",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 64
+            },
+            "end": {
+              "line": 3,
+              "column": 38,
+              "offset": 101
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.results-and-discussion.2"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "paper.Results-and-Discussion",
+            "id": "er3o1zxreqsz4dw86zsklro",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.results-and-discussion.3",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 1,
+              "offset": 102
+            },
+            "end": {
+              "line": 4,
+              "column": 38,
+              "offset": 139
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.results-and-discussion.3"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "paper.Results-and-Discussion",
+            "id": "er3o1zxreqsz4dw86zsklro",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.results-and-discussion.4",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 1,
+              "offset": 140
+            },
+            "end": {
+              "line": 5,
+              "column": 38,
+              "offset": 177
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.results-and-discussion.4"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "paper.Results-and-Discussion",
+            "id": "er3o1zxreqsz4dw86zsklro",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.results-and-discussion.5",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 1,
+              "offset": 178
+            },
+            "end": {
+              "line": 6,
+              "column": 38,
+              "offset": 215
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.results-and-discussion.5"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "paper.Results-and-Discussion",
+            "id": "er3o1zxreqsz4dw86zsklro",
+            "vaultName": "Zendron"
+          },
+          "value": "paper.results-and-discussion.6",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 1,
+              "offset": 216
+            },
+            "end": {
+              "line": 7,
+              "column": 38,
+              "offset": 253
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "paper.results-and-discussion.6"
+          }
+        },
+        {
+          "from": {
+            "id": "fm2x5t091y755nimxrpjwez",
+            "fname": "Paper",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 1,
+              "offset": 89
+            },
+            "end": {
+              "line": 12,
+              "column": 34,
+              "offset": 122
+            },
+            "indent": []
+          },
+          "value": "paper.Results-and-Discussion"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "slj15tbj65vipj3pf42y0g5",
+        "5qfngwn4d8t529i4hxne0px",
+        "tnrpx2i5w7jsz6ihthagdx9",
+        "jywz14cz751xbi0pz9m39co",
+        "s395uq1tmp2po987q7drj0k",
+        "htkqt78zytdbfzqo7scui48"
+      ],
+      "parent": "fm2x5t091y755nimxrpjwez",
+      "data": {}
+    },
+    "htkqt78zytdbfzqo7scui48": {
+      "id": "htkqt78zytdbfzqo7scui48",
+      "title": "6",
+      "desc": "",
+      "updated": 1674699765823,
+      "created": 1661540008785,
+      "custom": {},
+      "fname": "paper.results-and-discussion.6",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "537cafd96c7023a8f9b54c1048dfad2b",
+      "links": [
+        {
+          "from": {
+            "id": "er3o1zxreqsz4dw86zsklro",
+            "fname": "paper.Results-and-Discussion",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 1,
+              "offset": 216
+            },
+            "end": {
+              "line": 7,
+              "column": 38,
+              "offset": 253
+            },
+            "indent": []
+          },
+          "value": "paper.results-and-discussion.6"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "er3o1zxreqsz4dw86zsklro",
+      "data": {}
+    },
+    "s395uq1tmp2po987q7drj0k": {
+      "id": "s395uq1tmp2po987q7drj0k",
+      "title": "5",
+      "desc": "",
+      "updated": 1674699760615,
+      "created": 1662429405031,
+      "custom": {},
+      "fname": "paper.results-and-discussion.5",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "610e49695089c22a32533406f117f560",
+      "links": [
+        {
+          "from": {
+            "id": "er3o1zxreqsz4dw86zsklro",
+            "fname": "paper.Results-and-Discussion",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 1,
+              "offset": 178
+            },
+            "end": {
+              "line": 6,
+              "column": 38,
+              "offset": 215
+            },
+            "indent": []
+          },
+          "value": "paper.results-and-discussion.5"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "er3o1zxreqsz4dw86zsklro",
+      "data": {}
+    },
+    "jywz14cz751xbi0pz9m39co": {
+      "id": "jywz14cz751xbi0pz9m39co",
+      "title": "4",
+      "desc": "",
+      "updated": 1674699757871,
+      "created": 1662429403492,
+      "custom": {},
+      "fname": "paper.results-and-discussion.4",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "5d40308d1228a092837df247c6cc906f",
+      "links": [
+        {
+          "from": {
+            "id": "er3o1zxreqsz4dw86zsklro",
+            "fname": "paper.Results-and-Discussion",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 1,
+              "offset": 140
+            },
+            "end": {
+              "line": 5,
+              "column": 38,
+              "offset": 177
+            },
+            "indent": []
+          },
+          "value": "paper.results-and-discussion.4"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "er3o1zxreqsz4dw86zsklro",
+      "data": {}
+    },
+    "tnrpx2i5w7jsz6ihthagdx9": {
+      "id": "tnrpx2i5w7jsz6ihthagdx9",
+      "title": "3",
+      "desc": "",
+      "updated": 1674699754698,
+      "created": 1662429391355,
+      "custom": {},
+      "fname": "paper.results-and-discussion.3",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "24ead4da31d1a4ea6560db568b9caacc",
+      "links": [
+        {
+          "from": {
+            "id": "er3o1zxreqsz4dw86zsklro",
+            "fname": "paper.Results-and-Discussion",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 1,
+              "offset": 102
+            },
+            "end": {
+              "line": 4,
+              "column": 38,
+              "offset": 139
+            },
+            "indent": []
+          },
+          "value": "paper.results-and-discussion.3"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "er3o1zxreqsz4dw86zsklro",
+      "data": {}
+    },
+    "5qfngwn4d8t529i4hxne0px": {
+      "id": "5qfngwn4d8t529i4hxne0px",
+      "title": "2",
+      "desc": "",
+      "updated": 1674699752062,
+      "created": 1662429378965,
+      "custom": {},
+      "fname": "paper.results-and-discussion.2",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "ecc3910b9d0af52c1f2e840799ebd62e",
+      "links": [
+        {
+          "from": {
+            "id": "er3o1zxreqsz4dw86zsklro",
+            "fname": "paper.Results-and-Discussion",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 64
+            },
+            "end": {
+              "line": 3,
+              "column": 38,
+              "offset": 101
+            },
+            "indent": []
+          },
+          "value": "paper.results-and-discussion.2"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "er3o1zxreqsz4dw86zsklro",
+      "data": {}
+    },
+    "slj15tbj65vipj3pf42y0g5": {
+      "id": "slj15tbj65vipj3pf42y0g5",
+      "title": "1",
+      "desc": "",
+      "updated": 1674699749259,
+      "created": 1661539821874,
+      "custom": {},
+      "fname": "paper.results-and-discussion.1",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "04b0999cf71e833a862dadeee65a0b54",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "paper.results-and-discussion.1",
+            "id": "slj15tbj65vipj3pf42y0g5",
+            "vaultName": "Zendron"
+          },
+          "value": "tags.Check",
+          "alias": "#Check",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 7,
+              "offset": 7
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.Check"
+          }
+        },
+        {
+          "from": {
+            "id": "er3o1zxreqsz4dw86zsklro",
+            "fname": "paper.Results-and-Discussion",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 38,
+              "offset": 63
+            },
+            "indent": []
+          },
+          "value": "paper.results-and-discussion.1"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "er3o1zxreqsz4dw86zsklro",
+      "data": {}
+    },
+    "ini2qx8ae60mz5twkeyor46": {
+      "id": "ini2qx8ae60mz5twkeyor46",
+      "title": "Introduction",
+      "desc": "",
+      "updated": 1675533160259,
+      "created": 1661539410751,
+      "custom": {},
+      "fname": "paper.Introduction",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "90c6fb851aef219e598b651326d1c790",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "paper.Introduction",
+            "id": "ini2qx8ae60mz5twkeyor46",
+            "vaultName": "Zendron"
+          },
+          "value": "user.kipfVariationalGraphAutoEncoders2016",
+          "alias": "@kipfVariationalGraphAutoEncoders2016",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 19,
+              "offset": 47
+            },
+            "end": {
+              "line": 3,
+              "column": 56,
+              "offset": 84
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.kipfVariationalGraphAutoEncoders2016"
+          }
+        },
+        {
+          "from": {
+            "id": "fm2x5t091y755nimxrpjwez",
+            "fname": "Paper",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 1,
+              "offset": 52
+            },
+            "end": {
+              "line": 8,
+              "column": 24,
+              "offset": 75
+            },
+            "indent": []
+          },
+          "value": "paper.Introduction"
+        },
+        {
+          "from": {
+            "id": "bdjwj0s3mqeuuzxx9lq66ny",
+            "fname": "user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 37,
+              "column": 89,
+              "offset": 1389
+            },
+            "end": {
+              "line": 37,
+              "column": 124,
+              "offset": 1424
+            },
+            "indent": []
+          },
+          "value": "paper.Introduction",
+          "alias": "Introduction"
+        },
+        {
+          "from": {
+            "id": "7urrfe10vb294t7w5mgn9e2",
+            "fname": "user.user.Mjvolk3.zendron.tasks",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 30,
+              "column": 89,
+              "offset": 816
+            },
+            "end": {
+              "line": 30,
+              "column": 124,
+              "offset": 851
+            },
+            "indent": []
+          },
+          "value": "paper.Introduction",
+          "alias": "Introduction"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "fm2x5t091y755nimxrpjwez",
+      "data": {}
+    },
+    "hfcch65tuipbt78eg53djro": {
+      "id": "hfcch65tuipbt78eg53djro",
+      "title": "Conclusion",
+      "desc": "",
+      "updated": 1674699718709,
+      "created": 1661539559753,
+      "custom": {},
+      "fname": "paper.Conclusion",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "4ca1d0236cb68e4c475e99164972a709",
+      "links": [
+        {
+          "from": {
+            "id": "fm2x5t091y755nimxrpjwez",
+            "fname": "Paper",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 1,
+              "offset": 139
+            },
+            "end": {
+              "line": 16,
+              "column": 22,
+              "offset": 160
+            },
+            "indent": []
+          },
+          "value": "paper.Conclusion"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "fm2x5t091y755nimxrpjwez",
+      "data": {}
+    },
+    "ocrlokjddjijfkav5gx3zwy": {
+      "id": "ocrlokjddjijfkav5gx3zwy",
+      "title": "Abstract",
+      "desc": "",
+      "updated": 1674699716468,
+      "created": 1661539392353,
+      "custom": {},
+      "fname": "paper.Abstract",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "c3e101c107d6b14ee10a3db2dab8c850",
+      "links": [
+        {
+          "from": {
+            "id": "fm2x5t091y755nimxrpjwez",
+            "fname": "Paper",
+            "vaultName": "Zendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 1,
+              "offset": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 20,
+              "offset": 33
+            },
+            "indent": []
+          },
+          "value": "paper.Abstract"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "fm2x5t091y755nimxrpjwez",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "nuyfwd7iokzd7m9oax0cdx5",
+      "title": "Root-Zendron",
+      "desc": "",
+      "updated": 1679860129235,
+      "created": 1661538521294,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Zendron"
+      },
+      "contentHash": "130c5ef5fb59033f42b02aa2be0f1927",
+      "links": [],
+      "anchors": {
+        "zendron": {
+          "type": "header",
+          "text": "Zendron",
+          "value": "zendron",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "paper-export": {
+          "type": "header",
+          "text": "Paper Export",
+          "value": "paper-export",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "fm2x5t091y755nimxrpjwez",
+        "dhqqdsj7upk727guws9vgox",
+        "7g2c2qq7d38imc5pqcn3pcv",
+        "p23vy0l4olv9ldoplaadusm",
+        "mfxec2289q62ux02wn7s3ys",
+        "3bgot52d1psalztauw89ii9",
+        "ke6q578idqoxwbgk6ogd4hu",
+        "246wpv22f3s0ljv367bybrs",
+        "axrqsyq1ln9p8l6pgs49q5l",
+        "2l3rlznkipoemsp0arda720",
+        "d1kfxb25bm35h67d0fr57o0",
+        "2ultsx7is5k0ytdugjbow6l"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "## Zendron\n\n## Paper Export\n\n- [paper.docx](./notes/export/paper.docx)\n- [paper.pdf](./notes/export/paper.pdf)\n"
+    }
+  ],
+  "noteIndex": {
+    "id": "nuyfwd7iokzd7m9oax0cdx5",
+    "title": "Root-Zendron",
+    "desc": "",
+    "updated": 1679860129235,
+    "created": 1661538521294,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "Zendron"
+    },
+    "contentHash": "130c5ef5fb59033f42b02aa2be0f1927",
+    "links": [],
+    "anchors": {
+      "zendron": {
+        "type": "header",
+        "text": "Zendron",
+        "value": "zendron",
+        "line": 7,
+        "column": 0,
+        "depth": 2
+      },
+      "paper-export": {
+        "type": "header",
+        "text": "Paper Export",
+        "value": "paper-export",
+        "line": 9,
+        "column": 0,
+        "depth": 2
+      }
+    },
+    "children": [
+      "fm2x5t091y755nimxrpjwez",
+      "dhqqdsj7upk727guws9vgox",
+      "7g2c2qq7d38imc5pqcn3pcv",
+      "p23vy0l4olv9ldoplaadusm",
+      "mfxec2289q62ux02wn7s3ys",
+      "3bgot52d1psalztauw89ii9",
+      "ke6q578idqoxwbgk6ogd4hu",
+      "246wpv22f3s0ljv367bybrs",
+      "axrqsyq1ln9p8l6pgs49q5l",
+      "2l3rlznkipoemsp0arda720",
+      "d1kfxb25bm35h67d0fr57o0",
+      "2ultsx7is5k0ytdugjbow6l"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "## Zendron\n\n## Paper Export\n\n- [paper.docx](./notes/export/paper.docx)\n- [paper.pdf](./notes/export/paper.pdf)\n"
+  },
+  "vaults": [
+    {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "Zendron"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+- images are limited to 10 mb

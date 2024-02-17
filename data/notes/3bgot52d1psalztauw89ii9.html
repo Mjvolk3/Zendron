@@ -1,0 +1,79 @@
+<h1 id="zendron"><a aria-hidden="true" class="anchor-heading icon-link" href="#zendron"></a>Zendron</h1>
+<h2 id="basics"><a aria-hidden="true" class="anchor-heading icon-link" href="#basics"></a>Basics</h2>
+<h3 id="zotero-bibtex-setup"><a aria-hidden="true" class="anchor-heading icon-link" href="#zotero-bibtex-setup"></a>Zotero BibTex Setup</h3>
+<ul>
+<li>Right click on your library and select <strong>Export Library...</strong></li>
+</ul>
+<p><img src="/Zendron/assets/images/Zotero-automatic-export-library.png"></p>
+<ul>
+<li>Make sure the Format is <strong>Better BibTeX</strong>, check <strong>Keep updated</strong> and <strong>Background export</strong>, then select <strong>OK</strong>.</li>
+</ul>
+<p><img src="/Zendron/assets/images/Zotero-automatic-export-library-options.png"></p>
+<ul>
+<li>Save as <code>notes/bib/bib.bib</code>. This is the default that currently works with zendron.</li>
+</ul>
+<p><img src="/Zendron/assets/images/Zotero-automatic-export-library-dir.png"></p>
+<ul>
+<li><strong>Note</strong>: Sometimes there are issues with the automatic export. See <a href="/Zendron/notes/3bgot52d1psalztauw89ii9#known-issues">Known Issues</a>.</li>
+</ul>
+<h3 id="command-palette"><a aria-hidden="true" class="anchor-heading icon-link" href="#command-palette"></a>Command Palette</h3>
+<ul>
+<li><code>Tasks: Run Task</code>
+<ul>
+<li><code>Zendron: Sync</code>
+<ul>
+<li>Updates the imported Zotero library based on the cache</li>
+<li>Use when you make a few annotations in Zotero and you would like to update</li>
+</ul>
+</li>
+<li><code>Zendron: Resync</code>
+<ul>
+<li>Imports the entire Zotero library</li>
+<li>Use when you are first importing or after running <code>Zendron: Remove</code></li>
+</ul>
+</li>
+<li><code>Zendron: Remove</code>
+<ul>
+<li>Remove dendron limb <code>Root.Zendron.Import.*</code></li>
+<li><code>Root.Zendron.Local.*</code> is preserved</li>
+<li>Removes all <code>Root.Tags.*</code>, Run <code>Dendron: Doctor</code>, <code>createMissingLinkedNotes</code> to generate tags from other notes</li>
+<li>Removes all <code>Root.User.*</code>, Run <code>Dendron: Doctor</code>, <code>createMissingLinkedNotes</code> to generate User from other notes</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="import-structure"><a aria-hidden="true" class="anchor-heading icon-link" href="#import-structure"></a>Import Structure</h3>
+<p>All notes created directly with Zendron will be downstream of the <code>Root.Zendron</code>.
+<img src="/Zendron/assets/images/zendron-import-graph-structure.png"></p>
+<h4 id="import"><a aria-hidden="true" class="anchor-heading icon-link" href="#import"></a>Import</h4>
+<p>These are notes imported directly from Zotero with zendron. <strong>NEVER</strong> modify these notes, any edits you make will be lost on <code>resync</code> and <code>sync</code></p>
+<h4 id="local"><a aria-hidden="true" class="anchor-heading icon-link" href="#local"></a>Local</h4>
+<p>These notes mirror the imported limb, but instead of <code>Annotations</code> leaves they have <code>Comments</code> leaves. There is a wiki link connecting <code>Annotations</code> → <code>Comments</code>. Additional comments and discussion of a particular item should exist in <code>Comments</code>. <code>Comments</code> can be used to reference <code>Annotations</code> by using <code>Dendron: Copy Note Ref</code> on a <strong>3H</strong> comment heading that contains <strong>Date Added</strong>). You will not see an anchor when you link this way. Your ref should contain something like <code>#date-added-2022-08-29-2152400000,1:#*</code>. Linking this way preserves connections on running <code>sync</code> and <code>resync</code>. In the example <code>Dendron: Copy Note Ref</code> is used on an annotation so we get the bidirectional link you see.</p>
+<p><img src="/Zendron/assets/images/zendron-import-local-link.png"></p>
+<h3 id="using-with-dendron"><a aria-hidden="true" class="anchor-heading icon-link" href="#using-with-dendron"></a>Using With Dendron</h3>
+<ul>
+<li>After import you can run <code>Dendron: Doctor</code>, <code>createMissingLinkedNotes</code> to get all links</li>
+<li>You can also use <code>Dendron: Doctor</code>, <code>removeStubs</code>to remove some of these unwanted notes. <strong>Note</strong> This will remove other notes that don't contain any content.</li>
+<li>If the <code>Dendron: Show Note Graph</code> looks like it is showing redundant information, close the window, run <code>Dendron: Reindx</code>, and run <code>Dendron: Show Note Graph</code> again.</li>
+</ul>
+<h2 id="known-issues"><a aria-hidden="true" class="anchor-heading icon-link" href="#known-issues"></a>Known Issues</h2>
+<ul>
+<li>If there is a <code>cite_key</code> error the BibTex bibliography is probably out of date. Refresh the export by first going to <strong>Preferences</strong> in <strong>Zotero</strong>.</li>
+</ul>
+<p><img src="/Zendron/assets/images/Zotero-preferences.png"></p>
+<ul>
+<li>Go to <strong>Better BibTeX</strong> and then select tab <strong>Automatic export</strong>.</li>
+</ul>
+<p><img src="/Zendron/assets/images/Zotero-preference-automatic-export.png"></p>
+<ul>
+<li>Select <strong>Export now</strong>.</li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/Zendron/notes/szors495pia2r81gf4pn2pd">Citation Key</a></li>
+<li><a href="/Zendron/notes/qxsmv6iqaxlmjrhe8eypgps">Hydra</a></li>
+<li><a href="/Zendron/notes/x4qh5c995b94tc6l9uu2nds">Import</a></li>
+<li><a href="/Zendron/notes/9voje01mfme5zskfbv14se4">Roadmap</a></li>
+</ol>

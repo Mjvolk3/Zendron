@@ -1,0 +1,89 @@
+<h1 id="tasks"><a aria-hidden="true" class="anchor-heading icon-link" href="#tasks"></a>tasks</h1>
+<h2 id="future"><a aria-hidden="true" class="anchor-heading icon-link" href="#future"></a>Future</h2>
+<p></p><p></p><h2 id="future-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#future-1"></a>Future</h2>
+<ul>
+<li>🔮 If there are multiple collections or sub collections with the same name there needs to be an error or warning thrown.</li>
+<li>🔮 If all data created are the same there will be duplicate title headings. This makes individual note refs impossible. For a two way sync it would be best if time created was modified, e.g. incremented by a second.</li>
+<li>🔮 Fix importlib resources <a href="/Zendron/notes/pz0vbyamtaj2kfmon7zlk5u">Configuration</a>.</li>
+<li>🔮 Figure out how to have a different default config for developing and a different one for releasing</li>
+<li>🔮 In <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">src/zendron/zendron-remove.py (Private)</a> see what is using <code>subprocess</code> for file removal or a combination of <code>os</code> and <code>shutil</code>. <code>subprocess</code> must be used for dendron cli.</li>
+<li>🔮 Add sync comments to load for a quick fix to make the package useful.</li>
+<li>🔮 Test and probably rewrite sync metadata.</li>
+<li>🔮 Test and probably rewrite sync annotations.</li>
+<li>🔮 Add delete note sync for annotations cache.</li>
+<li>🔮 Add delete meta sync for metadata cache.</li>
+<li>🔮 Add user note to meta sync.</li>
+<li>🔮 Test sync on metadata update and annotations update.</li>
+<li>🔮 Cache comments on sync.</li>
+<li>🔮 Simulate a workflow to make sure comments is working correctly.</li>
+<li>🔮 Add cli. One primary function, sync, with additional functions, remove (comments flag`).</li>
+<li>🔮 Add delete functionality to remove imported data.</li>
+</ul>
+<h2 id="far-future"><a aria-hidden="true" class="anchor-heading icon-link" href="#far-future"></a>Far Future</h2>
+<ul>
+<li>🔮 <code>dacite</code>for dictionary to python dataclass. This could be used instead of my current method where I basically use a bunch of getter methods to pluck out data I am interested in while, adding necessary data for pod import.</li>
+</ul><p></p><p></p>
+<h2 id="20230429"><a aria-hidden="true" class="anchor-heading icon-link" href="#20230429"></a>2023.04.29</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> Fails when there is no pdf under file.</li>
+<li class="task-list-item"><input type="checkbox" disabled> Users notes will be deleted.</li>
+<li class="task-list-item"><input type="checkbox" disabled> Where to find the User ID, keys feeds api.</li>
+<li class="task-list-item"><input type="checkbox" disabled> Figure out automatic pinning. Describe how to setup.</li>
+</ul>
+<h2 id="20230428"><a aria-hidden="true" class="anchor-heading icon-link" href="#20230428"></a>2023.04.28</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Tags for notes needs to throw a warning.</li>
+<li>🔲 Where to find the User ID, keys feeds api.</li>
+<li>🔲 Figure out automatic pinning. Describe how to setup.</li>
+<li>🔲 Fails when there is no pdf under file.</li>
+<li>🔲 Users notes will be deleted</li>
+</ul>
+<h2 id="20230427"><a aria-hidden="true" class="anchor-heading icon-link" href="#20230427"></a>2023.04.27</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Published mvp.</li>
+</ul>
+<h2 id="20230425"><a aria-hidden="true" class="anchor-heading icon-link" href="#20230425"></a>2023.04.25</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Fix citation key.</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Remove script <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">src/zendron/zendron-remove.py (Private)</a>.</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>Zendron-remove</code> endpoint.</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Test out <a href="/Zendron/notes/o0ors2eqajshterw8ncjbjv">@mjvolk3</a> recreation after deletion.</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Test <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">@kipfVariationalGraphAutoEncoders2016 (Private)</a> is recreated since it is referenced in <a href="/Zendron/notes/ini2qx8ae60mz5twkeyor46">Introduction</a></li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Check <code>Zendron-remove</code> endpoint.</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Publish to PyPI.</li>
+</ul>
+<h2 id="20230206"><a aria-hidden="true" class="anchor-heading icon-link" href="#20230206"></a>2023.02.06</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Clean up <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">src/zendron/sync.py (Private)</a>. Theres is some confusion with <code>annot</code>, <code>annotated_attachment</code>, and <code>annotations</code>, specifically in sync_annotations.</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Rewrite cache.<a href="/Zendron/notes/7g2c2qq7d38imc5pqcn3pcv#separate-cache-for-metadata-annotations-and-comments">Issuses</a></li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Try structuring <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">src/zendron/sync.py (Private)</a> like <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">src/zendron/load.py (Private)</a>. → Doesn't work <a href="/Zendron/notes/7g2c2qq7d38imc5pqcn3pcv#sync-and-load-must-be-different">Issuses</a></li>
+<li>🔲 Test and probably rewrite sync metadata → moved to <a href="/Zendron/notes/n98hhi6p84yqx767190dycu">@user.Mjvolk3.zendron.tasks.future</a></li>
+<li>🔲 Test and probably rewrite sync annotations → moved to <a href="/Zendron/notes/n98hhi6p84yqx767190dycu">@user.Mjvolk3.zendron.tasks.future</a></li>
+<li>🔲 Add delete note sync for annotations cache → moved to <a href="/Zendron/notes/n98hhi6p84yqx767190dycu">@user.Mjvolk3.zendron.tasks.future</a></li>
+<li>🔲 Add delete meta sync for metadata cache → moved to <a href="/Zendron/notes/n98hhi6p84yqx767190dycu">@user.Mjvolk3.zendron.tasks.future</a></li>
+<li>🔲 Add user note to meta sync. → moved to <a href="/Zendron/notes/n98hhi6p84yqx767190dycu">@user.Mjvolk3.zendron.tasks.future</a></li>
+<li>🔲 Test sync on metadata update and annotations update. → moved to <a href="/Zendron/notes/n98hhi6p84yqx767190dycu">@user.Mjvolk3.zendron.tasks.future</a></li>
+<li>🔲 Cache comments on sync. → moved to <a href="/Zendron/notes/n98hhi6p84yqx767190dycu">@user.Mjvolk3.zendron.tasks.future</a></li>
+<li>🔲 Simulate a workflow to make sure comments is working correctly. → moved to <a href="/Zendron/notes/n98hhi6p84yqx767190dycu">@user.Mjvolk3.zendron.tasks.future</a></li>
+<li>🔲 Add cli. One primary function, sync, with additional functions, remove (comments flag`). → moved to <a href="/Zendron/notes/n98hhi6p84yqx767190dycu">@user.Mjvolk3.zendron.tasks.future</a></li>
+</ul>
+<h2 id="20230205"><a aria-hidden="true" class="anchor-heading icon-link" href="#20230205"></a>2023.02.05</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Cache metadata on sync.</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Cache annotations on sync.</li>
+<li>🔲 Cache comments on sync.</li>
+<li>🔲 Add cli.</li>
+</ul>
+<h2 id="20230204"><a aria-hidden="true" class="anchor-heading icon-link" href="#20230204"></a>2023.02.04</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> Cache classes for annotations, comments, metadata.</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> Cache initialization on load.</li>
+<li>🔲 Cache annotations on sync.</li>
+<li>🔲 Cache comments on sync.
+R</li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/Zendron/notes/n98hhi6p84yqx767190dycu">future</a></li>
+</ol>

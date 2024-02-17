@@ -1,0 +1,41 @@
+<h1 id="publish"><a aria-hidden="true" class="anchor-heading icon-link" href="#publish"></a>Publish</h1>
+<h2 id="to-compile-document"><a aria-hidden="true" class="anchor-heading icon-link" href="#to-compile-document"></a>To Compile Document</h2>
+<ul>
+<li>Run <code>compile_paper.sh</code>
+<ul>
+<li>This currently is slightly broken  due to <code>./</code> prepend path issue with pandoc<a href="https://github.com/dendronhq/dendron/issues/3460">Pod V2 export asset paths</a></li>
+<li><strong>Key</strong> as long as all paths of note assets have <code>./</code> prepended the output should be proper.</li>
+</ul>
+</li>
+</ul>
+<h2 id="export-markdown-pod"><a aria-hidden="true" class="anchor-heading icon-link" href="#export-markdown-pod"></a>Export Markdown Pod</h2>
+<ul>
+<li>Configure markdown pod through command palette</li>
+<li>Export pod to folder pod_export</li>
+</ul>
+<h2 id="pandoc"><a aria-hidden="true" class="anchor-heading icon-link" href="#pandoc"></a>Pandoc</h2>
+<p>From root directory run:</p>
+<pre class="language-{bash}"><code class="language-{bash}">pandoc -f gfm --toc -s pod_export/Parameter_Estimation/Paper.md -o paper.docx --reference-doc=reference.docx
+</code></pre>
+<ul>
+<li><code>-f</code> format GitHub ... something style
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> Look up later</li>
+</ul>
+</li>
+<li><code>--toc</code> - table of contents</li>
+<li><code>-s</code> - standalone</li>
+<li><code>-o</code> - output</li>
+<li><code>--reference-doc</code> - reference for word formatting. Change this docs formatting to change the export formatting.</li>
+<li><strong>Note</strong>: Can also use this to export to word</li>
+</ul>
+<h2 id="resources"><a aria-hidden="true" class="anchor-heading icon-link" href="#resources"></a>Resources</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/Un0n1ql7LfvMtmA9JEi4n/">config.export info</a></li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/Zendron/notes/oyr1cahkx5i3mjhr9swxn8z">Pdf</a></li>
+<li><a href="/Zendron/notes/8uislw8sav7ndo2yj2nebk1">Word</a></li>
+</ol>

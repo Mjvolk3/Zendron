@@ -1,0 +1,7 @@
+<h1 id="ffmpeg"><a aria-hidden="true" class="anchor-heading icon-link" href="#ffmpeg"></a>Ffmpeg</h1>
+<pre class="language-bash"><code class="language-bash">ffmpeg -i notes/assets/videos/screencast/zendron-test_1.mov -vf <span class="token string">"fps=4,scale=800:-1:flags=lanczos"</span> -c:v pam -f image2pipe - <span class="token operator">|</span> convert -delay <span class="token number">10</span> - -loop <span class="token number">0</span> -layers optimize notes/assets/videos/gif/zendron-test_1.gif
+</code></pre>
+<ul>
+<li><code>scale=820</code> is a nice default for github README.</li>
+<li><code>fps=4</code> is nice default, but still a little fast.</li>
+</ul>

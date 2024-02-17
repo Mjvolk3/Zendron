@@ -1,0 +1,19 @@
+<h1 id="issuses"><a aria-hidden="true" class="anchor-heading icon-link" href="#issuses"></a>Issuses</h1>
+<h2 id="separate-cache-for-metadata-annotations-and-comments"><a aria-hidden="true" class="anchor-heading icon-link" href="#separate-cache-for-metadata-annotations-and-comments"></a>Separate cache for metadata, annotations, and comments</h2>
+<ul>
+<li>When an annotation is deleted we don't know which set annotated attachment to rewrite. It would be best if the cache was one file for this reason.</li>
+</ul>
+<h2 id="data-objects"><a aria-hidden="true" class="anchor-heading icon-link" href="#data-objects"></a>Data objects</h2>
+<ul>
+<li>Only data objects of a certain kind, dicts with the necessary keys, can be sent to zotero. If the dictionary returned from <code>zot.item(meta_key)</code> is modified it cannot be sent back to Zotero. For a future iteration of the dataclasses, there should be a <code>metadata.zotero</code>, and a <code>metadata.zendron</code>. All <code>metadata.zotero</code> should be able to be sent back to zotero, and all <code>metadata.zendron</code> should be used with the zendron application. This can be done for every data object that is important. Namely everything that is cached.</li>
+</ul>
+<h2 id="sync-and-load-must-be-different"><a aria-hidden="true" class="anchor-heading icon-link" href="#sync-and-load-must-be-different"></a>Sync and Load must be different</h2>
+<ul>
+<li>These <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">src/zendron/sync.py (Private)</a> and <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">src/zendron/load.py (Private)</a> must be structured different because the order in which the items are updated does not follow the hierarchy of the folder structure. This is fine for initialization but does not work after that.</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/Zendron/notes/bdjwj0s3mqeuuzxx9lq66ny">tasks</a></li>
+<li><a href="/Zendron/notes/7urrfe10vb294t7w5mgn9e2">tasks</a></li>
+</ul>
