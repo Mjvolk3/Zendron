@@ -116,7 +116,98 @@
                 "type": "shell",
                 "command": "cd ./notes && bash compile_paper.sh && cd .. ",
                 "problemMatcher": []
-            }
+            },
+            //Zendron - workspace scripts notes/assets/scripts
+            {
+                "label": "zendron: add frontmatter (py)",
+                "type": "shell",
+                "command": "/Users/michaelvolk/opt/miniconda3/envs/torchcell/bin/python",
+                "args": [
+                    "${workspaceFolder}/notes/assets/scripts/add_frontmatter.py",
+                    "${file}"
+                ],
+                "problemMatcher": [],
+                "presentation": {
+                    "echo": true,
+                    "reveal": "always",
+                    "focus": false,
+                    "panel": "shared",
+                    "showReuseMessage": true,
+                    "clear": false
+                }
+            },
+            {
+                "label": "zendron: move file [note & test safe] (py)",
+                "type": "shell",
+                "command": "/Users/michaelvolk/opt/miniconda3/envs/torchcell/bin/python",
+                "args": [
+                    "${workspaceFolder}/notes/assets/scripts/python_move_dendron_pytest.py",
+                    "${file}",
+                    "${input:newFilePath}"
+                ],
+                "problemMatcher": [],
+                "presentation": {
+                    "reveal": "always"
+                }
+            },
+            {
+                "label": "zendron: test file (py)",
+                "type": "shell",
+                "command": "/Users/michaelvolk/opt/miniconda3/envs/torchcell/bin/python",
+                "args": [
+                    "${workspaceFolder}/notes/assets/scripts/create_python_test_file.py",
+                    "create",
+                    "${file}"
+                ],
+                "problemMatcher": [],
+                "presentation": {
+                    "echo": true,
+                    "reveal": "always",
+                    "focus": false,
+                    "panel": "shared",
+                    "showReuseMessage": true,
+                    "clear": false
+                }
+            },
+            {
+                "label": "zendron: delete file [note & test safe] (py)",
+                "type": "shell",
+                "command": "/Users/michaelvolk/opt/miniconda3/envs/torchcell/bin/python",
+                "args": [
+                  "${workspaceFolder}/notes/assets/scripts/delete_file_and_open_related.py",
+                  "${file}"
+                ],
+                "problemMatcher": [],
+                "group": {
+                  "kind": "build",
+                  "isDefault": true
+                },
+                "presentation": {
+                  "reveal": "always",
+                  "focus": true,  // This will focus the terminal after the task is run
+                  "panel": "shared"
+                }
+            },
+            {
+                "label": "zendron: open related src file (dendron)",
+                "type": "shell",
+                "command": "/Users/michaelvolk/opt/miniconda3/envs/torchcell/bin/python",
+                "args": [
+                    "${workspaceFolder}/notes/assets/scripts/from_note_open_related_src.py",
+                    "${file}"
+                ],
+                "problemMatcher": [],
+                "presentation": {
+                    "reveal": "always",
+                    "panel": "shared"
+                }
+            },
+            {
+                "label": "zendron: publish pypi",
+                "type": "shell",
+                "command": "source ${workspaceFolder}/notes/assets/scripts/zendron_publish_pypi.sh",
+                "problemMatcher": [],
+            },
         ]
     },
 }

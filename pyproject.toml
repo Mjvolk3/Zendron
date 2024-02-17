@@ -31,7 +31,7 @@ dependencies = [
 requires-python = ">=3.10"
 
 [project.optional-dependencies]
-dev = ["black", "bumpver", "pip-tools", "pytest"]
+dev = ["black", "pip-tools", "pytest", "python-semantic-release"]
 
 [project.urls]
 Homepage = "https://github.com/Mjvolk3/Zendron"
