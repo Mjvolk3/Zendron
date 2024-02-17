@@ -2,7 +2,14 @@
 
 
 
-## v0.2.1 (2024-02-17)
+## v0.2.2 (2024-02-17)
+
+### Fix
+
+* fix: version updating ([`7a4ff17`](https://github.com/Mjvolk3/Zendron/commit/7a4ff177ba5731975c2233fcd82feedbec7e58eb))
+
+
+## v1.1.14 (2024-02-17)
 
 ### Fix
 
