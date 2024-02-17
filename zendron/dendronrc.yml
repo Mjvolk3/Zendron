@@ -1,6 +1,0 @@
-workspace:
-    vaults:
-        -
-            fsPath: ../Kbase
-            selfContained: true
-            name: Kbase
