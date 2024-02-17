@@ -15,3 +15,5 @@ README.md
 notes/assets/videos/screencast
 notes/assets/videos/gif/zendron-test.gif
 .env
+dist/*
+*.egg-info

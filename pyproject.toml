@@ -31,13 +31,19 @@ dependencies = [
 requires-python = ">=3.10"
 
 [project.optional-dependencies]
-dev = ["black", "pip-tools", "pytest", "python-semantic-release"]
+dev = ["black", "pip-tools", "pytest", "python-semantic-release", "build"]
 
 [project.urls]
 Homepage = "https://github.com/Mjvolk3/Zendron"
 
 [project.scripts]
 zendron = "zendron.__main__:main"
+
+[tool.setuptools.package-data]
+torchcell = ["py.typed"]
+
+[tool.setuptools.packages.find]
+include = ["zendron*"]
 
 # [options]
 # packages = "find:"
