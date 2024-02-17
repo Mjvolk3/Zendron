@@ -2,6 +2,17 @@
 
 
 
+## v0.2.1 (2024-02-17)
+
+### Fix
+
+* fix: plzzz ([`0656809`](https://github.com/Mjvolk3/Zendron/commit/06568098c8b43fd87032bd31a01365946fb548c0))
+
+### Unknown
+
+* se if we can recognize version ([`ee9d07a`](https://github.com/Mjvolk3/Zendron/commit/ee9d07ae0cfec19032df56ee1c96feb72669bfff))
+
+
 ## v0.2.0 (2024-02-17)
 
 ### Feature
