@@ -2,21 +2,44 @@
 
 
 
+## v1.0.0 (2024-02-17)
+
+### Breaking
+
+* API: to scipy we go ([`31dbe34`](https://github.com/Mjvolk3/Zendron/commit/31dbe346f4278faa2961ab9695cec47f4b69f054))
+
+### Unknown
+
+* BREAKING CHANGE: toml update ([`24de712`](https://github.com/Mjvolk3/Zendron/commit/24de7127d813c2f558d4e9b6130755fe13b65da9))
+
+* BREAKING CHANGE: does it work? ([`a4a4ca1`](https://github.com/Mjvolk3/Zendron/commit/a4a4ca1fc2a66004edb9994c9601881b0f1e9e6a))
+
+* breaking: does it work ([`f947d92`](https://github.com/Mjvolk3/Zendron/commit/f947d92de990d3e6787c06cc788545fc689a90a5))
+
+* Merge remote-tracking branch &#39;refs/remotes/Zendron/main&#39; ([`1639136`](https://github.com/Mjvolk3/Zendron/commit/1639136a765eeb0854eba7c322791d930248d471))
+
+* BREAKING CHANGE: does it work ([`e46a694`](https://github.com/Mjvolk3/Zendron/commit/e46a694412c31845484487d909a8ec33dc57e53c))
+
+
 ## v0.1.0 (2024-02-17)
 
-### Feature
-
-* feat: no tag interference ([`60f6c39`](https://github.com/Mjvolk3/Zendron/commit/60f6c396be0fae561d0d89e684418441af077ccf))
-
-* feat: update ([`1ab7ef6`](https://github.com/Mjvolk3/Zendron/commit/1ab7ef636c633961a4c6067cdc3827a12318c9da))
-
-### Fix
+### Unknown
 
 * fix: tags deleted ([`2026075`](https://github.com/Mjvolk3/Zendron/commit/20260757722cd07e42df035f6f08aec1dea4c91a))
 
 * fix: version updating ([`7a4ff17`](https://github.com/Mjvolk3/Zendron/commit/7a4ff177ba5731975c2233fcd82feedbec7e58eb))
 
 * fix: plzzz ([`0656809`](https://github.com/Mjvolk3/Zendron/commit/06568098c8b43fd87032bd31a01365946fb548c0))
+
+* se if we can recognize version ([`ee9d07a`](https://github.com/Mjvolk3/Zendron/commit/ee9d07ae0cfec19032df56ee1c96feb72669bfff))
+
+* feat: no tag interference ([`60f6c39`](https://github.com/Mjvolk3/Zendron/commit/60f6c396be0fae561d0d89e684418441af077ccf))
+
+* BREAKING CHANGE: no tag interference ([`b2035b3`](https://github.com/Mjvolk3/Zendron/commit/b2035b3c727fe7d0d02a389401fc4a8c8661984a))
+
+* BREAKING CHANGE: getting to current pypi ([`757f96b`](https://github.com/Mjvolk3/Zendron/commit/757f96bc8aa400d09793a5c452f9919208397606))
+
+* feat: update ([`1ab7ef6`](https://github.com/Mjvolk3/Zendron/commit/1ab7ef636c633961a4c6067cdc3827a12318c9da))
 
 * fix: version to semantic ([`0ddeee1`](https://github.com/Mjvolk3/Zendron/commit/0ddeee1958299054246bb476fd989b2f9c3cb042))
 
@@ -31,14 +54,6 @@
 * fix: refactor workspace 2 ([`e0664ac`](https://github.com/Mjvolk3/Zendron/commit/e0664ac06c2174b161648794a7d8465e1542afee))
 
 * fix: workspace refactor ([`1afb8a9`](https://github.com/Mjvolk3/Zendron/commit/1afb8a922397a4140d256ba98f5631806749dfcb))
-
-### Unknown
-
-* se if we can recognize version ([`ee9d07a`](https://github.com/Mjvolk3/Zendron/commit/ee9d07ae0cfec19032df56ee1c96feb72669bfff))
-
-* BREAKING CHANGE: no tag interference ([`b2035b3`](https://github.com/Mjvolk3/Zendron/commit/b2035b3c727fe7d0d02a389401fc4a8c8661984a))
-
-* BREAKING CHANGE: getting to current pypi ([`757f96b`](https://github.com/Mjvolk3/Zendron/commit/757f96bc8aa400d09793a5c452f9919208397606))
 
 * finish refactor double time ([`28cb5c3`](https://github.com/Mjvolk3/Zendron/commit/28cb5c3ed22f4c4e8312af77a949f5cb56af2910))
 
