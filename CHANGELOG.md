@@ -2,6 +2,19 @@
 
 
 
+## v0.2.0 (2024-02-17)
+
+### Feature
+
+* feat: no tag interference ([`60f6c39`](https://github.com/Mjvolk3/Zendron/commit/60f6c396be0fae561d0d89e684418441af077ccf))
+
+### Unknown
+
+* BREAKING CHANGE: no tag interference ([`b2035b3`](https://github.com/Mjvolk3/Zendron/commit/b2035b3c727fe7d0d02a389401fc4a8c8661984a))
+
+* BREAKING CHANGE: getting to current pypi ([`757f96b`](https://github.com/Mjvolk3/Zendron/commit/757f96bc8aa400d09793a5c452f9919208397606))
+
+
 ## v0.1.0 (2024-02-17)
 
 ### Feature
