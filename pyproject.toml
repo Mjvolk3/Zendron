@@ -58,3 +58,22 @@ version_variables = [
 ]
 branch = "main"
 upload_to_pypi = "true"
+commit_parser = "angular"
+
+[tool.semantic_release.commit_parser_options]
+allowed_types = [
+    "build",
+    "chore",
+    "ci",
+    "docs",
+    "feat",
+    "fix",
+    "perf",
+    "style",
+    "refactor",
+    "test",
+    "breaking",
+]
+minor_types = ["feat", "perf"]
+patch_types = ["fix"]
+major_types = ["breaking"]
