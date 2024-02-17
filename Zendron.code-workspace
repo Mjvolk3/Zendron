@@ -96,19 +96,19 @@
             {
                 "label": "Zendron: sync",
                 "type": "shell",
-                "command": "bash src/zendron/zendron-sync.sh",
+                "command": "bash zendron/zendron-sync.sh",
                 "problemMatcher": []
             },
             {
                 "label": "Zendron: remove",
                 "type": "shell",
-                "command": "bash src/zendron/zendron-remove.sh",
+                "command": "bash zendron/zendron-remove.sh",
                 "problemMatcher": []
             },
             {
                 "label": "Zendron: init",
                 "type": "shell",
-                "command": "bash src/zendron/zendron-init.sh",
+                "command": "bash zendron/zendron-init.sh",
                 "problemMatcher": []
             },
             {
