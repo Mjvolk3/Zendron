@@ -62,18 +62,10 @@ commit_parser = "angular"
 
 [tool.semantic_release.commit_parser_options]
 allowed_types = [
-    "build",
-    "chore",
-    "ci",
-    "docs",
     "feat",
     "fix",
-    "perf",
-    "style",
-    "refactor",
-    "test",
-    "breaking",
+    "BREAKING CHANGE",
 ]
-minor_types = ["feat", "perf"]
+minor_types = ["feat"]
 patch_types = ["fix"]
-major_types = ["breaking"]
+major_types = ["BREAKING CHANGE"]
