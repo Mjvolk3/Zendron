@@ -2,6 +2,17 @@
 
 
 
+## v1.1.0 (2024-02-17)
+
+### Feature
+
+* FEAT: one ([`9e2694e`](https://github.com/Mjvolk3/Zendron/commit/9e2694e6c32a51c589b9b8a8bc2586bc8756bd5a))
+
+### Unknown
+
+* Merge remote-tracking branch &#39;refs/remotes/Zendron/main&#39; ([`496628e`](https://github.com/Mjvolk3/Zendron/commit/496628e473f46b8c6f7e2492749415d5be86108d))
+
+
 ## v1.0.0 (2024-02-17)
 
 ### Breaking
