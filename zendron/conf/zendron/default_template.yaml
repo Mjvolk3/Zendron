@@ -1,0 +1,21 @@
+defaults:
+  - _self_ # suppresses warning, recommended for default.yaml
+
+remove: false # remove files from zendron
+initialized: false
+
+### HYDRA_LOGGING_SETTINGS - toggle to suppress output
+hydra_logging:
+  loggers:
+    logging_example:
+      level: INFO
+hydra:
+  run:
+    dir: ''
+  output_subdir: null
+  # job_logging:
+  #   formatters:
+  #     simple:
+  #       format: '[%(levelname)ssss] - %(message)s'
+  #   root:
+  #     handlers: [console]

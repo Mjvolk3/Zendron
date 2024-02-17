@@ -1,0 +1,12 @@
+defaults:
+  - default
+  - _self_
+library_id : 4932332 # STARTER CONFIG - Can be found in the URL to your library https://www.zotero.org/groups/4932032/zendron
+library_type : group # group or user # STARTER CONFIG
+api_key : FoC1uOvsMnNdYmpYuY5JpETw # STARTER CONFIG
+collection: null # null for entire library
+item_types: [journalArticle, book, preprint, conferencePaper, report]
+local_image_path: /Users/<username>/Zotero/cache # STARTER CONFIG
+dendron_limb: zendron.import
+zotero_comment_title: zendron comment
+pod_path: zotero_pod
