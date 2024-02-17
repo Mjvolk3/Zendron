@@ -1,3 +1,8 @@
+# zendron/remove
+# [[zendron.remove]]
+# https://github.com/Mjvolk3/Zendron/tree/main/zendron/remove
+# Test file: tests/zendron/test_remove.py
+
 import glob
 import json
 import logging

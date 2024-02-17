@@ -1,13 +1,6 @@
-import json
 import logging
-import os
-import os.path as osp
-from dataclasses import dataclass, field
-from datetime import datetime
 
-import hydra
-from hydra import compose, initialize
-from omegaconf import DictConfig, OmegaConf
+from omegaconf import DictConfig
 from pyzotero import zotero
 from tqdm import tqdm
 
@@ -17,7 +10,6 @@ from zendron.comments import Comment, CommentCompiler
 from zendron.items import (
     get_annotated_attachments,
     get_attachments,
-    get_comments,
     get_metadatas,
 )
 from zendron.metadata import Metadata, MetadataCompiler
@@ -48,7 +40,6 @@ def main(cfg: DictConfig):
         user_citation_key_compiler.compile()
         user_citation_key_compiler.write()
         cache.add_metadata(metadata)
-        # TODO rename to something like annotated_attachments. This is not a list of the annotations themselves, but the attachment that contains the annotations.
         annotated_attachments = get_annotated_attachments(zot, metadata.key)
         for attach in annotated_attachments:
             cache.add_annotated_attachment(attach)
