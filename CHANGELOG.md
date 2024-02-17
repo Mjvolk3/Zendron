@@ -2,6 +2,13 @@
 
 
 
+## v1.2.0 (2024-02-17)
+
+### Feature
+
+* FEAT: two ([`7751475`](https://github.com/Mjvolk3/Zendron/commit/77514750af13c29382092ac37866c77e5d178a9d))
+
+
 ## v1.1.0 (2024-02-17)
 
 ### Feature
