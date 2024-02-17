@@ -48,7 +48,7 @@ zendron = "zendron.__main__:main"
 [tool.semantic_release]
 version_variables = [
     "pyproject.toml:version",
-    "zendron/__version__.py:__version__",
+    "zendron/__init__.py:__version__",
 ]
 branch = "main"
 upload_to_pypi = "true"
