@@ -119,7 +119,7 @@
             },
             //Zendron - workspace scripts notes/assets/scripts
             {
-                "label": "zendron: add frontmatter (py)",
+                "label": "workspace zendron: add frontmatter (py)",
                 "type": "shell",
                 "command": "/Users/michaelvolk/opt/miniconda3/envs/torchcell/bin/python",
                 "args": [
@@ -137,7 +137,7 @@
                 }
             },
             {
-                "label": "zendron: move file [note & test safe] (py)",
+                "label": "workspace zendron: move file [note & test safe] (py)",
                 "type": "shell",
                 "command": "/Users/michaelvolk/opt/miniconda3/envs/torchcell/bin/python",
                 "args": [
@@ -151,7 +151,7 @@
                 }
             },
             {
-                "label": "zendron: test file (py)",
+                "label": "workspace zendron: test file (py)",
                 "type": "shell",
                 "command": "/Users/michaelvolk/opt/miniconda3/envs/torchcell/bin/python",
                 "args": [
@@ -170,7 +170,7 @@
                 }
             },
             {
-                "label": "zendron: delete file [note & test safe] (py)",
+                "label": "workspace zendron: delete file [note & test safe] (py)",
                 "type": "shell",
                 "command": "/Users/michaelvolk/opt/miniconda3/envs/torchcell/bin/python",
                 "args": [
@@ -189,7 +189,7 @@
                 }
             },
             {
-                "label": "zendron: open related src file (dendron)",
+                "label": "workspace zendron: open related src file (dendron)",
                 "type": "shell",
                 "command": "/Users/michaelvolk/opt/miniconda3/envs/torchcell/bin/python",
                 "args": [
@@ -203,10 +203,27 @@
                 }
             },
             {
-                "label": "zendron: publish pypi",
+                "label": "workspace zendron: publish pypi",
                 "type": "shell",
                 "command": "source ${workspaceFolder}/notes/assets/scripts/zendron_publish_pypi.sh",
                 "problemMatcher": [],
+            },
+            // autoflake
+            {
+                "label": "autoflake: clean imports",
+                "type": "shell",
+                "command": "/Users/michaelvolk/opt/miniconda3/envs/torchcell/bin/autoflake",
+                "args": [
+                    "--remove-all-unused-imports",
+                    "--remove-duplicate-keys",
+                    "--in-place",
+                    "${file}"
+                ],
+                "problemMatcher": [],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                }
             },
         ]
     },

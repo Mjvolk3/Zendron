@@ -2,7 +2,7 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: tasks
 desc: ''
-updated: 1708197409877
+updated: 1708205087825
 created: 1675554123628
 ---
 ## Future
@@ -13,8 +13,8 @@ created: 1675554123628
 
 - [x] WE BACK! refactor task notes.
 - [x] Add front matter scripts and .env → also added the necessary workspace tasks → front matter works well.
-- [ ] Move zendron out of src, adjust pyproject.toml accordingly. → troubleshoot issue with pyproject
-- [ ] Remove bumpver with bumpver yaml and set up python-semantic-version. Add to requirements, add .github workflow.
+- [x] Move zendron out of src, adjust pyproject.toml accordingly. → troubleshoot issue with pyproject
+- [x] Remove bumpver with bumpver yaml and set up python-semantic-version. Add to requirements, add .github workflow.
 
 ## 2023.04.29
 
