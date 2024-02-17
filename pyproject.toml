@@ -58,14 +58,13 @@ version_variables = [
 ]
 branch = "main"
 upload_to_pypi = "true"
-commit_parser = "angular"
+commit_parser = "scipy"
 
 [tool.semantic_release.commit_parser_options]
-allowed_types = [
-    "feat",
-    "fix",
-    "BREAKING CHANGE",
+allowed_tags = [
+   "API", "DEP", "ENH", "REV", "BUG", "MAINT", "BENCH",
+   "BLD", "DEV", "DOC", "STY", "TST", "REL", "FEAT", "TEST",
 ]
-minor_types = ["feat"]
-patch_types = ["fix"]
-major_types = ["BREAKING CHANGE"]
+major_tags = ["API"]
+minor_tags = ["DEP", "DEV", "ENH", "REV", "FEAT"]
+patch_tags = ["BLD", "BUG", "MAINT"]
