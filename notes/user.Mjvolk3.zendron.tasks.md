@@ -2,7 +2,7 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: tasks
 desc: ''
-updated: 1708205387898
+updated: 1708207649772
 created: 1675554123628
 ---
 ## Future
@@ -15,7 +15,10 @@ created: 1675554123628
 - [x] Add front matter scripts and .env → also added the necessary workspace tasks → front matter works well.
 - [x] Move zendron out of src, adjust pyproject.toml accordingly. → troubleshoot issue with pyproject
 - [x] Remove bumpver with bumpver yaml and set up python-semantic-version. Add to requirements, add .github workflow.
-- [ ] Fix [[Remove|zendron.remove]] so it doesn't delete my task note
+- [x] Fix [[Remove|zendron.remove]] so it doesn't delete my task note → not sure what was happening before but works now.
+- [x] Use `argparse` for remove command. → Since this works well we can just stick with this and hydra.
+- [ ] Move api config to `.env`
+- [ ]
 
 
 ## 2023.04.29
