@@ -49,7 +49,7 @@ def main(cfg: DictConfig) -> None:
         log.info("Sync Starting")
         load.main(cfg)
         subprocess.run(
-            f"dendron importPod --podId dendron.markdown --wsRoot . --valut {vaultName}", shell=True
+            f"dendron importPod --podId dendron.markdown --wsRoot . --vault{vaultName}", shell=True
         )
         subprocess.run("rm -r zotero_pod", shell=True)
         log.info("Sync Complete")
