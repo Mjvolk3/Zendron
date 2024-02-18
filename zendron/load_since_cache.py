@@ -106,7 +106,7 @@ def main(cfg: DictConfig):
         comment_compiler.write_comment()
     
     new_cache.write()
-    if len(cache_diff["new_metadata"]) ==0 and len(cache_diff["new_annotations"]) ==0:
+    if not cache_diff["new_metadata"] and not cache_diff["new_annotations"]:
         log.info("No new metadata or annotations found.")
         return 0
     else:
