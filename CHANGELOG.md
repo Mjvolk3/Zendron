@@ -2,6 +2,19 @@
 
 
 
+## v1.3.2 (2024-02-18)
+
+### Fix
+
+* MAINT: rm pod_path and readme ([`ea568b3`](https://github.com/Mjvolk3/Zendron/commit/ea568b316614c03dd6f05f851f62320382de1056))
+
+### Unknown
+
+* Merge remote-tracking branch &#39;refs/remotes/Zendron/main&#39; ([`7ab25c7`](https://github.com/Mjvolk3/Zendron/commit/7ab25c7417673a359379fa2763b96d49c36fc69f))
+
+* readme ([`9871a65`](https://github.com/Mjvolk3/Zendron/commit/9871a65021018d219f5aa5a045e78d855692aa26))
+
+
 ## v1.3.1 (2024-02-18)
 
 ### Fix
