@@ -2,6 +2,17 @@
 
 
 
+## v1.3.1 (2024-02-18)
+
+### Fix
+
+* MAINT: more pythonic ([`cd1a697`](https://github.com/Mjvolk3/Zendron/commit/cd1a697903b0cc641b5a67cb67cde1eacde6fba5))
+
+### Unknown
+
+* Merge remote-tracking branch &#39;refs/remotes/Zendron/main&#39; ([`3d5ed0e`](https://github.com/Mjvolk3/Zendron/commit/3d5ed0ed55eecde7d40051cd87e329da8b1fb241))
+
+
 ## v1.3.0 (2024-02-18)
 
 ### Feature
