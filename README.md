@@ -99,6 +99,8 @@ There are 1 command, and two optionall flags.
 - `zendron -nc` or `zendron --no-cache`
   - This is zendron sync without caching. This good to run if you interrupted your import for some reason and need a fresh clean import. If your zendron notes are misbehaving try this command. It will be slower since there is no caching.
   - After running this command it is best to run `Dendron: Reload Index` from the command palette.
+- Dendron Pod
+  - A Dendron Pod is used for import according to `pod_path` in the `config.yaml`. This dir structure is normally deleted to allow for future importing. If you see it, something is wrong. Create an issue on GitHub, or delete the dir and retry the steps above.
 
 ## Miscellaneous
 

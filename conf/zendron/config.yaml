@@ -9,6 +9,5 @@ collection: Zen1 # null for entire library
 item_types: [journalArticle, book, preprint, conferencePaper, report]
 local_image_path: /Users/michaelvolk/Zotero/cache # STARTER CONFIG
 dendron_limb: zendron.import
-# Not in stable version
 zotero_comment_title: zendron comment
 pod_path: zotero_pod
