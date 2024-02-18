@@ -2,6 +2,37 @@
 
 
 
+## v1.3.0 (2024-02-18)
+
+### Feature
+
+* FEAT: zendron with caching woohoo ([`5899de8`](https://github.com/Mjvolk3/Zendron/commit/5899de8b89cb246d631deb6e2db6e8f93ee7d825))
+
+### Unknown
+
+* vault typo ([`b370802`](https://github.com/Mjvolk3/Zendron/commit/b3708026e1d3c4ce25ad5336c5ab5a7cccf66df4))
+
+* trying to avoid dendron WARN ([`a4e6f4e`](https://github.com/Mjvolk3/Zendron/commit/a4e6f4ec96c9b5c11db3a98f719db55b6c9ee271))
+
+* changed entry point to get log working ([`617fdeb`](https://github.com/Mjvolk3/Zendron/commit/617fdeb0f4fa913f520462ab891751f69887bdff))
+
+* remove pycache and URL ([`270d551`](https://github.com/Mjvolk3/Zendron/commit/270d55181a49127276b65add1eff0b814173a673))
+
+* rm note ([`6a17f55`](https://github.com/Mjvolk3/Zendron/commit/6a17f55b1e472cb4f09df255bf57f6faeec10815))
+
+* refresh ([`40c93a2`](https://github.com/Mjvolk3/Zendron/commit/40c93a2bb8cd34c4a9fd8d76cb024132852575ad))
+
+* delete unused bash scripts and dendron rc in src ([`e8990be`](https://github.com/Mjvolk3/Zendron/commit/e8990be86bbed807943bad7e9f55d65b11ed6218))
+
+* deleted some unused python files ([`7a8095f`](https://github.com/Mjvolk3/Zendron/commit/7a8095f011bb4459ef1729a0ab160112ba5f7ecb))
+
+* remove old task notes ([`e18ec47`](https://github.com/Mjvolk3/Zendron/commit/e18ec471812c8de9fa47d1b795e477673777a127))
+
+* update wrk space ([`39c461c`](https://github.com/Mjvolk3/Zendron/commit/39c461c4d6ba2dc5b8462f85310862e44644f87c))
+
+* deleted scratch ([`99395e4`](https://github.com/Mjvolk3/Zendron/commit/99395e47c2419fbbc927582d6a803bd22d342f1e))
+
+
 ## v1.2.0 (2024-02-17)
 
 ### Feature
