@@ -38,7 +38,7 @@ Homepage = "https://github.com/Mjvolk3/Zendron"
 
 [project.scripts]
 # zendron = "zendron.__main__:main"
-zendron = "zendron.zendron:main"
+zendron = "zendron.__main__:main"
 
 [tool.setuptools.package-data]
 torchcell = ["py.typed"]

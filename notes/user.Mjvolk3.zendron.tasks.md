@@ -2,7 +2,7 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: tasks
 desc: ''
-updated: 1708207649772
+updated: 1708233769304
 created: 1675554123628
 ---
 ## Future
@@ -17,8 +17,9 @@ created: 1675554123628
 - [x] Remove bumpver with bumpver yaml and set up python-semantic-version. Add to requirements, add .github workflow.
 - [x] Fix [[Remove|zendron.remove]] so it doesn't delete my task note → not sure what was happening before but works now.
 - [x] Use `argparse` for remove command. → Since this works well we can just stick with this and hydra.
-- [ ] Move api config to `.env`
-- [ ]
+- [x] Move api config to `.env` → Not necessary since we .gitignore the config
+- [x] Rewrite cache [[Cache|zendron.cache]]
+- [ ] Adding cahcing to main, and 
 
 
 ## 2023.04.29

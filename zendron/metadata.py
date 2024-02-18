@@ -1,3 +1,8 @@
+# zendron/metadata
+# [[zendron.metadata]]
+# https://github.com/Mjvolk3/Zendron/tree/main/zendron/metadata
+# Test file: tests/zendron/test_metadata.py
+
 import json
 import logging
 import os

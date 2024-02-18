@@ -52,7 +52,7 @@ def citation_keys_from_cache(file_path):
     with open(file_path, "r") as file:
         data = json.load(file)
 
-    citation_keys = [entry["citation_key"] for entry in data.values()]
+    citation_keys = [entry["citation_key"] for entry in data["metadata"]]
 
     return citation_keys
 
@@ -68,26 +68,26 @@ def main(cfg: DictConfig):
     remove_files_glob(f"notes/{cfg.dendron_limb}.authors.*.md")
 
     # Get citation keys from cache.json
-    cache_file_path = "zendron_cache/cache.json"
-    citation_keys = citation_keys_from_cache(cache_file_path)
-    citation_keys = [citation_key.lower() for citation_key in citation_keys]
-    # Remove all "notes/user.citation_key.md" files except those in the citation keys list
-    for file in glob.glob("notes/user.*.md"):
-        citation_key = file.split("/")[-1][5:-3]
-        if citation_key in citation_keys:
-            remove_files_glob(file)
+    cache_file_path = ".zendron.cache.json"
+    if osp.exists(cache_file_path):
+        citation_keys = citation_keys_from_cache(cache_file_path)
+        citation_keys = [citation_key.lower() for citation_key in citation_keys]
+        # Remove all "notes/user.citation_key.md" files except those in the citation keys list
+        for file in glob.glob("notes/user.*.md"):
+            citation_key = file.split("/")[-1][5:-3]
+            if citation_key in citation_keys:
+                remove_files_glob(file)
 
     # remove_files_glob("notes/tags.*.md")
     remove_files_glob("notes/assets/images/zendron-image-import-*.png")
-    log.info("Removing all Zendron Cache")
-    # remove_files_glob("zendron_cache/metadata_cache.json")
-    # remove_files_glob("zendron_cache/annotations_cache.json")
+    log.info("Removing Zendron Cache")
+    remove_files_glob(cache_file_path)
     # log.info("Creating Missing Linked Notes with Dendron Doctor")
     # subprocess.run("dendron doctor --action createMissingLinkedNotes", shell=True)
     log.info("Note Removal Complete")
 
 
 if __name__ == "__main__":
-    config_file_path = osp.join(os.getcwd(), "conf", "config.yaml")
+    config_file_path = osp.join(os.getcwd(), "conf/zendron", "config.yaml")
     cfg = OmegaConf.load(config_file_path)
     main(cfg)
