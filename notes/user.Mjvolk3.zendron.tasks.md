@@ -2,12 +2,12 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: tasks
 desc: ''
-updated: 1708233769304
+updated: 1708239095271
 created: 1675554123628
 ---
 ## Future
 
-@user.Mjvolk3.zendron.tasks.future
+@Mjvolk3.zendron.tasks.future
 
 ## 2024.02.17
 
@@ -19,8 +19,8 @@ created: 1675554123628
 - [x] Use `argparse` for remove command. → Since this works well we can just stick with this and hydra.
 - [x] Move api config to `.env` → Not necessary since we .gitignore the config
 - [x] Rewrite cache [[Cache|zendron.cache]]
-- [ ] Adding cahcing to main, and 
-
+- [x] Adding caching to main
+- [ ] push
 
 ## 2023.04.29
 
