@@ -2,6 +2,17 @@
 
 
 
+## v1.3.3 (2024-02-19)
+
+### Fix
+
+* BUG - cfg.pod path, better string output on init ([`187687f`](https://github.com/Mjvolk3/Zendron/commit/187687f612c42e7ff9cbd0653d821ee3020c8bda))
+
+### Unknown
+
+* Merge remote-tracking branch &#39;refs/remotes/Zendron/main&#39; ([`9f9f2a7`](https://github.com/Mjvolk3/Zendron/commit/9f9f2a7c5a8a53c53119a0b5f555420dfde3bc49))
+
+
 ## v1.3.2 (2024-02-18)
 
 ### Fix
