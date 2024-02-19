@@ -111,8 +111,6 @@ def set_title(data: dict, title: str) -> str:
         else:
             return None
     prefix = title.split("_")[0]
-    # if "supp", "supplementary", "supp.", "supplementary material", "supplementary materials", sup, SI, in prefix then set_title = prefix
-    if prefix in [
         "supp",
         "Supp",
         "supplementary",
@@ -120,7 +118,9 @@ def set_title(data: dict, title: str) -> str:
         "supplementary-material",
         "supplementary-materials",
         "sup",
-        "SI",
+        "SI"
+        "preprint",
+        "pp",
     ]:
         title = prefix
     else:
