@@ -2,12 +2,17 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: tasks
 desc: ''
-updated: 1708372741340
+updated: 1708384176012
 created: 1675554123628
 ---
 ## Future
 
 @Mjvolk3.zendron.tasks.future
+
+## 2024.02.18
+
+- [] Test it works from `pip` on.
+- [ ] Try to speed up get_metadatas
 
 ## 2024.02.17
 
@@ -20,7 +25,6 @@ created: 1675554123628
 - [x] Move api config to `.env` → Not necessary since we .gitignore the config
 - [x] Rewrite cache [[Cache|zendron.cache]]
 - [x] Adding caching to main
-- [ ] w
 
 ## 2023.04.29
 
