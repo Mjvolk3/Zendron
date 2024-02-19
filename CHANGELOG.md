@@ -2,6 +2,13 @@
 
 
 
+## v1.3.6 (2024-02-19)
+
+### Fix
+
+* MAINT: better comments in config ([`405875e`](https://github.com/Mjvolk3/Zendron/commit/405875e12f4300a1239075b90a9b36c8aa9470f6))
+
+
 ## v1.3.5 (2024-02-19)
 
 ### Fix
