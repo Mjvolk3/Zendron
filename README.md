@@ -68,7 +68,7 @@ item_types: [journalArticle, book, preprint, conferencePaper, report] # List of 
 local_image_path: /Users/<username>/Zotero/cache # Local path for importing annotated images
 dendron_limb: zendron.import # Dendron import limb e.g. zendron.import.paper-title.annotations.md
 zotero_comment_title: zendron comment # fixed for now... needed for eventual 2-way sync.
-pod_path: zotero_pod # Name of dendron pod, removed after completion of import. We will later add configuration for this to remain. This will allow for non Dendron users to import markdown Zotero notes in a strucutred hierarchy.
+pod_path: zendron_pod # Name of dendron pod, removed after completion of import. We will later add configuration for this to remain. This will allow for non Dendron users to import markdown Zotero notes in a strucutred hierarchy.
 ```
 
 - `library_id` - Integer identifier of library. This is the number that matches the name of a library.

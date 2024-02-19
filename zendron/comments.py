@@ -86,7 +86,7 @@ class CommentCompiler:
         self.line = comment.note
         return self.line
 
-    def write_comment(self, pod_path: str = "zotero_pod"):
+    def write_comment(self, pod_path: str = "zendron_pod"):
         path = [pod_path]
         path.extend(self.dendron_limb.split("."))
         path.append(self.title_dendron)

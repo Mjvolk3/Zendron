@@ -10,4 +10,4 @@ item_types: [journalArticle, book, preprint, conferencePaper, report]
 local_image_path: /Users/michaelvolk/Zotero/cache # STARTER CONFIG
 dendron_limb: zendron.import
 zotero_comment_title: zendron comment
-pod_path: zotero_pod
+pod_path: zendron_pod

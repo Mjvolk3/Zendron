@@ -2,7 +2,7 @@
 id: 9voje01mfme5zskfbv14se4
 title: Roadmap
 desc: ''
-updated: 1674699794073
+updated: 1708374937446
 created: 1669488663768
 ---
 ## Zendron Ideas
@@ -27,8 +27,8 @@ User((User)) -.User_Input.->Make_Path_Change_Func([Make_Path_Change_Func])
     Sync_Zotero.sh==>resync.py
     Sync_Zotero.sh==>Pod-Import-Markdown
     Run_Task{Run_Task}-.->Zendron:Doctor_Fix_Path{Zendron:Doctor_Fix_Path}
-    Run_Task{Run_Task}-.->Zendron:Delete_zotero_pod{Zendron:Delete_zotero_pod}
-    Zendron:Delete_zotero_pod{Zendron:Delete_zotero_pod} -.-> Delete.sh
+    Run_Task{Run_Task}-.->Zendron:Delete_zendron_pod{Zendron:Delete_zendron_pod}
+    Zendron:Delete_zendron_pod{Zendron:Delete_zendron_pod} -.-> Delete.sh
     Zendron:Doctor_Fix_Path{Zendron:Doctor_Fix_Path} -.-> Doctor.sh
     Delete.sh -.-> delete_pod.py
     Doctor.sh-.->doctor.py
@@ -72,8 +72,8 @@ User((User)) -.User_Input.->Make_Path_Change_Func([Make_Path_Change_Func])
   subgraph delete_pod.py
     Zendron.Import.*.md-.Collect_Paths_Func.->Zotero_Limb_Paths
     Linked_Notes_Database-.Collect_Paths_Func.->Zotero_Link_Paths
-    Zotero_Limb_Paths-.->Delete_zotero_pod_Func
-    Zotero_Link_Paths-.->Delete_zotero_pod_Func
+    Zotero_Limb_Paths-.->Delete_zendron_pod_Func
+    Zotero_Link_Paths-.->Delete_zendron_pod_Func
   end
   subgraph doctor.py
     *Zendron.Import.*.md -. fix_path .-> Local_Import_Path_Diff

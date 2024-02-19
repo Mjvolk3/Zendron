@@ -19,4 +19,4 @@ dist/*
 *.egg-info
 zendron/__pycache__/*
 *.log
-zotero_pod/*
+zendron_pod/*

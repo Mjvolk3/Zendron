@@ -1,7 +1,7 @@
 # description: Where to import from
 # type: string
 # required: true
-src: zotero_pod
+src: zendron_pod
 
 # description: name of vault to import into
 # type: string

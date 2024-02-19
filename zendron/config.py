@@ -14,7 +14,7 @@ class ZendronConfig:
     local_image_path: /Users/michaelvolk/Zotero/cache
     dendron_limb: zendron.import
     zotero_comment_title: zendron comment
-    pod_path: zotero_pod
+    pod_path: zendron_pod
 
 def main():
     pass

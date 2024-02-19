@@ -1,4 +1,4 @@
-src: zotero_pod
+src: zendron_pod
 vaultName: Zendron
 concatenate: false
 fnameAsId: false
