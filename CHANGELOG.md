@@ -2,6 +2,21 @@
 
 
 
+## v1.3.8 (2024-02-19)
+
+### Fix
+
+* BLD: parallelized ([`5427852`](https://github.com/Mjvolk3/Zendron/commit/542785274688dc0aa8c5fec51b2ee22b478738f4))
+
+### Unknown
+
+* items parallel ([`23fd4e0`](https://github.com/Mjvolk3/Zendron/commit/23fd4e026201f204bd434ebbee47eb7cd99fec65))
+
+* notes ([`68ee4a0`](https://github.com/Mjvolk3/Zendron/commit/68ee4a0c5614acd0251e9bef9109f1dc5ba5bd0a))
+
+* trying to parallelize get_metadatas ([`9600f9b`](https://github.com/Mjvolk3/Zendron/commit/9600f9ba6c2529e84dbffb4f2b79ff3d0cd45c33))
+
+
 ## v1.3.7 (2024-02-19)
 
 ### Fix
