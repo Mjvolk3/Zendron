@@ -2,6 +2,19 @@
 
 
 
+## v1.3.7 (2024-02-19)
+
+### Fix
+
+* BUG: items doesn&#39;t control doc creation, revert adding preprint and pp and request unique pdf + supp per entry ([`e045b60`](https://github.com/Mjvolk3/Zendron/commit/e045b609d2da0b28cbb49d9d8171374e0423de6a))
+
+### Unknown
+
+* add preprints and pp corectly ([`3594d59`](https://github.com/Mjvolk3/Zendron/commit/3594d59c8a93b9e2150d302f2d9b5a00a23603a8))
+
+* items update to allow for preprints ([`8ae4446`](https://github.com/Mjvolk3/Zendron/commit/8ae44467b09067bab093fc05fa060efb31896170))
+
+
 ## v1.3.6 (2024-02-19)
 
 ### Fix
