@@ -69,13 +69,13 @@ def user_configure() -> None:
 
             if not osp.exists(dest_path):
                 shutil.copy2(src_path, dest_path)
-                print(f"{file_path} has been copied to the workspace root directory.")
+                print(f"'{file_path}' - has been copied to the workspace root directory.")
             else:
-                print(f"{file_path} already exists in the workspace root directory.")
+                print(f"'{file_path}' - already exists in the workspace root directory.")
         set_initialized()
         print("Initialization complete.")
         print(
-            "Manually set the STARTER CONFIG in './conf/config.yaml' for quickstart and rerun zendron. All other configs are optional."
+            "Manually set the STARTER CONFIG in './conf/zendron/config.yaml' for quickstart and rerun zendron. All other configs are optional."
         )
         return True
     else:

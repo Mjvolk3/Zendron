@@ -45,7 +45,7 @@ def main(cfg: DictConfig) -> None:
         subprocess.run(
             f"dendron importPod --podId dendron.markdown --wsRoot .", shell=True
         )
-        subprocess.run(f"rm -r {pod_path}", shell=True)
+        subprocess.run(f"rm -r {cfg.pod_path}", shell=True)
         log.info("Sync Complete")
     else:
         log.info("Sync Starting")
@@ -54,7 +54,7 @@ def main(cfg: DictConfig) -> None:
             subprocess.run(
                 f"dendron importPod --podId dendron.markdown --wsRoot .", shell=True
             )
-            subprocess.run(f"rm -r {pod_path}", shell=True)
+            subprocess.run(f"rm -r {cfg.pod_path}", shell=True)
             log.info("Sync complete")
         else:
             log.info("No new data to sync. Exiting.")

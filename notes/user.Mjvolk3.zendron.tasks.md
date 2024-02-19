@@ -2,7 +2,7 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: tasks
 desc: ''
-updated: 1708239095271
+updated: 1708372741340
 created: 1675554123628
 ---
 ## Future
@@ -20,7 +20,7 @@ created: 1675554123628
 - [x] Move api config to `.env` → Not necessary since we .gitignore the config
 - [x] Rewrite cache [[Cache|zendron.cache]]
 - [x] Adding caching to main
-- [ ] push
+- [ ] w
 
 ## 2023.04.29
 
