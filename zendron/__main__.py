@@ -39,8 +39,8 @@ def main(cfg: DictConfig) -> None:
 
         log.info("Remove Starting")
         remove.main(cfg)
-    elif args.no_cache:
-        log.info("Sync Starting (no cache)")
+    elif args.no_cache or not osp.exists(".zendron.cache.json"):
+        log.info("Sync Starting")
         load.main(cfg)
         subprocess.run(
             f"dendron importPod --podId dendron.markdown --wsRoot .", shell=True
