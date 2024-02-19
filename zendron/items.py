@@ -25,7 +25,7 @@ log = logging.getLogger(__name__)
 #                 metadata_list.append(i)
 
 #     log.info("Extracting Data Per entry")
-#     return metadata_list
+#     return metadata_listhttps://github.com/Mjvolk3/Zendron/tree/main
 
 def get_metadatas(zot, collection: str = None, item_types: list = None) -> list:
     def fetch_items():
