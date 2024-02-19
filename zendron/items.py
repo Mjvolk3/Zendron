@@ -1,31 +1,59 @@
 import logging
 from typing import Union
-
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pyzotero import zotero
 
 log = logging.getLogger(__name__)
 
 
-def get_metadatas(
-    zot: zotero.Zotero, collection: str = None, item_types: list = None
-) -> list:
-    metadata_list = []
-    if collection is None:
-        for i in zot.everything(zot.items()):
-            if i["data"]["itemType"] in item_types:
-                metadata_list.append(i)
+# def get_metadatas(
+#     zot: zotero.Zotero, collection: str = None, item_types: list = None
+# ) -> list:
+#     metadata_list = []
+#     if collection is None:
+#         for i in zot.everything(zot.items()):
+#             if i["data"]["itemType"] in item_types:
+#                 metadata_list.append(i)
 
-    if collection is not None:
-        collection_key = [
-            i for i in zot.collections() if i["data"]["name"] == collection
-        ][0]["key"]
-        items = zot.collection_items(collection_key)
-        for i in items:
-            if i["data"]["itemType"] in item_types:
-                metadata_list.append(i)
+#     if collection is not None:
+#         collection_key = [
+#             i for i in zot.collections() if i["data"]["name"] == collection
+#         ][0]["key"]
+#         items = zot.collection_items(collection_key)
+#         for i in items:
+#             if i["data"]["itemType"] in item_types:
+#                 metadata_list.append(i)
 
+#     log.info("Extracting Data Per entry")
+#     return metadata_list
+
+def get_metadatas(zot, collection: str = None, item_types: list = None) -> list:
+    def fetch_items():
+        if collection is None:
+            return zot.everything(zot.items())
+        else:
+            collection_key = [
+                i for i in zot.collections() if i["data"]["name"] == collection
+            ][0]["key"]
+            return zot.collection_items(collection_key)
+    
+    def filter_item(item):
+        return item["data"]["itemType"] in item_types
+    
+    items = fetch_items()
+    filtered_items = []
+    # Using ThreadPoolExecutor to parallelize API calls or processing
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        # Future-to-item mapping to preserve order
+        future_to_item = {executor.submit(filter_item, item): item for item in items}
+        
+        for future in as_completed(future_to_item):
+            item = future_to_item[future]
+            if future.result():
+                filtered_items.append(item)
+                
     log.info("Extracting Data Per entry")
-    return metadata_list
+    return filtered_items
 
 
 def get_annotated_attachments(
