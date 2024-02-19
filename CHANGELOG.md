@@ -2,6 +2,17 @@
 
 
 
+## v1.3.4 (2024-02-19)
+
+### Fix
+
+* MAINT: first time use no cache ([`29d53a1`](https://github.com/Mjvolk3/Zendron/commit/29d53a1b3c474c6caf48baca20b197574be91f55))
+
+### Unknown
+
+* docs ([`4d0e094`](https://github.com/Mjvolk3/Zendron/commit/4d0e0947741b636857c34b29021c64ec8d464fd2))
+
+
 ## v1.3.3 (2024-02-19)
 
 ### Fix
