@@ -2,6 +2,17 @@
 
 
 
+## v1.3.5 (2024-02-19)
+
+### Fix
+
+* MAINT: changing to zotero_pod to zendron_pod to reduce ambiguity. altough pod is general to zotero. ([`5a0360d`](https://github.com/Mjvolk3/Zendron/commit/5a0360db60e778e52072ba3006e790e068d58146))
+
+### Unknown
+
+* Merge remote-tracking branch &#39;refs/remotes/Zendron/main&#39; ([`c62e14b`](https://github.com/Mjvolk3/Zendron/commit/c62e14bdbf28226318d700720b8f10f0e908f71a))
+
+
 ## v1.3.4 (2024-02-19)
 
 ### Fix
