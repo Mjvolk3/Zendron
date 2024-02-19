@@ -85,6 +85,8 @@ pod_path: zotero_pod # Name of dendron pod, removed after completion of import. 
 
 ## Basic Usage
 
+🚨 **THE MOST IMPORTANT THING** 🚨 - When you any `zendron` command make sure that you have a clean working directory. Meaning run `git status`, and make sure there are no untracked files or files to commit. This makes it very easy to revert modifications made by `zendron` while we still work out the kinks.
+
 There are 1 command, and two optionall flags.
 
 - `zendron`
