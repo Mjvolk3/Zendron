@@ -64,13 +64,13 @@ library_id : 4932032 # Zotero library ID
 library_type : group # [user, group] library
 api_key : FoCauOvWMlNdYmpYuY5JplTw # Zotero API key
 collection: null # Name of Zotero Collection, null for entire library
-item_types: [journalArticle, book, preprint, conferencePaper, report] # List of item types according to [pyzotero](https://pyzotero.readthedocs.io/en/latest/)
 local_image_path: /Users/<username>/Zotero/cache # Local path for importing annotated images
 ```
 
 [default.yaml](https://github.com/Mjvolk3/Zendron/blob/main/zendron/conf/zendron/config_template.yaml)
 
 ```yaml
+item_types: [journalArticle, book, preprint, conferencePaper, report] # List of item types according to [pyzotero](https://pyzotero.readthedocs.io/en/latest/). Kept here for beginner simplicity.
 dendron_limb: zendron.import # Dendron import limb e.g. zendron.import.paper-title.annotations.md. KEEPING here for now since hasn't been tested.
 zotero_comment_title: zendron comment # needed for eventual 2-way sync. HERE for now.
 pod_path: zendron_pod # Name of dendron pod, removed after completion of import. Key for non dendron user import. Not implemented yet.

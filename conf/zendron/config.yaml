@@ -6,5 +6,4 @@ library_id : 9025336 # STARTER CONFIG - Can be found in the URL to your library 
 library_type : user # group or user # STARTER CONFIG
 api_key : GnuwafXwXkBnAMWiiUqmAan5 # STARTER CONFIG
 collection: torchcell-zendron # null for entire library
-item_types: [journalArticle, book, preprint, conferencePaper, report]
 local_image_path: /Users/michaelvolk/Zotero/cache # STARTER CONFIG

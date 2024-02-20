@@ -16,3 +16,4 @@ hydra:
 zotero_comment_title: zendron comment
 pod_path: zendron_pod
 dendron_limb: zendron.import
+item_types: [journalArticle, book, preprint, conferencePaper, report]
