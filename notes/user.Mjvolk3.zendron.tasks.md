@@ -2,7 +2,7 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: tasks
 desc: ''
-updated: 1708384176012
+updated: 1708404604530
 created: 1675554123628
 ---
 ## Future
@@ -11,8 +11,8 @@ created: 1675554123628
 
 ## 2024.02.18
 
-- [] Test it works from `pip` on.
-- [ ] Try to speed up get_metadatas
+- [x] Test it works from `pip` on.
+- [x] Try to speed up get_metadatas → parallelized [[Load|zendron.load]] and [[Load_since_cache|zendron.load_since_cache]]
 
 ## 2024.02.17
 
