@@ -2,6 +2,17 @@
 
 
 
+## v1.3.9 (2024-02-20)
+
+### Fix
+
+* BLD: docs and clear configs ([`cd3f828`](https://github.com/Mjvolk3/Zendron/commit/cd3f828f19ad9a3f5f443689e2a2fba07ac7d886))
+
+### Unknown
+
+* moving configs to defaults ([`6341c31`](https://github.com/Mjvolk3/Zendron/commit/6341c31620dc482f5a5afe19b755f42a219a1f58))
+
+
 ## v1.3.8 (2024-02-19)
 
 ### Fix
