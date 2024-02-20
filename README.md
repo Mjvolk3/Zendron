@@ -57,7 +57,7 @@ Here we show how `zendron` enables a writing workflow from within VsCode.
 
 ## Zotero and File Import Configuration
 
-All zendron configuration is handled in [config.yaml](https://github.com/Mjvolk3/Zendron/raw/main/conf/config.yaml). Upon initialization it will show in `"config/zendron/config.yaml"`.
+All zendron configuration is handled in [config.yaml](https://github.com/Mjvolk3/Zendron/blob/main/zendron/conf/zendron/config_template.yaml). Upon initialization it will show in `"config/zendron/config.yaml"`.
 
 ```yml
 library_id : 4932032 # Zotero library ID
@@ -66,9 +66,14 @@ api_key : FoCauOvWMlNdYmpYuY5JplTw # Zotero API key
 collection: null # Name of Zotero Collection, null for entire library
 item_types: [journalArticle, book, preprint, conferencePaper, report] # List of item types according to [pyzotero](https://pyzotero.readthedocs.io/en/latest/)
 local_image_path: /Users/<username>/Zotero/cache # Local path for importing annotated images
-dendron_limb: zendron.import # Dendron import limb e.g. zendron.import.paper-title.annotations.md
-zotero_comment_title: zendron comment # fixed for now... needed for eventual 2-way sync.
-pod_path: zendron_pod # Name of dendron pod, removed after completion of import. We will later add configuration for this to remain. This will allow for non Dendron users to import markdown Zotero notes in a strucutred hierarchy.
+```
+
+[default.yaml](https://github.com/Mjvolk3/Zendron/blob/main/zendron/conf/zendron/config_template.yaml)
+
+```yaml
+dendron_limb: zendron.import # Dendron import limb e.g. zendron.import.paper-title.annotations.md. KEEPING here for now since hasn't been tested.
+zotero_comment_title: zendron comment # needed for eventual 2-way sync. HERE for now.
+pod_path: zendron_pod # Name of dendron pod, removed after completion of import. Key for non dendron user import. Not implemented yet.
 ```
 
 - `library_id` - Integer identifier of library. This is the number that matches the name of a library.

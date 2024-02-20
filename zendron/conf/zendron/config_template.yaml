@@ -1,12 +1,14 @@
 defaults:
   - default
   - _self_
-# For group, can be found in the URL to your library https://www.zotero.org/groups/4932032/zendron
-# For use, can be found https://www.zotero.org/settings/keys
+## library_id
+### For group, can be found in the URL to your library https://www.zotero.org/groups/4932032/zendron
+### For user, can be found https://www.zotero.org/settings/keys
 library_id : 4932332 # STARTER CONFIG
 library_type : group # group or user # STARTER CONFIG
 api_key : FoC1uOvsMnNdYmpYuY5JpETw # STARTER CONFIG
-# null for entire library
+## collection
+### null for entire library - exact match to unique collection
 collection: null 
 item_types: [journalArticle, book, preprint, conferencePaper, report]
 local_image_path: /Users/<username>/Zotero/cache # STARTER CONFIG
