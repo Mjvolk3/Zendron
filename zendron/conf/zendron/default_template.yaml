@@ -19,3 +19,8 @@ hydra:
   #       format: '[%(levelname)ssss] - %(message)s'
   #   root:
   #     handlers: [console]
+
+# zendron - default
+zotero_comment_title: zendron comment
+pod_path: zendron_pod
+dendron_limb: zendron.import

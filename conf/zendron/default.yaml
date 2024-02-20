@@ -11,3 +11,8 @@ hydra:
   run:
     dir: ''
   output_subdir: null
+
+# zendron - default
+zotero_comment_title: zendron comment
+pod_path: zendron_pod
+dendron_limb: zendron.import

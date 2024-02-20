@@ -10,6 +10,3 @@ api_key : FoC1uOvsMnNdYmpYuY5JpETw # STARTER CONFIG
 collection: null 
 item_types: [journalArticle, book, preprint, conferencePaper, report]
 local_image_path: /Users/<username>/Zotero/cache # STARTER CONFIG
-dendron_limb: zendron.import
-zotero_comment_title: zendron comment
-pod_path: zendron_pod
