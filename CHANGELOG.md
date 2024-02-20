@@ -2,6 +2,13 @@
 
 
 
+## v1.3.10 (2024-02-20)
+
+### Fix
+
+* BLD: KISS ([`b4aa8f2`](https://github.com/Mjvolk3/Zendron/commit/b4aa8f20f60ea895e3d36812867c619027f92268))
+
+
 ## v1.3.9 (2024-02-20)
 
 ### Fix
