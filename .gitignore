@@ -7,8 +7,8 @@ outputs
 .dendron.ws
 package-lock.json
 .next
-conf/default.yaml
-conf/config.yaml
+conf/zendron/*
+conf/zendron/*
 README.md
 .hydra
 .hydra/*

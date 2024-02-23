@@ -2,12 +2,12 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: tasks
 desc: ''
-updated: 1708727942828
+updated: 1708728016654
 created: 1675554123628
 ---
 ## Future
 
-@Mjvolk3.zendron.tasks.future
+![[user.Mjvolk3.zendron.tasks.future]]
 
 ## 2024.02.23
 
@@ -18,6 +18,7 @@ created: 1675554123628
 - [x] Show how to get the user amd group ids.  → info for this already exists in README.
 - [x] `-remove` to `--remove` in readme
 - [x] Common errors: `DendronError: vault with name <your-vault-name> not found`. This means that your vault name in `dendron.yml` was not set.
+- [ ] Look into comments
 
 ## 2024.02.18
 
