@@ -2,12 +2,18 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: tasks
 desc: ''
-updated: 1708404604530
+updated: 1708705319634
 created: 1675554123628
 ---
 ## Future
 
 @Mjvolk3.zendron.tasks.future
+
+- [ ] Dendron cli latest does not work. 0.119.0 works.
+- [ ] Install npm from <https://nodejs.org/en/> on macos and linux
+- [ ] Add pinning information. auto pin works for imports but you need to pin all files if you want to safely use lib.
+- [ ] setup api key
+- [ ] Show how to get the user amd groupids.
 
 ## 2024.02.18
 
