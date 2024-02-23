@@ -2,18 +2,22 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: tasks
 desc: ''
-updated: 1708705319634
+updated: 1708727942828
 created: 1675554123628
 ---
 ## Future
 
 @Mjvolk3.zendron.tasks.future
 
-- [ ] Dendron cli latest does not work. 0.119.0 works.
-- [ ] Install npm from <https://nodejs.org/en/> on macos and linux
-- [ ] Add pinning information. auto pin works for imports but you need to pin all files if you want to safely use lib.
-- [ ] setup api key
-- [ ] Show how to get the user amd groupids.
+## 2024.02.23
+
+- [x] Dendron cli latest does not work. 0.119.0 works. → There is already a [github issue](https://github.com/dendronhq/dendron/issues/3976) about this, added to README.
+- [x] Install node from from <https://nodejs.org/en/> on macos and linux → added to README
+- [x] Add pinning information. auto pin works for imports but you need to pin all files if you want to safely use lib.
+- [x] setup api key → info for this already exists in README.
+- [x] Show how to get the user amd group ids.  → info for this already exists in README.
+- [x] `-remove` to `--remove` in readme
+- [x] Common errors: `DendronError: vault with name <your-vault-name> not found`. This means that your vault name in `dendron.yml` was not set.
 
 ## 2024.02.18
 

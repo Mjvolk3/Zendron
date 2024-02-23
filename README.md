@@ -25,8 +25,13 @@ Here we show how `zendron` enables a writing workflow from within VsCode.
 ## Install Instructions
 
 - It is recommended to build a virtual environment for installation. I've used  [conda env](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) during development.
+
 - Install [Dendron CLI](https://wiki.dendron.so/notes/RjBkTbGuKCXJNuE4dyV6G/) this is needed for note import into Dendron.
-  - `npm install -g @dendronhq/dendron-cli@latest`
+  - [Install node js](https://nodejs.org/en/download)
+    - For more information you can check out [Dendron node install instruction](https://wiki.dendron.so/notes/RjBkTbGuKCXJNuE4dyV6G/)
+  - `npm install -g @dendronhq/dendron-cli@0.119.0`
+    - I use the global flag, but you can alternativley install a specific version for a given workspace.
+    - Newer version are not working, waiting on any response to [github issue](https://github.com/dendronhq/dendron/issues/3976)
 - Install the zendron
   - `python -m pip install zendron`
 
@@ -39,6 +44,7 @@ Here we show how `zendron` enables a writing workflow from within VsCode.
 ![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/images/zendron.citation-key.md.zotero-config-editor-accept-risks.png)
 - In the Search, type `autoPinDelay` and change the integer value from 0 (default) to 1. Click OK.
 ![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/images/zendron.citation-key.md.autoPinDelay-update.png)
+- This will automatically pin any new publications coming into your zotero database. For previous citations that are not yet pinned, you can highlight all metadata, right click and select `Better BibTex > Pin BibTeX key`. This will make your entries compatible with Zendron. This is a one time thing, after setting the `autoPinDelay`, you won't need to worry about this.
 
 ## Zotero API key
 
@@ -55,6 +61,27 @@ Here we show how `zendron` enables a writing workflow from within VsCode.
 
 - This key can then be copy-pasted in the configuration file, `"config.yaml"`. You should add your key to `.gitignore` to prevent others from accessing your Zotoero database. If the key is lost you can always generate a new one.
 
+## Basic Usage
+
+🚨 **THE MOST IMPORTANT THING** 🚨 - When you any `zendron` command make sure that you have a clean working directory. Meaning run `git status`, and make sure there are no untracked files or files to commit. This makes it very easy to revert modifications made by `zendron` while we still work out the kinks.
+
+There are 1 command, and two optionall flags.
+
+- `zendron`
+  - This command should only be run in the root directory of the workspace.
+  - This command imports notes according to a defined [config.yaml](https://github.com/Mjvolk3/Zendron/raw/main/conf/config.yaml). Once the command is run the first time the user needs to modify their configuration `./conf/zendron/config.yaml`. All required configs are marked with a comment `# STARTER CONFIG` upon initialization.
+  - Notes are imported with a `## Time Created` heading. This allows for stable reference from other notes, within the note vault. We autogenerate a `*.comments.md` that should be used for taking any additional notes within Dendron. Additional notes taken within the meta data file (`notes/zendron.import.<paper-title>.md`), or the `*.annotations.md` will be overwritten after running `zendron -rm` or `zendron -nc`. All files downstream of `.import` except `*.comments.md` should be treated as read only.
+  - Upon import, notes and tags are left as stubs. To create these notes run `> Dendron: Doctor` then `createMissingLinkedNotes`. It is best practice to correct tag warnings before doing this. We warn on malformed tag imports.
+  - After running this command it is best to run `Dendron: Reload Index` from the command palette.
+- `zendron -rm` or `zendron --remove`
+  - ⚠️ This command removes imported notes and associated links. This command works by removing all notes downstream to `dendron_limb`, except for `comments.md`. There is some difficulty removing other files created because these are separate from the `dendron_limb`. These files include `user.*.md`, which comes from bibtex keys, and `tags.*.md` which come from metadata and annotation tags. For now, we don't remove tags, but we do remove bibex keys (`<user.bibtex_key>.md`).
+  - ⚠️I have to say it again, don't put other notes downstream of the zendron limb. They will be deleted. The only protected files are `"*.comments.md"`
+- `zendron -nc` or `zendron --no-cache`
+  - This is zendron sync without caching. This good to run if you interrupted your import for some reason and need a fresh clean import. If your zendron notes are misbehaving try this command. It will be slower since there is no caching.
+  - After running this command it is best to run `Dendron: Reload Index` from the command palette.
+- Dendron Pod
+  - A Dendron Pod is used for import according to `pod_path` in the `config.yaml`. This dir structure is normally deleted to allow for future importing. If you see it, something is wrong. Create an issue on GitHub, or delete the dir and retry the steps above.
+  
 ## Zotero and File Import Configuration
 
 All zendron configuration is handled in [config.yaml](https://github.com/Mjvolk3/Zendron/blob/main/zendron/conf/zendron/config_template.yaml). Upon initialization it will show in `"config/zendron/config.yaml"`.
@@ -88,27 +115,6 @@ pod_path: zendron_pod # Name of dendron pod, removed after completion of import.
 - `pod_path` - pod path for dendron import. Should not need to change. Will likely remove from configuration later so it doesn't get accidentally changed.
 - `zotero comment title` - IGNORE FOR NOW. Eventually needed for 2-way sync.
 
-## Basic Usage
-
-🚨 **THE MOST IMPORTANT THING** 🚨 - When you any `zendron` command make sure that you have a clean working directory. Meaning run `git status`, and make sure there are no untracked files or files to commit. This makes it very easy to revert modifications made by `zendron` while we still work out the kinks.
-
-There are 1 command, and two optionall flags.
-
-- `zendron`
-  - This command should only be run in the root directory of the workspace.
-  - This command imports notes according to a defined [config.yaml](https://github.com/Mjvolk3/Zendron/raw/main/conf/config.yaml). Once the command is run the first time the user needs to modify their configuration `./conf/zendron/config.yaml`. All required configs are marked with a comment `# STARTER CONFIG` upon initialization.
-  - Notes are imported with a `## Time Created` heading. This allows for stable reference from other notes, within the note vault. We autogenerate a `*.comments.md` that should be used for taking any additional notes within Dendron. Additional notes taken within the meta data file (`notes/zendron.import.<paper-title>.md`), or the `*.annotations.md` will be overwritten after running `zendron -rm` or `zendron -nc`. All files downstream of `.import` except `*.comments.md` should be treated as read only.
-  - Upon import, notes and tags are left as stubs. To create these notes run `> Dendron: Doctor` then `createMissingLinkedNotes`. It is best practice to correct tag warnings before doing this. We warn on malformed tag imports.
-  - After running this command it is best to run `Dendron: Reload Index` from the command palette.
-- `zendron -rm` or `zendron -remove`
-  - ⚠️ This command removes imported notes and associated links. This command works by removing all notes downstream to `dendron_limb`, except for `comments.md`. There is some difficulty removing other files created because these are separate from the `dendron_limb`. These files include `user.*.md`, which comes from bibtex keys, and `tags.*.md` which come from metadata and annotation tags. For now, we don't remove tags, but we do remove bibex keys (`<user.bibtex_key>.md`).
-  - ⚠️I have to say it again, don't put other notes downstream of the zendron limb. They will be deleted. The only protected files are `"*.comments.md"`
-- `zendron -nc` or `zendron --no-cache`
-  - This is zendron sync without caching. This good to run if you interrupted your import for some reason and need a fresh clean import. If your zendron notes are misbehaving try this command. It will be slower since there is no caching.
-  - After running this command it is best to run `Dendron: Reload Index` from the command palette.
-- Dendron Pod
-  - A Dendron Pod is used for import according to `pod_path` in the `config.yaml`. This dir structure is normally deleted to allow for future importing. If you see it, something is wrong. Create an issue on GitHub, or delete the dir and retry the steps above.
-
 ## Miscellaneous
 
 - The `zendron_cache` is used for remove of `<user.bibtex_key>.md`. If it is deleted and you run remove, the `<user.bibtex_key>.md` will not be removed. In this case you can run `zendron` again, then run the `zendron remove=true` again.
@@ -118,3 +124,28 @@ There are 1 command, and two optionall flags.
 ## Issues, Troubleshooting, Pull Requests
 
 - If you are having trouble with startup you can use this [Zendron-Test](https://github.com/Mjvolk3/Zendron-Test) template and try to reproduce your issues here. Simply click on `Use this template`, clone the repo and try to run `zendron` here. This will allow for us to catch things we overlooked for different user workspace configuration etc. Once you have tried to reproduce issues here please submit an issue on [Zendron](https://github.com/Mjvolk3/Zendron) linking to your minimal example.
+
+## Common Errors
+
+A list of common errors and quick fixes to address them.
+
+### Error - DendronError: vault with name your-vault-name not found
+
+```bash
+DendronError: vault with name <your-vault-name> not found
+```
+
+### Fix - DendronError: vault with name your-vault-name not found
+
+This indicates that the vault name in `dendron.yml` was not set.
+
+For example,
+
+```yaml
+workspace:
+  vaults:
+    -
+      fsPath: .
+      selfContained: true
+      name: Zendron
+```
