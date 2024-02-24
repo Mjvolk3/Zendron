@@ -17,6 +17,11 @@ def add_comment_key(comment_key: str, file_path: str):
         f.write(updated_data)
 
 
+def get_updated_time(file_path: str):
+    data = frontmatter.load(file_path)
+    return data["updated"]
+    
+
 def main():
     pass
 
