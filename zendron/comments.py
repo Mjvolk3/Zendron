@@ -21,6 +21,25 @@ from zendron import front
 from zendron.annotations import AnnotationsCompiler
 from zendron.metadata import Metadata, MetadataCompiler
 
+def read_markdown_file(file_path: str) -> str:
+    """
+    Read the content of a Markdown file into a string.
+
+    :param file_path: The path to the Markdown file.
+    :return: The content of the file as a string.
+    """
+    with open(file_path, 'r', encoding='utf-8') as file:
+        content = file.read()
+    return content
+
+def touch(filename: str) -> None:
+    """
+    Mimics the behavior of the Unix 'touch' command.
+    
+    :param filename: The name of the file to touch.
+    """
+    with open(filename, 'a'):
+        pass  
 
 @dataclass
 class Comment:
@@ -38,11 +57,19 @@ class Comment:
                 self._comment_key = [
                     i["key"]
                     for i in self.attachments
-                    if i["zendron_title"] == "zendron comment"
+                    if i["title"] == "zendron_comment"
                 ][0]
             except IndexError:
-                self._comment_key = None
+                self._comment_key = self.attach_empty_md()
         return self._comment_key
+    
+    def attach_empty_md(self):
+        filename = "zendron_temp.md"
+        touch(filename)
+        attachment = self.zot.attachment_both([("zendron_comment", filename)], self.parentItem)
+        comment_key = attachment['unchanged'][0]['key']
+        os.remove(filename)
+        return comment_key
 
     @property
     def version(self) -> int:
@@ -53,20 +80,22 @@ class Comment:
     @property
     def parentItem(self) -> str:
         if self._parentItem is None:
-            try:
-                self._parentItem = self.zot.item(self.comment_key)["data"]["parentItem"]
-            except AttributeError:
-                self._parentItem = ""
+            self._parentItem = self.zot.item(self.attachments[0]['key'])['data']['parentItem']
         return self._parentItem
 
     @property
     def note(self) -> str:
         if self._note is None:
             try:
+                self.get_workspace_comment()
                 self._note = self.zot.item(self.comment_key)["data"]["note"]
             except AttributeError:
                 self._note = ""
         return self._note
+
+    def get_workspace_comment(self):
+        print()
+        pass
 
 
 class CommentCompiler:
@@ -97,23 +126,35 @@ class CommentCompiler:
             f.write(self.line)
             f.write("\n")
         front.add_comment_key(self.comment.comment_key, file_path)
+        front.add_comment_key(self.comment.version, file_path)
 
 
 @hydra.main(
-    version_base=None, config_path=osp.join(os.getcwd(), "conf"), config_name="config"
+    version_base=None, config_path=osp.join(os.getcwd(), "conf/zendron"), config_name="config"
 )
 def main(cfg: DictConfig):
+    from zendron.items import get_attachments
     api_key = cfg.api_key
     library_id = cfg.library_id
     library_type = cfg.library_type  # or 'user'
     dendron_limb = cfg.dendron_limb
     zot = zotero.Zotero(library_id, library_type, api_key)
-
-    # comment = Comment()
-    # comment_compiler = CommentCompiler()
-    # comment_compiler.compile()
-    # comment_compiler.write_comment()
-
+    
+    attachments = get_attachments(zot, "C95VVC24")
+    comment = Comment(zot, attachments)
+    comment.comment_key
+    ####
+    comment_compiler = CommentCompiler(
+        comment, 'Variational-Graph-Auto-Encoders', cfg.dendron_limb
+    )
+    comment_compiler.compile(comment)
+    comment_compiler.write_comment()
+    # comment.version    
+    print()
+    
+    #TODO you need this!! 
+    
+    #(".").join(file_path.split(".md")[0].split("/")[1:])
 
 if __name__ == "__main__":
     main()
