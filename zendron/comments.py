@@ -138,7 +138,7 @@ class Comment:
         _dendron_update_time = dendron_timestamp_to_iso_format(time)
         return _dendron_update_time
 
-def push_comment(comment:Comment, zot):
+def push_comment(zot, comment:Comment):
     item = zot.item(comment.comment_key)
     item["data"]["note"] = comment.note
     zot.update_item(item, comment.version)
@@ -154,8 +154,8 @@ class CommentCompiler:
         self.project_dir: str = os.getcwd().split("/")[-1]
         self.line: str = None
 
-    def compile(self, comment: Comment = None):
-        self.line = comment.note
+    def compile(self):
+        self.line = self.comment.note
         return self.line
 
     def write_comment(self, pod_path: str = "zendron_pod"):
@@ -203,7 +203,7 @@ def main(cfg: DictConfig):
     comment_compiler = CommentCompiler(comment)
     comment_compiler.compile(comment)
     comment_compiler.write_comment()
-    push_comment(comment, zot)
+    push_comment(zot,comment)
 
 
 if __name__ == "__main__":

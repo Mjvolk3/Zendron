@@ -13,7 +13,7 @@ from tqdm import tqdm
 
 from zendron.annotations import AnnotationsCompiler
 from zendron.cache import Cache
-from zendron.comments import Comment, CommentCompiler
+from zendron.comments import Comment, CommentCompiler, push_comment
 from zendron.items import get_annotated_attachments, get_attachments, get_metadatas
 from zendron.metadata import Metadata, MetadataCompiler
 from zendron.user_citation_key import UserCitationKey, UserCitationKeyCompiler
@@ -45,12 +45,11 @@ def process_metadata(metadata, zot, cfg, cache):
         annot_compiler.compile(annotations)
         annot_compiler.write()
         cache.add_annotations(annot_attach, annotations)
-    comment = Comment(zot, attachments)
-    comment_compiler = CommentCompiler(
-        comment, metadata_obj.title_dendron, cfg.dendron_limb
-    )
-    comment_compiler.compile(comment)
+    comment = Comment(zot, attachments, metadata_obj.title_dendron, cfg.dendron_limb)
+    comment_compiler = CommentCompiler(comment)
+    comment_compiler.compile()
     comment_compiler.write_comment()
+    push_comment(zot, comment)
     # Additional operations if needed
     return True  # Placeholder return value
 
