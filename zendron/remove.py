@@ -60,7 +60,8 @@ def citation_keys_from_cache(file_path):
 def main(cfg: DictConfig):
     # TODO add notes config for
     log.info("Removing all Zendron Note Files")
-    remove_files_glob(f"notes/{cfg.dendron_limb}.*.md", r"\.comments\.md$")
+    # remove_files_glob(f"notes/{cfg.dendron_limb}.*.md", r"\.comments\.md$")
+    remove_files_glob(f"notes/{cfg.dendron_limb}.*.md")
     remove_files_glob(f"notes/{cfg.dendron_limb}.*.annotations.md")
     remove_files_glob(f"notes/{cfg.dendron_limb}.date.*.md")
     remove_files_glob(f"notes/{cfg.dendron_limb}.item-type.*.md")

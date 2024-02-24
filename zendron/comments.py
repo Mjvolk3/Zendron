@@ -23,6 +23,21 @@ from zendron.metadata import Metadata, MetadataCompiler
 
 from datetime import datetime
 
+def iso_to_datetime(iso_str: str) -> datetime:
+    """
+    Convert an ISO 8601 formatted date-time string to a datetime object.
+    
+    This function handles both 'Z' (UTC) notation and offsets.
+
+    :param iso_str: The ISO 8601 formatted date-time string.
+    :return: A datetime object representing the given date-time.
+    """
+    # Replace 'Z' with '+00:00' to handle UTC notation
+    iso_str = iso_str.replace('Z', '+00:00')
+    
+    # Use datetime.fromisoformat to parse the ISO string
+    return datetime.fromisoformat(iso_str)
+
 def dendron_timestamp_to_iso_format(timestamp_ms: int) -> str:
     """
     Convert a timestamp in milliseconds to an ISO 8601 formatted date string.
@@ -67,7 +82,6 @@ class Comment:
     attachments: list
     title_dendron: str = None
     dendron_limb: str = None
-    _note: str = None
     _comment_key: str = None
     _version: int = None
     _parentItem: str = None
@@ -121,19 +135,29 @@ class Comment:
 
     @property
     def note(self) -> str:
-        if self._note is None:
-            try:
-                self._note = self.get_workspace_comment()
-            except AttributeError:
-                self._note = ""
-        return self._note
+        # if a local note does exist we always use the remote note, which can sometimes be the freshly initialized note
+        try:
+            _note_local = self.get_workspace_comment()
+        except FileNotFoundError:
+            _note_local = None
+            _note_remote = self.zot.item(self.comment_key)["data"]["note"]
+            return _note_remote
+        
+        _note_local_datetime = iso_to_datetime(self.dendron_local_updated_time)
+        _note_remote_datetime = iso_to_datetime(self.zot.item(self.comment_key)["data"]["dateModified"])
+        if _note_local_datetime > _note_remote_datetime:
+            _note = _note_local
+        else:
+            _note = _note_remote
+        
+        return _note
 
     def get_workspace_comment(self):
         md_notes = read_markdown_file(self.dendron_note_path)
         return md_notes
     
     @property
-    def dendron_updated_time(self):
+    def dendron_local_updated_time(self):
         time = front.get_updated_time(self.dendron_note_path)
         _dendron_update_time = dendron_timestamp_to_iso_format(time)
         return _dendron_update_time
@@ -170,9 +194,8 @@ class CommentCompiler:
             # f.write("\n")
             f.write(self.comment.note)
         front.add_comment_key(self.comment.comment_key, file_path)
-        front.add_comment_key(self.comment.version, file_path)
-        print()
-
+        keys_to_remove = ["id", "title", "desc", "updated", "created"]
+        front.remove_front_matter_keys(keys_to_remove, file_path)
 
 @hydra.main(
     version_base=None,
@@ -201,7 +224,7 @@ def main(cfg: DictConfig):
         dendron_limb,
     )
     comment_compiler = CommentCompiler(comment)
-    comment_compiler.compile(comment)
+    comment_compiler.compile()
     comment_compiler.write_comment()
     push_comment(zot,comment)
 
