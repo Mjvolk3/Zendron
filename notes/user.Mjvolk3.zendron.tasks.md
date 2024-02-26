@@ -2,7 +2,7 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: tasks
 desc: ''
-updated: 1708911687338
+updated: 1708913310703
 created: 1675554123628
 ---
 ## Future
@@ -13,6 +13,8 @@ created: 1675554123628
 
 - [x] Figure out 2-way sync with load_since_cache.py
 - [ ] Rebase and remove comment-sync branch
+- [ ] Add some use case information about creating missing note links. `dendron doctor --action createMissingLinkedNotes`
+- [ ] Add some use case information about why we don't delete imported tags.
 
 ## 2024.02.24
 
