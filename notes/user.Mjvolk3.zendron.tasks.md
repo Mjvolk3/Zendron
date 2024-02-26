@@ -1,20 +1,22 @@
 ---
-id: bdjwj0s3mqeuuzxx9lq66ny
+id: rxnr83vqf1ow2mfa1xyo06a
 title: tasks
 desc: ''
-updated: 1708915880704
+updated: 1708917728987
 created: 1675554123628
 ---
 ## Future
 
 ![[user.Mjvolk3.zendron.tasks.future]]
 
+- [ ] Add some use case information about why we don't delete imported tags.
+- [ ] Make files import files have only read permissions
+
 ## 2024.02.25
 
 - [x] Figure out 2-way sync with load_since_cache.py
 - [x] Rebase and remove comment-sync branch
 - [x] Add some use case information about creating missing note links. `dendron doctor --action createMissingLinkedNotes` → this is already done.
-- [ ] Add some use case information about why we don't delete imported tags.
 
 ## 2024.02.24
 
