@@ -20,19 +20,18 @@ log = logging.getLogger(__name__)
 
 
 def dry_remove_files_glob(pattern: str, exclude_pattern: str = None) -> None:
-    log.info(f"Removing: {pattern}")
     for matched_path in glob.glob(pattern):
         if exclude_pattern and re.search(exclude_pattern, matched_path):
             continue
 
         if osp.isfile(matched_path):
             try:
-                print(f"File '{matched_path}' would be removed.")
+                print(f"File: '{matched_path}' would be removed.")
             except OSError as e:
                 print(f"Error: {e.filename} - {e.strerror}.")
         elif osp.isdir(matched_path):
             try:
-                print(f"Directory '{matched_path}' and its contents would be removed.")
+                print(f"Directory: '{matched_path}' and its contents would be removed.")
             except OSError as e:
                 print(f"Error: {e.filename} - {e.strerror}.")
 
@@ -54,9 +53,12 @@ def citation_keys_from_cache(file_path):
 
     return citation_keys
 
-
+@hydra.main(
+    version_base=None,
+    config_path=osp.join(os.getcwd(), "conf", "zendron"),
+    config_name="config",
+)
 def main(cfg: DictConfig):
-    log.info("Removing all Zendron Note Files")
     dry_remove_files_glob(f"notes/{cfg.dendron_limb}.*.md")
     # Get citation keys from cache.json
     cache_file_path = ".zendron.cache.json"
@@ -69,12 +71,7 @@ def main(cfg: DictConfig):
             if citation_key in citation_keys:
                 dry_remove_files_glob(file)
     dry_remove_files_glob("notes/assets/images/zendron-image-import-*.png")
-    log.info("Removing Zendron Cache")
     dry_remove_files_glob(cache_file_path)
-    log.info("Note Removal Complete")
-
 
 if __name__ == "__main__":
-    config_file_path = osp.join(os.getcwd(), "conf/zendron", "config.yaml")
-    cfg = OmegaConf.load(config_file_path)
-    main(cfg)
+    main()

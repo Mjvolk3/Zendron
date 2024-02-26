@@ -20,7 +20,6 @@ log = logging.getLogger(__name__)
 
 
 def remove_files_glob(pattern: str, exclude_pattern: str = None) -> None:
-    log.info(f"Removing: {pattern}")
     for matched_path in glob.glob(pattern):
         if exclude_pattern and re.search(exclude_pattern, matched_path):
             continue
@@ -28,13 +27,13 @@ def remove_files_glob(pattern: str, exclude_pattern: str = None) -> None:
         if osp.isfile(matched_path):
             try:
                 os.remove(matched_path)
-                print(f"File '{matched_path}' has been removed.")
+                print(f"File: '{matched_path}' has been removed.")
             except OSError as e:
                 print(f"Error: {e.filename} - {e.strerror}.")
         elif osp.isdir(matched_path):
             try:
                 shutil.rmtree(matched_path)
-                print(f"Directory '{matched_path}' and its contents have been removed.")
+                print(f"Directory: '{matched_path}' and its contents have been removed.")
             except OSError as e:
                 print(f"Error: {e.filename} - {e.strerror}.")
 
@@ -58,7 +57,6 @@ def citation_keys_from_cache(file_path):
 
 
 def main(cfg: DictConfig):
-    log.info("Removing all Zendron Note Files")
     remove_files_glob(f"notes/{cfg.dendron_limb}.*.md")
     # Get citation keys from cache.json
     cache_file_path = ".zendron.cache.json"
@@ -71,10 +69,7 @@ def main(cfg: DictConfig):
             if citation_key in citation_keys:
                 remove_files_glob(file)
     remove_files_glob("notes/assets/images/zendron-image-import-*.png")
-    log.info("Removing Zendron Cache")
     remove_files_glob(cache_file_path)
-    log.info("Note Removal Complete")
-
 
 if __name__ == "__main__":
     config_file_path = osp.join(os.getcwd(), "conf/zendron", "config.yaml")
