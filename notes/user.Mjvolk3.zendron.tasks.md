@@ -2,17 +2,22 @@
 id: bdjwj0s3mqeuuzxx9lq66ny
 title: tasks
 desc: ''
-updated: 1708812205711
+updated: 1708911491287
 created: 1675554123628
 ---
 ## Future
 
 ![[user.Mjvolk3.zendron.tasks.future]]
 
+## 2024.02.25
+
+- [x] Figure out 2-way sync with load_since_cache.py
+- [ ] Rebase and remove comment-sync branch
+
 ## 2024.02.24
 
 - [x] 2-way comment sync with load
-- [ ] Figure out 2-way sync with load_since_cache.py
+- 🔲 Figure out 2-way sync with load_since_cache.py
 
 ## 2024.02.23
 
