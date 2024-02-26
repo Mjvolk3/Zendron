@@ -105,6 +105,24 @@ class Cache:
             }
         )
 
+    def write_combined_cache(self, combined_data: dict):
+        """
+        Writes the combined cache data to the cache file, overwriting the old cache.
+
+        :param combined_data: A dictionary with 'combined_metadata' and 'combined_annotations'
+                              that represents the combined data of the old and new cache.
+        """
+        # Construct the data structure expected by the cache file
+        data_to_write = {
+            "annotations": combined_data["combined_annotations"],
+            "metadata": combined_data["combined_metadata"],
+        }
+
+        # Write the combined data to the cache file
+        with open(self.cache_file_path, "w") as f:
+            json.dump(data_to_write, f, indent=4)
+        log.info("Cache file has been updated with combined cache data.")
+
     def write(self):
         data = {
             "annotations": self.annotations_cache,
@@ -162,6 +180,39 @@ def cache_difference(old_cache: Cache, new_cache: Cache) -> dict:
     return {
         "new_metadata": new_metadata_diff,
         "new_annotations": new_annotations_diff,
+    }
+
+def cache_combine(old_cache: Cache, new_cache: Cache) -> dict:
+    """
+    Combines metadata and annotations from two Cache instances, removing duplicates.
+    """
+    # Combine metadata, ensuring no duplicates
+    combined_metadata_keys = set(item['key'] for item in old_cache.metadata_cache + new_cache.metadata_cache)
+    combined_metadata = [item for item in old_cache.metadata_cache + new_cache.metadata_cache if item['key'] in combined_metadata_keys]
+    # Remove duplicates after combining
+    combined_metadata = list({item['key']: item for item in combined_metadata}.values())
+
+    # Combine annotations, ensuring no duplicates based on attachment_key and annotation_keys
+    combined_annotations = old_cache.annotations_cache + new_cache.annotations_cache
+    # Use a dict to remove duplicates, identifying unique annotations by attachment_key
+    combined_annotations_dict = {}
+    for item in combined_annotations:
+        key = item['attachment_key']
+        # If the attachment_key is already in the dict, merge annotation_keys lists and update date_modified if newer
+        if key in combined_annotations_dict:
+            existing_item = combined_annotations_dict[key]
+            # Merge and deduplicate annotation_keys
+            existing_item['annotation_keys'] = list(set(existing_item['annotation_keys'] + item['annotation_keys']))
+            # Update date_modified to the most recent
+            existing_item['date_modified'] = max(existing_item['date_modified'], item['date_modified'])
+        else:
+            combined_annotations_dict[key] = item
+
+    combined_annotations = list(combined_annotations_dict.values())
+
+    return {
+        "combined_metadata": combined_metadata,
+        "combined_annotations": combined_annotations,
     }
 
 

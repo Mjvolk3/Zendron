@@ -57,7 +57,7 @@ def main(cfg: DictConfig) -> None:
             subprocess.run(f"rm -r {cfg.pod_path}", shell=True)
             log.info("Sync complete")
         else:
-            log.info("No new data to sync. Exiting.")
+            log.info("No new metadata or annotations to sync. Exiting.")
 
 
 if __name__ == "__main__":

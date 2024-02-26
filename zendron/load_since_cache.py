@@ -12,21 +12,34 @@ from omegaconf import DictConfig
 from pyzotero import zotero
 from tqdm import tqdm
 from zendron.annotations import AnnotationsCompiler
-from zendron.cache import Cache, cache_difference
-from zendron.comments import Comment, CommentCompiler
+from zendron.cache import Cache, cache_difference, cache_combine
+from zendron.comments import Comment, CommentCompiler, push_comment
 from zendron.items import get_annotated_attachments, get_attachments, get_metadatas
 from zendron.metadata import Metadata, MetadataCompiler
 from zendron.user_citation_key import UserCitationKey, UserCitationKeyCompiler
 import hydra
 from zendron import load
+import multiprocessing as mp
 
 log = logging.getLogger(__name__)
+
+
+def process_comments(metadata_key, zot, cfg):
+    metadata = zot.item(metadata_key)
+    attachments = get_attachments(zot, metadata["key"])
+    metadata_obj = Metadata(metadata, attachments, cfg.dendron_limb)
+    comment = Comment(zot, attachments, metadata_obj.title_dendron, cfg.dendron_limb)
+    comment_compiler = CommentCompiler(comment)
+    comment_compiler.compile()
+    comment_compiler.write_comment()
+    push_comment(zot, comment)
 
 def process_metadata_and_attachments(metadata_key, zot, cfg, cache):
     """Process a single piece of metadata and its attachments."""
     metadata = zot.item(metadata_key)
     attachments = get_attachments(zot, metadata["key"])
     metadata_obj = Metadata(metadata, attachments, cfg.dendron_limb)
+
     meta_compiler = MetadataCompiler(metadata_obj, cfg.pod_path)
     meta_compiler.compile()
     meta_compiler.write()
@@ -79,8 +92,10 @@ def main(cfg: DictConfig):
     old_cache = Cache(zot)
     old_cache.load()
     cache_diff = cache_difference(old_cache, new_cache)
-
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    cache_combined = cache_combine(old_cache, new_cache)
+    
+    
+    with ThreadPoolExecutor(max_workers=mp.cpu_count()) as executor:
         # Process new metadata and attachments
         futures_metadata = [executor.submit(process_metadata_and_attachments, metadata_key, zot, cfg, new_cache) for metadata_key in cache_diff["new_metadata"]]
         # Wait for all metadata processing to complete
@@ -91,8 +106,22 @@ def main(cfg: DictConfig):
         # Wait for all annotation processing to complete
         tqdm(as_completed(futures_annotations), total=len(futures_annotations), desc="Processing annotations")
 
-    new_cache.write()
+    new_cache.write_combined_cache(cache_combined)
     log.info("Cache update complete.")
+    
+    # Second ThreadPoolExecutor for processing comments with combined cache data
+    with ThreadPoolExecutor(max_workers=mp.cpu_count()) as executor:
+        futures_comments = []
+        
+        # Assuming you want to process comments for all combined metadata entries.
+        for metadata_entry in cache_combined["combined_metadata"]:
+            metadata_key = metadata_entry["key"]
+            # Here, process_comments is called as it was, without direct use of combined cache data.
+            futures_comments.append(executor.submit(process_comments, metadata_key, zot, cfg))
+        
+        # Wait for all comment processing to complete.
+        tqdm(as_completed(futures_comments), total=len(futures_comments), desc="Processing comments")
+    log.info("Comment processing complete.")
 
 if __name__ == "__main__":
     main()
