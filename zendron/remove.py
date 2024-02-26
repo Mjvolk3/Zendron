@@ -20,7 +20,6 @@ log = logging.getLogger(__name__)
 
 
 def remove_files_glob(pattern: str, exclude_pattern: str = None) -> None:
-    log.info(f"Removing: {pattern}")
     for matched_path in glob.glob(pattern):
         if exclude_pattern and re.search(exclude_pattern, matched_path):
             continue
@@ -28,15 +27,15 @@ def remove_files_glob(pattern: str, exclude_pattern: str = None) -> None:
         if osp.isfile(matched_path):
             try:
                 os.remove(matched_path)
-                print(f"File '{matched_path}' has been removed.")
+                log.info(f"File '{matched_path}' has been removed.")
             except OSError as e:
-                print(f"Error: {e.filename} - {e.strerror}.")
+                log.info(f"Error: {e.filename} - {e.strerror}.")
         elif osp.isdir(matched_path):
             try:
                 shutil.rmtree(matched_path)
-                print(f"Directory '{matched_path}' and its contents have been removed.")
+                log.info(f"Directory '{matched_path}' and its contents have been removed.")
             except OSError as e:
-                print(f"Error: {e.filename} - {e.strerror}.")
+                log.info(f"Error: {e.filename} - {e.strerror}.")
 
 
 def citation_keys_from_cache(file_path):
