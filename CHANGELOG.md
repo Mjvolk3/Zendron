@@ -2,6 +2,13 @@
 
 
 
+## v1.4.1 (2024-02-26)
+
+### Fix
+
+* BUG: image path update ([`56ee645`](https://github.com/Mjvolk3/Zendron/commit/56ee645f0a5a684fbb0c3af3a12ac86af5722ae7))
+
+
 ## v1.4.0 (2024-02-26)
 
 ### Feature
