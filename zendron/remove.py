@@ -62,11 +62,11 @@ def main(cfg: DictConfig):
     log.info("Removing all Zendron Note Files")
     # remove_files_glob(f"notes/{cfg.dendron_limb}.*.md", r"\.comments\.md$")
     remove_files_glob(f"notes/{cfg.dendron_limb}.*.md")
-    remove_files_glob(f"notes/{cfg.dendron_limb}.*.annotations.md")
-    remove_files_glob(f"notes/{cfg.dendron_limb}.date.*.md")
-    remove_files_glob(f"notes/{cfg.dendron_limb}.item-type.*.md")
-    remove_files_glob(f"notes/{cfg.dendron_limb}.title.*.md")
-    remove_files_glob(f"notes/{cfg.dendron_limb}.authors.*.md")
+    # remove_files_glob(f"notes/{cfg.dendron_limb}.*.annotations.md")
+    # remove_files_glob(f"notes/{cfg.dendron_limb}.date.*.md")
+    # remove_files_glob(f"notes/{cfg.dendron_limb}.item-type.*.md")
+    # remove_files_glob(f"notes/{cfg.dendron_limb}.title.*.md")
+    # remove_files_glob(f"notes/{cfg.dendron_limb}.authors.*.md")
 
     # Get citation keys from cache.json
     cache_file_path = ".zendron.cache.json"
