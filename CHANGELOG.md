@@ -2,6 +2,51 @@
 
 
 
+## v1.4.0 (2024-02-26)
+
+### Feature
+
+* FEAT: comment two-way sync, improved help, updated README docs ([`23fddd3`](https://github.com/Mjvolk3/Zendron/commit/23fddd3d8cd28c0c08ba41b49954505e204a9c3a))
+
+### Unknown
+
+* update cli help, overwrote hydra help message bc not useful ([`a70f08e`](https://github.com/Mjvolk3/Zendron/commit/a70f08e91e5a359e3c145e9639389ed3a97fe4d6))
+
+* rever to old remove and add dry remove. it&#39;s more simple. ([`9ca758a`](https://github.com/Mjvolk3/Zendron/commit/9ca758aefbbbf6046a5b47aff247e5828952b19c))
+
+* rm simplified logging ([`f792449`](https://github.com/Mjvolk3/Zendron/commit/f79244966f57cf3299b0cfd9c6145e6210f91259))
+
+* simplified remove now that comments don&#39;t need to be protected ([`4c48dec`](https://github.com/Mjvolk3/Zendron/commit/4c48dec5ddf69d61c0ea44d441076d5d0d741445))
+
+* two way sync completed ([`1f42ddb`](https://github.com/Mjvolk3/Zendron/commit/1f42ddb68cee23c31c4c92ff1fc2a747b906435b))
+
+* two way sync is working, it&#39;s working, it&#39;s working ([`90576b1`](https://github.com/Mjvolk3/Zendron/commit/90576b187890c84d60df9335148e2aa67ed8d308))
+
+* tasks up to date with main ([`0fe7229`](https://github.com/Mjvolk3/Zendron/commit/0fe722947499b5e0b79e6bf605af723d2e7ca768))
+
+* load with comment 2-way sync working, now need load_since_cache ([`90b0845`](https://github.com/Mjvolk3/Zendron/commit/90b084584a6ccad0aaa62b72f9823e975035b1ff))
+
+* adjust for new comments ([`b5d471d`](https://github.com/Mjvolk3/Zendron/commit/b5d471db56ad3524bccac9f3fc94497333ff2c9b))
+
+* comments add to note data ([`3b9b1d0`](https://github.com/Mjvolk3/Zendron/commit/3b9b1d045ae74b45517db19fb7a5dcca8274698f))
+
+* quarter way through comment two way sync ([`def3938`](https://github.com/Mjvolk3/Zendron/commit/def393821ecd723f4b9d6eb079539bd2669daa40))
+
+* task note ([`3b89326`](https://github.com/Mjvolk3/Zendron/commit/3b893269ef22e615ea67253cfdb8656777551a05))
+
+* task note update ([`e9c2330`](https://github.com/Mjvolk3/Zendron/commit/e9c2330dbeb70fc8b0e841b2b4c694d684c26756))
+
+* comment-sync task note ([`f0a20f6`](https://github.com/Mjvolk3/Zendron/commit/f0a20f658be1bf61a7fe7f789081f404cf1a5382))
+
+* remove confs ([`35a83e0`](https://github.com/Mjvolk3/Zendron/commit/35a83e06a8f6d3cd6753aa64096ddb53784a7a7e))
+
+* updated readme ([`35a525f`](https://github.com/Mjvolk3/Zendron/commit/35a525f3627925b2e32688e66765e051948c1f37))
+
+* readme todos ([`9e2e327`](https://github.com/Mjvolk3/Zendron/commit/9e2e3273408f3733a5a366ee68081b8a17ba04a3))
+
+* documentation ([`4d6f034`](https://github.com/Mjvolk3/Zendron/commit/4d6f0344b92c88eb0e7765b0effd9f77265af391))
+
+
 ## v1.3.10 (2024-02-20)
 
 ### Fix
