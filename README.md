@@ -65,23 +65,26 @@ Here we show how `zendron` enables a writing workflow from within VsCode.
 
 🚨 **THE MOST IMPORTANT THING** 🚨 - When you any `zendron` command make sure that you have a clean working directory. Meaning run `git status`, and make sure there are no untracked files or files to commit. This makes it very easy to revert modifications made by `zendron` while we still work out the kinks.
 
-There are 1 command, and two optionall flags.
+There is 1 command, and 3 optional flags.
 
 - `zendron`
   - This command should only be run in the root directory of the workspace.
   - This command imports notes according to a defined [config.yaml](https://github.com/Mjvolk3/Zendron/raw/main/conf/config.yaml). Once the command is run the first time the user needs to modify their configuration `./conf/zendron/config.yaml`. All required configs are marked with a comment `# STARTER CONFIG` upon initialization.
   - Notes are imported with a `## Time Created` heading. This allows for stable reference from other notes, within the note vault. We autogenerate a `*.comments.md` that should be used for taking any additional notes within Dendron. Additional notes taken within the meta data file (`notes/zendron.import.<paper-title>.md`), or the `*.annotations.md` will be overwritten after running `zendron -rm` or `zendron -nc`. All files downstream of `.import` except `*.comments.md` should be treated as read only.
-  - Upon import, notes and tags are left as stubs. To create these notes run `> Dendron: Doctor` then `createMissingLinkedNotes`. It is best practice to correct tag warnings before doing this. We warn on malformed tag imports.
+  - Upon import, notes and tags are left as stubs. To create these notes run `> Dendron: Doctor` then `createMissingLinkedNotes`. It is best practice to correct tag warnings before doing this. We warn on malformed tag imports. We could reform tags and sync to Zotero if there is interest.
   - After running this command it is best to run `Dendron: Reload Index` from the command palette.
+- `zendron -h` or `zendron --help`
+  - Help message that shows availbe commands and suggsetions for when running `zendron`.
 - `zendron -rm` or `zendron --remove`
-  - ⚠️ This command removes imported notes and associated links. This command works by removing all notes downstream to `dendron_limb`, except for `comments.md`. There is some difficulty removing other files created because these are separate from the `dendron_limb`. These files include `user.*.md`, which comes from bibtex keys, and `tags.*.md` which come from metadata and annotation tags. For now, we don't remove tags, but we do remove bibex keys (`<user.bibtex_key>.md`).
-  - ⚠️I have to say it again, don't put other notes downstream of the zendron limb. They will be deleted. The only protected files are `"*.comments.md"`
+  - ⚠️ This command removes imported notes and associated links. This command works by removing all notes downstream to `dendron_limb`. There is some difficulty removing other files created because these are separate from the `dendron_limb`. These files include `user.*.md`, which comes from bibtex keys, and `tags.*.md` which come from metadata and annotation tags. For now, we don't remove tags, but we do remove bibex keys (`<user.bibtex_key>.md`).
+  - ⚠️I have to say it again, don't put other notes downstream of the zendron limb. They will be deleted.
+  - We don't delete imported tags because they are too difficult to track consistently.
+- `zendron -drm` or `zendron --dry-remove`
+  - A dry removal so you can see what file will be deleted without deleting them.
 - `zendron -nc` or `zendron --no-cache`
   - This is zendron sync without caching. This good to run if you interrupted your import for some reason and need a fresh clean import. If your zendron notes are misbehaving try this command. It will be slower since there is no caching.
   - After running this command it is best to run `Dendron: Reload Index` from the command palette.
-- Dendron Pod
-  - A Dendron Pod is used for import according to `pod_path` in the `config.yaml`. This dir structure is normally deleted to allow for future importing. If you see it, something is wrong. Create an issue on GitHub, or delete the dir and retry the steps above.
-  
+
 ## Zotero and File Import Configuration
 
 All zendron configuration is handled in [config.yaml](https://github.com/Mjvolk3/Zendron/blob/main/zendron/conf/zendron/config_template.yaml). Upon initialization it will show in `"config/zendron/config.yaml"`.
@@ -114,6 +117,32 @@ pod_path: zendron_pod # Name of dendron pod, removed after completion of import.
 - `dendron_limb`: This is the period deliminated hierarchy prefix to all file imports for Dendron, e.g. `root.zotero.import.<paper_title>.annotations.md`.
 - `pod_path` - pod path for dendron import. Should not need to change. Will likely remove from configuration later so it doesn't get accidentally changed.
 - `zotero comment title` - IGNORE FOR NOW. Eventually needed for 2-way sync.
+
+## Import Structure
+
+When a paper is uploaded it will look something like this in your dendron graph.
+
+![](https://github.com/Mjvolk3/Zendron/raw/main/notes/assets/images/README.md.Import-paper-graph.png)
+
+Comments notes are synced back to zotero after running `zendron`. They are stored in a file called `zendron_comments` in the note data. After removing all data and running `zendron` again the comments created previously in a local workspace should be imported again. This allows for comments to be easily ported accross projects that reference the same papers.
+
+Comments notes are intended to be used for reference to any annotations under a Zotero item's metadata. This will preserve dendron linking with two-way sync.
+
+## Supplementary import
+
+We support import of supplementary pdfs if they have any of the following prefixes in their pdf title. This can be easily edited within Zotero. We can move this to configuration if custom naming is desired.
+
+```python
+["supp",
+"Supp",
+"supplementary",
+"supp.",
+"supplementary-material",
+"supplementary-materials",
+"sup",
+"SI",
+"si",]
+```
 
 ## Miscellaneous
 
@@ -149,3 +178,12 @@ workspace:
       selfContained: true
       name: Zendron
 ```
+
+### Error - You see a Dendron Pod in your Workspace
+
+- Dendron Pod
+  - A Dendron Pod is used for import according to `pod_path` in the `config.yaml`. This dir structure is normally deleted to allow for future importing. If you see it, something is wrong. Create an issue on GitHub, or delete the dir and retry the steps above.
+
+### Fix - You see a Dendron Pod in your Workspace
+
+Delete the pod and rerun zendron to complete. If there is an additional error please report it.

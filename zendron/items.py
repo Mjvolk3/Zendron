@@ -148,6 +148,7 @@ def set_title(data: dict, title: str) -> str:
         "supplementary-materials",
         "sup",
         "SI",
+        "si",
     ]:
         title = prefix
     else:
