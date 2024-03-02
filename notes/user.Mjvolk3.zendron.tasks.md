@@ -2,15 +2,21 @@
 id: rxnr83vqf1ow2mfa1xyo06a
 title: tasks
 desc: ''
-updated: 1708917728987
+updated: 1709371193716
 created: 1675554123628
 ---
 ## Future
 
 ![[user.Mjvolk3.zendron.tasks.future]]
 
+## 2024.03.01
+
+- [x] Support additional highlight colors. → added orange and grey
+- [x] 😶‍🌫️🧠 We are going to have a cost issue since the annotations are rerun every time... 💡🧐 → still going to allow it for now. Could think about caching these annotations in the future.
+- [x] Add `mpx` feature on tags with `mathpix`. → works ok, only for equations not for tables. I tried tables and kept getting some error so dropped it for now.
+- [ ] Perform find and replace for `\(` to `$` and `/[` to `$$``
+- [ ] Add option to process/reform tags so we could avoid future warnings and get tags in the dendron style. → This must be done by passing the zot.
 - [ ] Add some use case information about why we don't delete imported tags.
-- [ ] Make files import files have only read permissions
 
 ## 2024.02.25
 
